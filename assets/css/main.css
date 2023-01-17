@@ -384,6 +384,50 @@ a {
       color: #0f4a1a;
       margin-bottom: 0; }
 
+.post-item-card .bg {
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px; }
+  .post-item-card .bg:hover h6 {
+    color: #c0f4ca !important; }
+  .post-item-card .bg .bg-overlay {
+    border-radius: 10px;
+    padding: 18px 25px;
+    background: linear-gradient(180deg, rgba(15, 74, 26, 0) 0%, rgba(15, 74, 26, 0.56) 42.19%, rgba(15, 74, 26, 0.72) 100%); }
+  .post-item-card .bg .content {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .post-item-card .bg .top-content span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff; }
+  .post-item-card .bg .bot-content h6 {
+    transition: 0.5s;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 108.02%;
+    text-align: left;
+    color: #ffffff; }
+  .post-item-card .bg .bot-content p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    color: #ffffff; }
+
+@media (max-width: 767.98px) {
+  .more-news-card > .card-contain > div {
+    justify-content: center; } }
+
 .heading-custom-green h2 {
   font-size: 36px;
   font-weight: 900;
@@ -410,6 +454,48 @@ a {
   text-align: center;
   color: #0F4A1A;
   margin-top: 10px; }
+
+.paginate {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .paginate li a {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #0f4a1a;
+    transition: 0.5s;
+    border: 1px solid transparent; }
+    .paginate li a.dots {
+      font-size: 30px;
+      border: none; }
+      .paginate li a.dots:hover {
+        border: none; }
+    .paginate li a:hover {
+      border-radius: 5px;
+      border: 1px solid rgba(56, 167, 0, 0.79); }
+  .paginate li.active {
+    border-radius: 5px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center; }
+    .paginate li.active a {
+      height: 100%;
+      background: rgba(56, 167, 0, 0.79);
+      border-radius: 5px; }
+    .paginate li.active a {
+      color: white; }
 
 #header * {
   font-family: Inter !important; }
@@ -987,3 +1073,55 @@ a {
     display: none; }
   #home-banner img {
     height: 350px; } }
+
+#news-latest-top {
+  margin-bottom: 30px; }
+  #news-latest-top .contain-left .post-item-card .content {
+    height: 480px; }
+  #news-latest-top .contain-right .top .content {
+    height: 220px; }
+  #news-latest-top .contain-right .bot .content {
+    height: 220px; }
+    #news-latest-top .contain-right .bot .content h6 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 108.02%;
+      /* or 17px */
+      color: #ffffff; }
+    #news-latest-top .contain-right .bot .content span {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 8px;
+      line-height: 10px;
+      text-align: justify;
+      color: #ffffff; }
+    #news-latest-top .contain-right .bot .content i {
+      font-size: 10px; }
+    #news-latest-top .contain-right .bot .content p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 13px;
+      color: #ffffff; }
+
+#news-more .news-heading {
+  border-bottom: 1px solid #38A700; }
+
+#news-more form {
+  background-color: #C0F4CA;
+  padding: 10px;
+  border-radius: 13px; }
+  #news-more form input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0px 10px;
+    width: 100%; }
+  #news-more form button {
+    border: none;
+    background-color: transparent;
+    white-space: nowrap; }

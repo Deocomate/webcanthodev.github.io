@@ -1,0 +1,74 @@
+#news-latest-top {
+    margin-bottom: 30px;
+    .contain-left {
+        .post-item-card {
+            .content {
+                height: 480px;
+            }
+        }
+    }
+    .contain-right {
+        .top {
+            .content {
+                height: 220px;
+            }
+        }
+        .bot {
+            .content {
+                height: 220px;
+                h6 {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 108.02%;
+                    /* or 17px */
+                    color: #ffffff;
+                }
+                span {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 8px;
+                    line-height: 10px;
+                    text-align: justify;
+                    color: #ffffff;
+                }
+                i{
+                    font-size: 10px;
+                }
+                p {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 11px;
+                    line-height: 13px;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+#news-more{
+    .news-heading{
+        border-bottom: 1px solid #38A700;
+    }
+    form{
+        background-color: #C0F4CA;
+        padding: 10px;
+        border-radius: 13px;
+        input{
+            border: none;
+            outline: none;
+            background-color: transparent;
+            padding: 0px 10px;
+            width: 100%;
+        }
+        button{
+            border: none;
+            background-color: transparent;
+            white-space: nowrap;
+        }
+    }
+}

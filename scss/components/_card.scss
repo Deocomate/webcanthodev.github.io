@@ -69,9 +69,9 @@
 }
 .more-news-card {
     transition: 0.5s;
-    &:hover{
-        h6{
-            color: $color-green-0!important;
+    &:hover {
+        h6 {
+            color: $color-green-0 !important;
         }
     }
     img {
@@ -100,7 +100,6 @@
             text-align: justify;
             color: #0f4a1a;
             margin-bottom: 0px;
-
         }
         .text--black {
             i {
@@ -125,5 +124,70 @@
             color: #0f4a1a;
             margin-bottom: 0;
         }
+    }
+}
+.post-item-card {
+    .bg {
+        &:hover {
+            h6 {
+                color: $color-green-white !important;
+            }
+        }
+        background-size: cover;
+        background-position: center center;
+        border-radius: 10px;
+        .bg-overlay {
+            border-radius: 10px;
+            padding: 18px 25px;
+            background: linear-gradient(
+                180deg,
+                rgba(15, 74, 26, 0) 0%,
+                rgba(15, 74, 26, 0.56) 42.19%,
+                rgba(15, 74, 26, 0.72) 100%
+            );
+        }
+        .content {
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .top-content {
+            span {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                color: #ffffff;
+            }
+        }
+        .bot-content {
+            h6 {
+                transition: 0.5s;
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 108.02%;
+                text-align: left;
+                color: #ffffff;
+            }
+            p {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: left;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+@include responsive($size-md) {
+    .more-news-card > .card-contain > div {
+        justify-content: center;
     }
 }
