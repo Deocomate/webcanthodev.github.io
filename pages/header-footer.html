@@ -16,6 +16,7 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <!-- CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/css/main.css">
@@ -29,12 +30,12 @@
             <div class="d-flex justify-content-end justify-content-sm-between">
                 <div class="left d-none d-sm-block">
                     <div class="contact-info-contain d-flex">
-                        <a href="#" class="me-2 me-md-5">
-                            <i class="bi bi-envelope"></i>
-                            <span>user@gmail.com</span>
+                        <a href="#" class="me-2 me-md-5 text--white">
+                            <i class="bi bi-envelope-fill"></i>
+                            <span class="font-inter">user@gmail.com</span>
                         </a>
-                        <a href="#" class="">
-                            <i class="bi bi-telephone-fill text-white"></i>
+                        <a href="#" class="text-white">
+                            <i class="bi bi-telephone-fill"></i>
                             <span class="font-inter">0123456789</span>
                         </a>
                     </div>
@@ -42,7 +43,7 @@
                 <div class="right">
                     <div class="d-flex">
                         <div class="search-form d-none d-lg-flex align-items-center">
-                            <div class="input-search">
+                            <div class="input-search d-none">
                                 <input type="text" class="input-search-ele">
                             </div>
                             <div class="icon-search ms-2">
@@ -52,12 +53,12 @@
                         <div class="lang px-md-3">
                             <div class="d-flex">
                                 <a href="" class="d-flex align-items-center mx-2">
-                                    <img src="../assets/icon/eng.png" class="me-1" alt="">
                                     <span>ENG</span>
+                                    <img src="../assets/icon/eng.png" class="me-1" alt="">
                                 </a>
                                 <a href="" class="d-flex align-items-center mx-2">
-                                    <img src="../assets/icon/vie.png" class="me-1" alt="">
                                     <span>VIE</span>
+                                    <img src="../assets/icon/vie.png" class="me-1" alt="">
                                 </a>
                             </div>
                         </div>
@@ -89,13 +90,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
@@ -125,7 +120,7 @@
             </div>
         </nav>
     </header>
-    <main style="height: 1000px;"></main>
+
     <footer id="footer" style="background-image: url('../assets/imgs/bg-foot.png');">
         <div class="bg-black">
             <div class="container py-4">
@@ -226,8 +221,8 @@
                     </div>
                 </div>
             </div>
-            <div class="p-2 bgc--green text--white text-center">
-                <span>2020 TOP TOP. All Rights Reserved.</span>
+            <div class="p-2 bgc--green text--white text-center foot-bottom">
+                <span>2020 CAN THO. All Rights Reserved.</span>
             </div>
         </div>
     </footer>
@@ -236,8 +231,10 @@
 
     <!-- JS -->
     <script src="../assets/js/jquery.js"></script>
-    <!-- <script src="../assets/js/bootstrap.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../assets/js/bootstrap.bundle.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/forLib.js"></script>
     <script src="../assets/js/main.js"></script>
 </body>
 
