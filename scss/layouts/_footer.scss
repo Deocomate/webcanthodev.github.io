@@ -1,0 +1,106 @@
+#footer {
+    .bg-black {
+        background-color: rgba(0, 0, 0, 0.674) !important;
+    }
+    background-size: cover;
+    * {
+        font-family: Inter;
+        color: $color-white;
+    }
+    .container {
+        .social-contain {
+            max-width: 155px;
+            img {
+                width: 100%;
+            }
+        }
+        .mid {
+            h3 {
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 29px;
+            }
+            .information-contain {
+                margin-bottom: 10px;
+                .info {
+                    .info-prop {
+                        width: 125px;
+                        i {
+                            font-size: 24px;
+                        }
+                        span {
+                            font-family: Inter;
+                            font-size: 13px;
+                            font-weight: 700;
+                            line-height: 16px;
+                            letter-spacing: 0em;
+                            text-align: left;
+                            white-space: nowrap;
+                        }
+                    }
+                    .info-value {
+                        max-width: 350px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .foot-right {
+            h4 {
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-top: 25px;
+            }
+            ul {
+                list-style-type: none;
+                padding-left: 10px;
+                li {
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 500;
+                    line-height: 16px;
+                    letter-spacing: 0em;
+                    text-align: justified;
+                    margin-bottom: 10px;
+                    &::before {
+                        content: "•";
+                        display: inline-block;
+                        margin-right: 10px;
+                        color: white;
+                    }
+                }
+            }
+            .foot-views {
+                i {
+                    font-size: 24px;
+                    margin-right: 10px;
+                }
+                font-family: Inter;
+                font-size: 13px;
+                font-weight: 500;
+                line-height: 16px;
+                letter-spacing: 0em;
+                text-align: justified;
+            }
+        }
+    }
+    .foot-bottom {
+        span {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 11px;
+            line-height: 13px;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+}

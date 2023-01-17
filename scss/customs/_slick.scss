@@ -1,0 +1,26 @@
+.btn-arr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    i {
+        font-size: 30px;
+        color: white;
+        z-index: 100;
+    }
+}
+.btn-prev {
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    transform: translate(-110%, -50%);
+    z-index: 100;
+}
+.btn-next {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(110%, -50%);
+    z-index: 100;
+}

@@ -1,0 +1,31 @@
+.heading-custom-green {
+    h2 {
+        // font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .line {
+        max-width: 178px;
+        margin: 0 auto;
+        hr {
+            width: 100%;
+            margin: 0;
+            border: 3px solid #19191d;
+        }
+    }
+    .detail-under-line {
+        text-align: center;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #0F4A1A;
+        margin-top: 10px;
+    }
+}

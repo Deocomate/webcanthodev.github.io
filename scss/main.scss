@@ -1,0 +1,23 @@
+@import "fonts/fonts";
+
+@import "lib/slick";
+@import "lib/slick-theme";
+
+@import "customs/slick";
+
+@import "base/reset";
+@import "base/config";
+@import "base/var";
+@import "base/func";
+
+@import "class/custom";
+
+@import "components/button";
+@import "components/card";
+@import "components/heading";
+
+//Layouts
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/trang-chu";
+//
