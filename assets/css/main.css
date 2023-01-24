@@ -497,6 +497,72 @@ a {
     .paginate li.active a {
       color: white; }
 
+.comments .bgc--green-1 {
+  padding: 45px 0px; }
+
+.comments * {
+  font-family: "Inter"; }
+
+.comments h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 108.02%;
+  text-align: justify;
+  color: #ffffff;
+  margin-bottom: 30px; }
+  .comments h4::after {
+    content: "";
+    margin-top: 5px;
+    display: block;
+    height: 4px;
+    width: 200px;
+    background-color: #38a700; }
+
+.comment {
+  border-radius: 5px;
+  overflow: hidden; }
+  .comment img {
+    display: block;
+    width: 58px;
+    height: 58px;
+    border: 2px solid #38a700;
+    border-radius: 50%;
+    margin-right: 7px; }
+  .comment .comment-detail h6 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #38a700;
+    margin-right: 15px; }
+  .comment .comment-detail span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    color: #717171; }
+  .comment p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #0f4a1a; }
+  .comment a, .comment i {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #38a700; }
+  .comment i {
+    font-size: 25px; }
+
 #header * {
   font-family: Inter !important; }
 
@@ -1125,3 +1191,72 @@ a {
     border: none;
     background-color: transparent;
     white-space: nowrap; }
+
+#tin-tuc-chi-tiet-page {
+  background: rgba(56, 167, 0, 0.1); }
+
+.article-container * {
+  font-family: "Inter"; }
+
+.article-container .head-img img {
+  height: 335px;
+  object-fit: cover; }
+
+.article-container .heading .category-name {
+  margin-bottom: 25px; }
+  .article-container .heading .category-name a {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center; }
+    .article-container .heading .category-name a:hover {
+      color: black !important; }
+
+.article-container .heading h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 108.02%;
+  /* or 35px */
+  text-align: justify;
+  color: #38a700; }
+
+.article-container .heading .time,
+.article-container .heading .views {
+  margin-right: 25px;
+  color: #666a86; }
+  .article-container .heading .time i,
+  .article-container .heading .views i {
+    margin-right: 8px; }
+
+.article-container .more-news ul li a {
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  color: #0f4a1a;
+  font-weight: bold; }
+
+.article-container .tags span {
+  margin-right: 10px; }
+
+.article-container .tags a {
+  margin-right: 7px; }
+
+.aside-container * {
+  font-family: "Inter"; }
+
+.aside-container h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+  color: #38a700; }

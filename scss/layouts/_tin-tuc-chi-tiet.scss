@@ -1,0 +1,92 @@
+#tin-tuc-chi-tiet-page {
+    background: rgba(56, 167, 0, 0.1);
+}
+.article-container {
+    * {
+        font-family: "Inter";
+    }
+    .head-img {
+        img {
+            height: 335px;
+            object-fit: cover;
+        }
+    }
+    .heading {
+        .category-name {
+            margin-bottom: 25px;
+            a {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 17px;
+                align-items: center;
+                text-align: center;
+                &:hover {
+                    color: black !important;
+                }
+            }
+        }
+        h1 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 108.02%;
+            /* or 35px */
+            text-align: justify;
+            color: #38a700;
+        }
+        .time,
+        .views {
+            margin-right: 25px;
+            color: $color-gray;
+            i {
+                margin-right: 8px;
+            }
+        }
+    }
+    .more-news {
+        ul {
+            li {
+                a {
+                    text-decoration: underline;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: justify;
+                    color: #0f4a1a;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .tags {
+        span {
+            margin-right: 10px;
+        }
+        a {
+            margin-right: 7px;
+        }
+    }
+}
+.aside-container {
+    * {
+        font-family: "Inter";
+    }
+    h5 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: justify;
+        color: #38a700;
+    }
+    .more-news-card{
+        img{
+            
+        }
+    }
+}

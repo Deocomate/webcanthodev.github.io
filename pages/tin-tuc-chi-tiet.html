@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header and Footer</title>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-top bgc--green text--white p-1 px-3">
+            <div class="d-flex justify-content-end justify-content-sm-between">
+                <div class="left d-none d-sm-block">
+                    <div class="contact-info-contain d-flex">
+                        <a href="#" class="me-2 me-md-5 text--white">
+                            <i class="bi bi-envelope-fill"></i>
+                            <span class="font-inter">user@gmail.com</span>
+                        </a>
+                        <a href="#" class="text-white">
+                            <i class="bi bi-telephone-fill"></i>
+                            <span class="font-inter">0123456789</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="d-flex">
+                        <div class="search-form d-none d-lg-flex align-items-center">
+                            <div class="input-search d-none">
+                                <input type="text" class="input-search-ele">
+                            </div>
+                            <div class="icon-search ms-2">
+                                <i class="bi bi-search"></i>
+                            </div>
+                        </div>
+                        <div class="lang px-md-3">
+                            <div class="d-flex">
+                                <a href="" class="d-flex align-items-center mx-2">
+                                    <span>ENG</span>
+                                    <img src="../assets/icon/eng.png" class="me-1" alt="">
+                                </a>
+                                <a href="" class="d-flex align-items-center mx-2">
+                                    <span>VIE</span>
+                                    <img src="../assets/icon/vie.png" class="me-1" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-xl bgc--white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/icon/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-content"
+                    aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-content">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TIN TỨC</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                DỊCH VỤ
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LƯU TRÚ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ĐIỂM ĐẾN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ẨM THỰC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BẢN ĐỒ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ẢNH 360</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn text--white btn-green" type="submit">Đăng nhập</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="tin-tuc-chi-tiet-page">
+        <div class="container">
+            <div class="row g-3 py-2 py-lg-5">
+                <div class="col-12 col-lg-8">
+                    <article class="article-container">
+                        <div class="head-img">
+                            <div class="img-contain">
+                                <img class="w-100 rounded-3" src="../assets/imgs/article-img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="p-3 bg-white">
+                            <div class="heading">
+                                <div class="category-name">
+                                    <a href="" class="btn btn-green text-white">Tên chuyên mục</a>
+                                </div>
+                                <h1 class="text--green fw-bold">Chuyên mục tin tức thú vị về Cần Thơ</h1>
+                                <div class="d-flex mb-4">
+                                    <div class="time">
+                                        <div class="d-flex">
+                                            <i class="bi bi-clock-fill"></i>
+                                            <span>15/01/2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="views">
+                                        <div class="d-flex">
+                                            <i class="bi bi-eye-fill"></i>
+                                            <span>210 lượt xem</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae dignissimos
+                                    temporibus modi hic nostrum fuga aut accusantium repellendus nesciunt, maiores
+                                    itaque
+                                    incidunt aliquid aliquam consectetur deleniti fugiat id at iusto assumenda sit optio
+                                    ea
+                                    magni quibusdam quo? Laudantium optio aut at cupiditate sed omnis obcaecati quod
+                                    cumque
+                                    in iusto commodi alias maxime dignissimos odit, deleniti expedita praesentium illum
+                                    sint, exercitationem eaque facilis vero. Assumenda, odit laborum. Nam officiis
+                                    corrupti
+                                    quibusdam numquam? Aliquam quo perspiciatis ab expedita vitae nisi pariatur deleniti
+                                    dignissimos nesciunt est, accusantium nihil id nemo nostrum repellendus inventore
+                                    repellat delectus explicabo, eveniet consequatur quia similique sapiente dolores?
+                                    Perferendis, similique ipsum quasi rem quas eligendi ex? Cum veniam a, beatae
+                                    molestias
+                                    possimus rem temporibus magnam molestiae officia quaerat assumenda provident aliquam
+                                    quidem, repellat sit mollitia? Odio, animi adipisci? Beatae, deleniti corrupti unde
+                                    esse
+                                    tenetur obcaecati officiis. Cumque in non saepe molestias suscipit unde, beatae amet
+                                    error perferendis tempora impedit nesciunt necessitatibus neque aliquam ea
+                                    voluptates?
+                                    Quod possimus iure dolores temporibus tenetur odit sint eaque alias amet. Omnis
+                                    velit
+                                    quod voluptas accusantium itaque aspernatur quos libero eius molestias excepturi
+                                    numquam
+                                    ullam iure, nostrum ipsam facilis vero animi voluptates similique quaerat non!
+                                    Temporibus, culpa. Error necessitatibus dignissimos mollitia repellendus modi hic
+                                    incidunt quis? Fugit architecto nihil modi nulla magnam voluptas aliquid animi autem
+                                    sunt. Assumenda quisquam optio debitis error magnam tempora sapiente tenetur
+                                    incidunt!
+                                    Quis, omnis fugiat quae consequuntur ipsa nam recusandae facilis nisi aut nostrum
+                                    nobis
+                                    suscipit praesentium blanditiis cumque rerum dolor deleniti voluptate modi hic
+                                    atque.
+                                    Quis nulla beatae libero earum ipsam vero explicabo! Libero optio accusamus
+                                    doloremque
+                                    nemo quae molestiae animi eos corporis maxime, expedita, impedit adipisci earum
+                                    soluta
+                                    similique odit sapiente. Omnis beatae maiores dignissimos natus consequatur harum
+                                    blanditiis dolore vero voluptates rerum ducimus mollitia nam error nesciunt,
+                                    veritatis
+                                    esse perspiciatis quae eligendi amet deleniti delectus? Explicabo!
+                                </p>
+                                <p>tate suscipit recusandae iure beatae sed quis
+                                    voluptatem reiciendis quod laborum ab est earum labore ex optio voluptatum, dolore
+                                    dolorem. Illum eveniet eaque omnis vitae illo, dolore laboriosam est, nulla, ipsum
+                                    quos
+                                    consequuntur? Eligendi cum accusamus excepturi fugiat labore nihil laboriosam,
+                                    aliquam
+                                    explicabo corrupti quidem veniam quibusdam totam in ducimus consequuntur nam aut
+                                    fugit
+                                    quisquam dolor est necessitatibus delectus? Mollitia quos voluptate ipsam
+                                    praesentium,
+                                    dolore, magnam temporibus dignissimos et expedita est vero perspiciatis inventore
+                                    aut
+                                    earum? Odit ullam, saepe hic voluptatum illum, voluptas temporibus dicta sequi
+                                    corporis
+                                    accusamus modi officiis inventore facere et voluptatibus eligendi exercitationem
+                                    dolore
+                                    dolorum repellendus. Facilis eius deserunt, dolor incidunt accusamus dicta
+                                    voluptates,
+                                    officiis harum expedita dolorem optio provident, eos temporibus! Modi autem hic nam
+                                    iure
+                                    suscipit explicabo unde eos ut magnam aperiam soluta neque dolores eligendi,
+                                    adipisci
+                                    exercitationem. Commodi sed doloremque repellat amet, harum accusantium beatae modi,
+                                    provident tempore suscipit laborum. Sapiente, et libero delectus vero eius officia
+                                    numquam illo nihil dolorem quisquam repudiandae atque maiores amet assumenda nulla
+                                    ea
+                                    possimus corrupti provident obcaecati debitis fugit molestiae tenetur distinctio.
+                                    Repellendus ipsum eaque illum a sunt natus culpa optio delectus, rerum doloremque
+                                    tenetur ut molestias architecto beatae quisquam labore iste vitae ea voluptatum
+                                    neque
+                                    cumque sint dicta aperiam harum. Voluptates sunt quidem sequi nihil culpa excepturi
+                                    molestias incidunt sed maxime accusantium, expedita eum possimus praesentium
+                                    inventore,
+                                    blanditiis ipsum fugiat itaque? Labore rem sunt magnam nisi sapiente eos sit amet
+                                    recusandae consectetur dolores temporibus, iusto rerum ipsum cupiditate, velit
+                                    consequatur maiores ad corporis esse fugiat odit debitis. Voluptatibus, nulla
+                                    officia
+                                    nesciunt veniam labore et quos laboriosam beatae sed est? Velit, quaerat quam sed,
+                                    eum
+                                    illum debitis vel veritatis mollitia rem facere earum perferendis eligendi
+                                    exercitationem voluptatem eveniet rerum. Unde ab numquam eum dolore vel a fugit quae
+                                    sed
+                                    facilis nisi accusamus nemo voluptatem, ratione delectus tempora fuga? Dignissimos,
+                                    nobis voluptas eveniet repudiandae labore corporis hic pariatur molestias odio quia
+                                    facere veniam, ipsa illo, consectetur molestiae maiores nesciunt. Eligendi quaerat
+                                    nulla
+                                    ex doloribus labore aut laborum mollitia aliquid nemo assumenda? Debitis ducimus
+                                    sunt
+                                    maxime amet tempora suscipit magnam tempore fugiat eaque quas unde natus dolorum,
+                                    est
+                                    rem aliquam eveniet ratione tenetur illo dignissimos? Asperiores, odio tempora?
+                                    Asperiores, adipisci nam. Odio possimus est quam nulla. Iste quos facilis architecto
+                                    eligendi dignissimos placeat minima! Blanditiis repellat consectetur provident.
+                                    Recusandae minima rerum veritatis, labore eos accusantium accusamus nisi ipsa
+                                    officiis
+                                    sed repellat quasi neque, inventore eligendi quas atque exercitationem qui rem
+                                    numquam
+                                    ad, ullam odio possimus eius. Ipsa repellat iusto harum magni vero suscipit, dolores
+                                    illum aperiam saepe sed dignissimos a perspiciatis! Assumenda tenetur, amet quos
+                                    veritatis illum, excepturi iure optio laudantium, sint beatae modi quo sit maiores
+                                    mollitia? Voluptates in ex id minima pariatur aliquid officia nesciunt expedita
+                                    suscipit
+                                    cum unde officiis numquam sunt perspiciatis eum, assumenda harum distinctio,
+                                    inventore
+                                    nam, exercitationem delectus reprehenderit! Modi veritatis nemo doloremque minima
+                                    voluptatum illum, quam officiis accusantium, quibusdam impedit temporibus neque
+                                    odio!
+                                    Ipsa, laborum praesentium id voluptatibus tempora, beatae voluptate impedit modi
+                                    recusandae cumque aliquam esse voluptatem perspiciatis quod maiores ad minus dolor
+                                    doloribus dolore adipisci molestiae ea, pariatur ratione deserunt! Possimus labore
+                                    quam
+                                    ut ratione temporibus amet, vero blanditiis ducimus quisquam ipsa, itaque expedita.
+                                    Praesentium harum nulla voluptatum alias illo suscipit iure!</p>
+                            </div>
+                            <div class="more-news">
+                                <a href="">Xem thêm</a>
+                                <ul loop="3">
+                                    <li>
+                                        <a href="">
+                                            Dành trọn ngày khám phá 7 địa điểm du lịch Đà Nẵng hot nhất hiện nay
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="tags">
+                                <div class="d-flex align-items-center">
+                                    <span>Tags: </span>
+                                    <a href="" class="tag-button btn btn-green text--white">Du lịch</a>
+                                    <a href="" class="tag-button btn btn-green text--white">Travel</a>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <aside class="aside-container">
+                        <div class="p-3 bg-white">
+                            <h5 class="fw-bold text--green text-center text-lg-start">Tin tức khác</h5>
+                            <div class="list-more-news d-flex flex-column justify-content-center align-items-center" loop="10">
+                                <a href="#">
+                                    <section class="more-news-card mb-2">
+                                        <div class="card-contain">
+                                            <div class="d-flex align-items-center">
+                                                <img src="../assets/imgs/more-news-card.png" alt="">
+                                                <div class="card-content-right ms-3">
+                                                    <div>
+                                                        <span class="badge bgc--green">Tên chuyên mục</span>
+                                                    </div>
+                                                    <h6>Chuyên mục tin tức thú vị về Cần Thơ</h6>
+                                                    <div class="d-flex align-items-center text--black">
+                                                        <i class="bi bi-clock-fill text--gray me-2"></i>
+                                                        <span class="font-inter">15/01/2023</span>
+                                                    </div>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+        <section class="comments">
+            <div class="bgc--green-1">
+                <div class="container">
+                    <h4>Bình luận</h4>
+                    <div class="list-comments" loop="5">
+                        <section class="comment mb-3">
+                            <div class="bgc--white p-3">
+                                <div class="d-flex">
+                                    <img src="../assets/imgs/user-comments.png" alt="">
+                                    <div class="comment-detail">
+                                        <div class="d-flex align-items-center mb-2">
+                                            <h6 class="mb-0">Nguyễn Linh</h6>
+                                            <span>15/01/2023</span>
+                                        </div>
+                                        <p class="mb-1">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a orci ,
+                                            vitae, molestie magna. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Integer a orci , vitae, molestie magna.
+                                        </p>
+                                        <div class="d-flex align-items-center">
+                                            <a href="">Thích</a>
+                                            <i class="bi bi-dot"></i>
+                                            <a href="">Trả lời</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" style="background-image: url('../assets/imgs/bg-foot.png');">
+        <div class="bg-black">
+            <div class="container py-4">
+                <div class="row g-md-4 g-3">
+                    <div class="col-12 col-sm-4 col-lg-3">
+                        <div class="social-contain">
+                            <div class="mb-2">
+                                <img src="../assets/imgs/logo-foot.png" alt="">
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <a href="">
+                                    <img src="../assets/icon/facebook.svg" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="../assets/icon/ins.svg" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="../assets/icon/youtube.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-lg-6">
+                        <div class="mid">
+                            <h3 class="text--white">
+                                SỞ VĂN HÓA THỂ THAO VÀ DU LỊCH CẦN THƠ
+                                <br>
+                                Trung tâm phát triển du lịch thành phố Cần Thơ
+                            </h3>
+                            <div class="information-contain">
+                                <div class="d-flex info align-items-start">
+                                    <div class="d-flex align-items-center info-prop">
+                                        <i class="bi bi-geo-alt-fill text--green me-3"></i>
+                                        <span class="text--white">Địa chỉ</span>
+                                    </div>
+                                    <div class="info-value">
+                                        <span class="text--white">10B1 Lê Thánh Tôn, P. Bến Nghé, Quận 1, Tp.HCM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="information-contain">
+                                <div class="d-flex info align-items-start">
+                                    <div class="d-flex align-items-center info-prop">
+                                        <i class="bi bi-telephone-fill text--green me-3"></i>
+                                        <span class="text--white">Điện thoại</span>
+                                    </div>
+                                    <div class="info-value">
+                                        <span class="text--white">
+                                            +84 28 38 251 250
+                                            <br>
+                                            +84 28 3910 2174
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="information-contain">
+                                <div class="d-flex info align-items-center">
+                                    <div class="d-flex align-items-center info-prop">
+                                        <i class="bi bi-envelope-fill text--green me-3"></i>
+                                        <span class="text--white">Email</span>
+                                    </div>
+                                    <div class="info-value">
+                                        <span class="text--white">rsv@senspa.com.vn</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="information-contain">
+                                <div class="d-flex info align-items-center">
+                                    <div class="d-flex align-items-center info-prop">
+                                        <i class="bi bi-clock-fill text--green me-3"></i>
+                                        <span class="text--white">Giờ mở cửa</span>
+                                    </div>
+                                    <div class="info-value">
+                                        <span class="text--white">
+                                            09:30 AM - 20:00 PM
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-3">
+                        <div class="foot-right">
+                            <h4 class="text--white">LIÊN KẾT NHANH</h4>
+                            <ul>
+                                <li><a href="">Giới thiệu</a></li>
+                                <li><a href="">Dịch vụ</a></li>
+                                <li><a href="">Sản phẩm</a></li>
+                                <li><a href="">Tin tức, sự kiện</a></li>
+                            </ul>
+                            <div class="foot-views">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-person-fill text-white"></i>
+                                    <span class="text--white">1.000.000 người xem</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2 bgc--green text--white text-center foot-bottom">
+                <span>2020 CAN THO. All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- JS -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/bootstrap.bundle.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/forLib.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
