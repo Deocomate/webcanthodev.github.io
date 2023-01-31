@@ -295,7 +295,8 @@
                     <aside class="aside-container">
                         <div class="p-3 bg-white">
                             <h5 class="fw-bold text--green text-center text-lg-start">Tin tức khác</h5>
-                            <div class="list-more-news d-flex flex-column justify-content-center align-items-center" loop="10">
+                            <div class="list-more-news d-flex flex-column justify-content-center align-items-center"
+                                loop="10">
                                 <a href="#">
                                     <section class="more-news-card mb-2">
                                         <div class="card-contain">
@@ -345,8 +346,16 @@
                                         <div class="d-flex align-items-center">
                                             <a href="">Thích</a>
                                             <i class="bi bi-dot"></i>
-                                            <a href="">Trả lời</a>
+                                            <span class="click-to-cmt">Trả lời</span>
                                         </div>
+                                        <form action="" class="position-relative d-none">
+                                            <input type="text" class="form-control">
+                                                <div class="send-message d-flex align-items-center justify-content-center bg-success position-absolute top-50 end-0 translate-middle-y translate-middle-x rounded-circle">
+                                                    <button type="submit">
+                                                        <i class="bi bi-send-check text-white"></i>
+                                                    </button>
+                                                </div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>

@@ -1,0 +1,147 @@
+#diem-den-search {
+    .bg {
+        background: rgba(15, 74, 26, 0.7);
+        padding-top: 140px;
+        padding-bottom: 60px;
+    }
+    h1 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 60px;
+    }
+    .search-bar {
+        background-color: white;
+        border-radius: 10px;
+        .menu-bar {
+            justify-content: center;
+            border-bottom: 1px solid #717171;
+            h3 {
+                margin: 10px 40px;
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                color: #38a700;
+                cursor: pointer;
+                position: relative;
+                &::after {
+                    content: "";
+                    display: block;
+                    width: 100%;
+                    // height: 2.67px;
+                    height: 0px;
+                    background-color: #0f4a1a;
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    margin-top: 8.67px;
+                    transition: 0.1s;
+                }
+                &.active {
+                    &::after {
+                        height: 2.67px;
+                    }
+                }
+            }
+        }
+        .selection-bar {
+            padding: 15px 20px;
+            .col {
+                label {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #0f4a1a;
+                    display: block;
+                }
+                border-right: 1px solid black;
+                padding: 0px 5px;
+                margin: 5px 0px;
+            }
+            .col-input {
+                width: 350px;
+                input {
+                    padding: 5px 0px;
+                    border: none;
+                    outline: none;
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #38a700;
+                    box-shadow: none;
+                    padding-right: 30px;
+                    width: 280px;
+                }
+            }
+            .col-select {
+                .select2-container--default .select2-selection--single {
+                    // width: 150px;
+                    border: 1px solid #38a700;
+                }
+                .select2-container--default .select2-selection--single .select2-selection__arrow {
+                    // right: -73px;
+                }
+            }
+            .col-last {
+                display: flex;
+                justify-content: end;
+                button {
+                    padding: 10px 20px;
+                    background-color: #38a700;
+                    border-radius: 5px;
+                    font-size: 20px;
+                    color: white;
+                    border: none;
+                }
+                border-right: none;
+            }
+        }
+    }
+}
+
+
+#diem-den-goi-y{
+    .bg{
+        background-color: rgba(56, 167, 0, 0.1);;
+    }
+}
+
+@include responsive($size-lg) {
+    #diem-den-search .search-bar .selection-bar .col {
+        border-right: none;
+    }
+    #diem-den-search .search-bar .selection-bar .col-input input {
+        width: 120px;
+    }
+    #diem-den-search .search-bar .selection-bar .col-input input {
+        width: 120px;
+        padding-right: 0px;
+    }
+}
+
+@include responsive($size-md) {
+    #diem-den-search .search-bar .selection-bar .col {
+        width: 100%;
+    }
+    #diem-den-search .search-bar .selection-bar .col-input input {
+        padding-right: 0px;
+        width: 100%;
+    }
+    #diem-den-search .search-bar .selection-bar .col-last button {
+        width: 100%;
+        padding: 6px 0px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+}

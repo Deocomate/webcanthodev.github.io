@@ -1,0 +1,131 @@
+#diem-den-chi-tiet-header {
+    .top {
+        height: 560px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        a {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #ffffff;
+            padding: 15px 20px;
+            margin-bottom: 100px;
+        }
+    }
+    .img-contain {
+        img {
+            height: 277px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+#diem-den-chi-tiet-detail {
+    * {
+        font-family: "Inter";
+    }
+    .header {
+        h1 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+            color: #38a700;
+            border-bottom: 1px solid #38a700;
+            margin-bottom: 0;
+        }
+    }
+    .bg {
+        h3 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #38a700;
+        }
+        background: rgba(56, 167, 0, 0.1);
+
+        .image-important {
+            height: 608px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .user-selection {
+            a {
+                width: 50%;
+                padding: 15px;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                color: #ffffff;
+                &:first-child {
+                    margin-right: 10px;
+                }
+                &:last-child {
+                    margin-left: 10px;
+                }
+            }
+        }
+        .thong-tin-nhanh {
+            background-color: white;
+            margin-top: 10px;
+            border-radius: 10px;
+            ul li {
+                padding-left: 0;
+                border-bottom: none;
+                i {
+                    color: #38a700;
+                    font-size: 20px;
+                    margin-right: 10px;
+                }
+                span {
+                    font-family: "Inter";
+                    font-style: normal;
+                    // font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #0f4a1a;
+                }
+            }
+        }
+        .diem-noi-bat {
+            ul li {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                color: #0f4a1a;
+            }
+        }
+        .tour-goi-y {
+            .position-relative {
+                span {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    color: white;
+                    padding: 10px 15px;
+                    background: #38a700;
+                    border-radius: 10px 0px 0px 0px;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}

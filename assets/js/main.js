@@ -1,4 +1,4 @@
-$(document).ready(function () {    
+$(document).ready(function () {
     $('.carousel').slick({
         slidesToShow: 3,
         dots: true,
@@ -117,7 +117,7 @@ $(document).ready(function () {
             // instead of a settings object
         ]
     });
-    $(".icon-search").click(function (e) { 
+    $(".icon-search").click(function (e) {
         $(".input-search").toggleClass("d-none");
     });
     if ($("#home-map").length > 0) {
@@ -160,6 +160,12 @@ $(document).ready(function () {
     }
 
     AOS.init();
+
+    $(".click-to-cmt").click(function (e) {
+        $(this).parent().next().toggleClass('d-none');
+    });
+    
+    $(".select2-search-form").select2()
 });
 
 function loadDataLocation(listData) {

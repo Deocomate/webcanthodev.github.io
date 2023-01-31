@@ -4,6 +4,7 @@
 @import "lib/slick-theme";
 
 @import "customs/slick";
+@import "customs/select2";
 
 @import "base/reset";
 @import "base/config";
@@ -11,6 +12,7 @@
 @import "base/func";
 
 @import "class/custom";
+@import "class/helper";
 
 @import "components/button";
 @import "components/card";
@@ -24,4 +26,5 @@
 @import "layouts/trang-chu";
 @import "layouts/tin-tuc";
 @import "layouts/tin-tuc-chi-tiet";
-//
+@import "layouts/diem-don";
+@import "layouts/diem-den-chi-tiet";

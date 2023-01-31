@@ -54,6 +54,37 @@
             text-align: justify;
             color: #717171;
         }
+        .align-items-center{
+            span {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                /* identical to box height */
+                color: #38a700;
+                cursor: pointer;
+            }
+        }
+        form{
+            input{
+                padding: 10px ;
+                padding-right: 50px;
+            }
+            .send-message{
+                width: 30px;
+                height: 30px;
+                margin-right: 10px;
+                button{
+                    background-color: transparent;
+                    border: none;
+                    width: 30px;
+                    height: 30px;
+                }
+                i{
+                    font-size: 15px;
+                }
+            }
+        }
     }
     p {
         font-style: normal;

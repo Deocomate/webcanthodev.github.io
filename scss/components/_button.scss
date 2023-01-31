@@ -1,6 +1,9 @@
 .btn-green {
     background-color: $color-green-0;
+    color: white;
     &:hover {
+        color: white;
         border: 1px solid $color-green-0;
+        background-color: $color-green-0;
     }
 }
