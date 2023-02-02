@@ -164,8 +164,19 @@ $(document).ready(function () {
     $(".click-to-cmt").click(function (e) {
         $(this).parent().next().toggleClass('d-none');
     });
-    
+
     $(".select2-search-form").select2()
+
+    if ($(".circle-progress").length > 0) {
+        let val = $(".circle-progress").attr('value')
+        val = val.replace("%", "")
+        val = Number(val)
+        console.log(val, val * 0.01 * 360);
+        console.log($("#rating-section .circle-progress"));
+        $("#rating-section .circle-progress").css({
+            "background": `conic-gradient(#38a700 ${val * 0.01 * 360}deg, #d9d9d9 0deg)`
+        })
+    }
 });
 
 function loadDataLocation(listData) {
