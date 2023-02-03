@@ -1,0 +1,28 @@
+.banner-top {
+    &.style-1 {
+        .bg {
+            background: rgba(15, 74, 26, 0.7);
+            padding-top: 140px;
+            padding-bottom: 60px;
+        }
+        h1 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 44px;
+            color: #ffffff;
+        }
+        nav {
+            li{
+                color: #ffffff;
+                a {
+                    color: #ffffff;
+                }
+            }
+            .breadcrumb-item + .breadcrumb-item::before{
+                color: white;
+            }
+        }
+    }
+}

@@ -665,6 +665,27 @@ a {
   .comment i {
     font-size: 25px; }
 
+.banner-top.style-1 .bg {
+  background: rgba(15, 74, 26, 0.7);
+  padding-top: 140px;
+  padding-bottom: 60px; }
+
+.banner-top.style-1 h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff; }
+
+.banner-top.style-1 nav li {
+  color: #ffffff; }
+  .banner-top.style-1 nav li a {
+    color: #ffffff; }
+
+.banner-top.style-1 nav .breadcrumb-item + .breadcrumb-item::before {
+  color: white; }
+
 #header * {
   font-family: Inter !important; }
 
@@ -1814,3 +1835,37 @@ a {
     display: block; }
   #rating-section .list-react-contain.end {
     border: none; } }
+
+#tien-ich-list .item {
+  display: block;
+  overflow: hidden;
+  height: 257px;
+  width: 100%;
+  border-radius: 10px; }
+  #tien-ich-list .item:hover img {
+    transform: scale(1.5); }
+  #tien-ich-list .item img {
+    transition: .5s;
+    height: 257px;
+    object-fit: cover;
+    border-radius: 10px; }
+  #tien-ich-list .item .title {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: linear-gradient(180deg, rgba(15, 74, 26, 0) 0%, #0f4a1a 100%);
+    border-radius: 10px; }
+    #tien-ich-list .item .title p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      text-align: center;
+      color: #ffffff; }
