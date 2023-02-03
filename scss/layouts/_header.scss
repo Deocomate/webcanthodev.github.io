@@ -42,14 +42,40 @@
         }
     }
     nav {
+        padding-bottom: 41px;
+        &>.container-fluid{
+            border-bottom: 1px solid gray;
+            padding: 0!important;
+        }
+        position: relative;
         .navbar-brand{
-            margin-left: 90px;
+            position: absolute;
+            background-color: transparent;
+            top: 50%;
+            left: 0;
+            transform: translate(0%,-50%);
+            margin-left: 25px;
+            margin-right: 0px;
+            img{
+                width: 90px;
+            }
+        }
+        form{
+            margin-right: 25px;
+            button{
+                margin-bottom: 8px;
+            }
         }
         #nav-content {
             .navbar-nav {
                 margin: 0 auto!important;
+                padding-left: 100px;
             }
             .nav-item {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 margin: 0px 5px;
                 a{
                     transition: 0.5s;
