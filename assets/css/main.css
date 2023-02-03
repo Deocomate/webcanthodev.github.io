@@ -349,6 +349,8 @@ a {
 
 .more-news-card {
   transition: 0.5s; }
+  .more-news-card .card-contain > .align-items-center {
+    align-items: flex-start !important; }
   .more-news-card:hover h6 {
     color: #38a700 !important; }
   .more-news-card img {
@@ -713,11 +715,16 @@ a {
 #header .header-top .lang a {
   color: #ffffff; }
 
+#header nav .navbar-brand {
+  margin-left: 90px; }
+
 #header nav #nav-content .navbar-nav {
   margin: 0 auto !important; }
 
 #header nav #nav-content .nav-item {
   margin: 0px 5px; }
+  #header nav #nav-content .nav-item a {
+    transition: 0.5s; }
   #header nav #nav-content .nav-item::after {
     content: "";
     display: block;
@@ -725,6 +732,8 @@ a {
     height: 6px;
     background-color: #38a700;
     transition: 0.5s; }
+  #header nav #nav-content .nav-item:hover a {
+    color: #38a700; }
   #header nav #nav-content .nav-item:hover::after {
     width: 100%; }
 
@@ -963,34 +972,41 @@ a {
 #home-come-to .heading-custom-green {
   margin-bottom: 40px; }
 
-#home-come-to .come-to-item-contain img {
-  height: 390px;
-  object-fit: cover;
-  border-radius: 5px 5px 0px 0px; }
-
-#home-come-to .come-to-item-contain .content {
-  padding: 20px 24px;
-  border-radius: 0px 0px 5px 5px; }
-
-#home-come-to .come-to-item-contain h5 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  color: #38a700;
-  margin-bottom: 5px; }
-
-#home-come-to .come-to-item-contain p {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 11px;
-  line-height: 13px;
-  text-align: center;
-  color: #0f4a1a;
-  margin-bottom: 0px; }
+#home-come-to .come-to-item-contain {
+  overflow: hidden;
+  transition: 0.5s; }
+  #home-come-to .come-to-item-contain:hover img {
+    scale: 1.3; }
+  #home-come-to .come-to-item-contain img {
+    height: 390px;
+    transition: .5s;
+    object-fit: cover;
+    border-radius: 5px 5px 0px 0px;
+    position: relative;
+    z-index: 1; }
+  #home-come-to .come-to-item-contain .content {
+    position: relative;
+    z-index: 2;
+    padding: 20px 24px;
+    border-radius: 0px 0px 5px 5px; }
+  #home-come-to .come-to-item-contain h5 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #38a700;
+    margin-bottom: 5px; }
+  #home-come-to .come-to-item-contain p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    text-align: center;
+    color: #0f4a1a;
+    margin-bottom: 0px; }
 
 #home-events {
   padding: 55px 0px; }

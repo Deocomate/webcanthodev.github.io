@@ -69,6 +69,9 @@
 }
 .more-news-card {
     transition: 0.5s;
+    .card-contain > .align-items-center {
+        align-items: flex-start!important;
+    }
     &:hover {
         h6 {
             color: $color-green-0 !important;

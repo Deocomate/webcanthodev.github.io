@@ -42,12 +42,18 @@
         }
     }
     nav {
+        .navbar-brand{
+            margin-left: 90px;
+        }
         #nav-content {
             .navbar-nav {
-                margin: 0 auto !important;
+                margin: 0 auto!important;
             }
             .nav-item {
                 margin: 0px 5px;
+                a{
+                    transition: 0.5s;
+                }
                 &::after {
                     content: "";
                     display: block;
@@ -57,6 +63,9 @@
                     transition: 0.5s;
                 }
                 &:hover {
+                    a{
+                        color: $color-green-0;
+                    }
                     &::after {
                         width: 100%;
                     }
