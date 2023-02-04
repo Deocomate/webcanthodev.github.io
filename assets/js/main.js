@@ -177,6 +177,10 @@ $(document).ready(function () {
             "background": `conic-gradient(#38a700 ${val * 0.01 * 360}deg, #d9d9d9 0deg)`
         })
     }
+
+    $("#choose-file-in").click(function (e) { 
+        $("#choose-file-out").click()
+    });
 });
 
 function loadDataLocation(listData) {

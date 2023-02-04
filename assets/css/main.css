@@ -667,26 +667,25 @@ a {
   .comment i {
     font-size: 25px; }
 
-.banner-top.style-1 .bg {
-  background: rgba(15, 74, 26, 0.7);
-  padding-top: 140px;
-  padding-bottom: 60px; }
-
-.banner-top.style-1 h1 {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 44px;
-  color: #ffffff; }
-
-.banner-top.style-1 nav li {
-  color: #ffffff; }
-  .banner-top.style-1 nav li a {
+.banner-top.style-1 {
+  background-size: cover; }
+  .banner-top.style-1 .bg {
+    background: rgba(15, 74, 26, 0.7);
+    padding-top: 140px;
+    padding-bottom: 140px; }
+  .banner-top.style-1 h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
     color: #ffffff; }
-
-.banner-top.style-1 nav .breadcrumb-item + .breadcrumb-item::before {
-  color: white; }
+  .banner-top.style-1 nav li {
+    color: #ffffff; }
+    .banner-top.style-1 nav li a {
+      color: #ffffff; }
+  .banner-top.style-1 nav .breadcrumb-item + .breadcrumb-item::before {
+    color: white; }
 
 #header * {
   font-family: Inter !important; }
@@ -785,6 +784,22 @@ a {
       border-bottom: none; }
     #header nav #nav-content .nav-item.dropdown li:last-child:hover {
       border-radius: 0px 0px 15px 15px; }
+
+@media (max-width: 1399.98px) {
+  #header nav .navbar-brand {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+    margin: 0; }
+  #header nav {
+    padding: 15px 10px; }
+  #header nav > .container-fluid {
+    border-bottom: none; }
+  #header nav #nav-content .navbar-nav {
+    padding-left: 0px;
+    justify-content: flex-start;
+    align-items: flex-start; } }
 
 #footer {
   background-size: cover; }
@@ -1903,3 +1918,106 @@ a {
       line-height: 39px;
       text-align: center;
       color: #ffffff; }
+
+.phan-hoi-body-bg {
+  background: rgba(56, 167, 0, 0.1);
+  padding-bottom: 100px; }
+
+#phan-hoi-contact-info .item-contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #phan-hoi-contact-info .item-contain .icon {
+    width: 63px;
+    height: 63px;
+    background-color: #38a700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 27px;
+    margin-bottom: 15px; }
+  #phan-hoi-contact-info .item-contain h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #0f4a1a; }
+  #phan-hoi-contact-info .item-contain p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0f4a1a;
+    width: 100%;
+    max-width: 167px; }
+
+#phan-hoi-send-message {
+  border-radius: 10px;
+  overflow: hidden; }
+  #phan-hoi-send-message .bg-color {
+    padding: 50px 100px;
+    background: rgba(15, 74, 26, 0.7);
+    border-radius: 10px; }
+  #phan-hoi-send-message .form {
+    background-color: white;
+    border-radius: 10px; }
+    #phan-hoi-send-message .form .form-head {
+      margin-bottom: 22px; }
+      #phan-hoi-send-message .form .form-head .user-info img {
+        width: 49px;
+        height: 49px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 1px solid #38a700;
+        margin-right: 10px; }
+      #phan-hoi-send-message .form .form-head .user-info h6 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #38a700;
+        margin-bottom: 0px; }
+      #phan-hoi-send-message .form .form-head .user-info i,
+      #phan-hoi-send-message .form .form-head .user-info span {
+        color: rgba(113, 113, 113, 0.6); }
+      #phan-hoi-send-message .form .form-head .user-info i {
+        margin-right: 5px; }
+    #phan-hoi-send-message .form .form-body input {
+      padding: 10px 24px;
+      font-size: 20px;
+      border: 2px solid rgba(113, 113, 113, 0.6);
+      border-radius: 5px;
+      margin-bottom: 13px; }
+    #phan-hoi-send-message .form .form-body textarea {
+      border: 2px solid rgba(113, 113, 113, 0.6);
+      border-radius: 5px;
+      padding: 17px 24px;
+      font-size: 20px; }
+    #phan-hoi-send-message .form .form-bottom {
+      max-width: 417px;
+      width: 100%;
+      margin: 0 auto; }
+      #phan-hoi-send-message .form .form-bottom button, #phan-hoi-send-message .form .form-bottom span {
+        display: flex;
+        align-items: center;
+        margin: 0px 10px; }
+        #phan-hoi-send-message .form .form-bottom button i, #phan-hoi-send-message .form .form-bottom span i {
+          margin-right: 4px; }
+
+@media (max-width: 767.98px) {
+  #phan-hoi-send-message .bg-color {
+    padding: 20px; }
+  #phan-hoi-send-message .form .form-body input {
+    padding: 10px 15px; }
+  #phan-hoi-send-message .form .form-body textarea {
+    padding: 10px 15px; }
+  .phan-hoi-body-bg {
+    padding-bottom: 50px; } }

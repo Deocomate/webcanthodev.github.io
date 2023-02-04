@@ -140,3 +140,25 @@
         }
     }
 }
+
+@include responsive ($size-xl){
+    #header nav .navbar-brand{
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        margin: 0;
+    }
+    #header nav{
+        padding: 15px 10px;
+
+    }
+    #header nav > .container-fluid{
+        border-bottom: none;
+    }
+    #header nav #nav-content .navbar-nav{
+        padding-left: 0px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
