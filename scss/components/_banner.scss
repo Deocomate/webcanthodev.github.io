@@ -15,15 +15,88 @@
             color: #ffffff;
         }
         nav {
-            li{
+            li {
                 color: #ffffff;
                 a {
                     color: #ffffff;
                 }
             }
-            .breadcrumb-item + .breadcrumb-item::before{
+            .breadcrumb-item + .breadcrumb-item::before {
                 color: white;
             }
+        }
+    }
+    .search-bar {
+        background-color: white;
+        border-radius: 10px;
+        i {
+            margin: 0px 18px;
+            color: #38a700;
+            font-size: 20px;
+            margin-right: 0px;
+        }
+        input {
+            width: 200px !important;
+        }
+        input,
+        select {
+            width: 150px;
+            border: none;
+            background-color: transparent;
+            outline: none;
+            box-shadow: none;
+            color: rgba(113, 113, 113, 0.6);
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            padding: 15px;
+        }
+        .cost {
+            .select2-container {
+                width: 180px !important;
+                border-left: 1px solid #38a700;
+            }
+        }
+        .type {
+            .select2-container {
+                width: 200px !important;
+                border-left: 1px solid #38a700;
+            }
+        }
+        .service {
+            .select2-container {
+                width: 160px !important;
+                border-left: 1px solid #38a700;
+            }
+        }
+        .select2-container--default .select2-selection--single {
+            border: none !important;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            color: rgba(113, 113, 113, 0.6);
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+        }
+        .col-last {
+            height: 100%;
+        }
+        button {
+            border: none;
+            background-color: transparent;
+            padding: 15px 23px;
+            background: #38a700;
+            border-radius: 0px 10px 10px 0px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #ffffff;
         }
     }
 }

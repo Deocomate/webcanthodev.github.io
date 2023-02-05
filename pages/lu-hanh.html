@@ -124,15 +124,16 @@
     </header>
 
     <main>
-        <section class="banner-top style-1 style-search-bar" style="background-image: url('../assets/imgs/diem-den-header.png');">
+        <section class="banner-top style-1 style-search-bar"
+            style="background-image: url('../assets/imgs/diem-den-header.png');">
             <div class="bg">
                 <div class="container">
                     <div class="d-flex flex-column justify-content-center align-items-center">
-                        <h1>Điểm đến</h1>
+                        <h1>Công Ty Lữ Hành</h1>
                         <nav class="mb-5" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Điểm đến</li>
+                                <li class="breadcrumb-item active" aria-current="page">Công ty lữ hành</li>
                             </ol>
                         </nav>
                         <div class="search-bar">
@@ -181,105 +182,75 @@
                 </div>
             </div>
         </section>
-        <!-- <section id="diem-den-search" style="background-image: url('../assets/imgs/diem-den-header.png');">
-            <div class="bg">
-                <div class="container">
-                    <h1>Điểm Đến</h1>
-
-                    <div class="search-bar">
-                        <div class="search-bar-contain">
-                            <div class="menu-bar d-flex">
-                                <h3 class="active">Bộ chọn</h3>
-                                <h3>Sắp xếp</h3>
-                            </div>
-                            <div class="selection-bar">
-                                <div class="d-flex flex-column flex-md-row">
-                                    <div class="col col-input">
-                                        <label for="">Địa điểm</label>
-                                        <input type="text" class="form-control" value="Tìm Kiếm">
-                                    </div>
-                                    <div class="col col-select">
-                                        <label for="">Chi phí</label>
-                                        <select name="" class="select2-search-form">
-                                            <option value="A">Option</option>
-                                            <option value="B">Option</option>
-                                            <option value="C">Option</option>
-                                            <option value="D">Option</option>
-                                            <option value="E">Option</option>
-                                        </select>
-                                    </div>
-                                    <div class="col col-select">
-                                        <label for="">Loại hình du lịch</label>
-                                        <select name="" class="select2-search-form">
-                                            <option value="A">Option</option>
-                                            <option value="B">Option</option>
-                                            <option value="C">Option</option>
-                                            <option value="D">Option</option>
-                                            <option value="E">Option</option>
-                                        </select>
-                                    </div>
-                                    <div class="col col-select">
-                                        <label for="">Dịch vụ</label>
-                                        <select name="" class="select2-search-form">
-                                            <option value="A">Option</option>
-                                            <option value="B">Option</option>
-                                            <option value="C">Option</option>
-                                            <option value="D">Option</option>
-                                            <option value="E">Option</option>
-                                        </select>
-                                    </div>
-                                    <div class="col col-last">
-                                        <button>
-                                            <i class="bi bi-search"></i>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
+        <section id="lu-hanh-list-company">
+            <div class="container">
+                <div class="sort mb-4">
+                    <div class="d-flex-mid justify-content-end">
+                        <div class="d-flex-mid sort-list">
+                            <label for="">Sắp xếp theo</label>
+                            <select name="" id="">
+                                <option value="">Đánh giá</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="">Đánh giá</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="">Đánh giá</option>
+                            </select>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section> -->
-        <section id="diem-den-goi-y">
-            <div class="bg py-4">
-                <div class="container mb-3">
-                    <div class="list-diem-den-contain">
-                        <div class="row g-3" loop="9">
-                            <div class="col-12 col-md-6 col-lg-4">
-                                <section class="card-diem-den">
-                                    <div class="card">
-                                        <img src="../assets/imgs/card-diem-den-img.png" class="card-img-top w-100"
-                                            alt="...">
-                                        <div class="card-body">
-                                            <a href="">
-                                                <h5 class="card-title">Cầu đi bộ Cần Thơ</h5>
-                                                <div class="location-detail mb-1">
-                                                    <div class="d-flex align-items-center">
-                                                        <i class="bi bi-geo-alt-fill"></i>
-                                                        <span>Cầu đi bộ Cần Thơ</span>
-                                                    </div>
-                                                </div>
-                                                <p class="card-text">
-                                                    Lorem ipsum dolor sit toula amet, consectetur adipiscing elit.
-                                                </p>
-                                            </a>
+                <div class="list-company-contain">
+                    <ul class="list-unstyled" loop="4">
+                        <li class="item mb-4">
+                            <div class="d-flex w-100">
+                                <div class="img-contain">
+                                    <img src="../assets/imgs/company.png" alt="">
+                                </div>
+                                <div class="content w-100 p-4 pb-2">
+                                    <h3>Công ty du lịch MeKong Smile Tour tại Cần Thơ</h3>
+                                    <div class="list">
+                                        <div class="list-property">
+                                            <i class="bi bi-geo-alt-fill"></i>
+                                            <b>Địa chỉ: </b>
+                                            <span>Số 81 Châu Văn Liêm, phường Tân An, quận Ninh Kiều, TP. Cần Thơ</span>
+                                        </div>
+                                        <div class="list-property">
+                                            <i class="bi bi-envelope-fill"></i>
+                                            <b>Email: </b>
+                                            <span>deocomate@gmail.com</span>
+                                        </div>
+                                        <div class="list-property">
+                                            <i class="bi bi-telephone-fill"></i>
+                                            <b>Số điện thoại: </b>
+                                            <span>056561189</span>
+                                        </div>
+                                        <div class="list-property">
+                                            <i class="bi bi-globe"></i>
+                                            <b>Website: </b>
+                                            <span>https://nucuoimekong.com</span>
+                                        </div>
+                                        <div class="list-property">
+                                            <i class="bi bi-youtube"></i>
+                                            <b>Kênh Youtuve: </b>
+                                            <span>https://www.youtube.com/channel/UCZYxpW6</span>
                                         </div>
                                     </div>
-                                </section>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="paginate mt-4 mb-3 mb-lg-0">
-                        <ul class="ps-0 mb-0 list-unstyled d-flex">
-                            <li><a href=""><img src="../assets/imgs/paginate-left-arr.svg" alt=""></a></li>
-                            <li class="active"><a href="">1</a></li>
-                            <li><a href="">2</a></li>
-                            <li><a href="">3</a></li>
-                            <li><a href="" class="dots"><i class="bi bi-three-dots"></i></a></li>
-                            <li><a href="">9</a></li>
-                            <li><a href=""><img src="../assets/imgs/paginate-right-arr.svg" alt=""></a></li>
-                        </ul>
-                    </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="paginate mt-4 mb-3 mb-lg-0 pb-5">
+                    <ul class="ps-0 mb-0 list-unstyled d-flex">
+                        <li><a href=""><img src="../assets/imgs/paginate-left-arr.svg" alt=""></a></li>
+                        <li class="active"><a href="">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="" class="dots"><i class="bi bi-three-dots"></i></a></li>
+                        <li><a href="">9</a></li>
+                        <li><a href=""><img src="../assets/imgs/paginate-right-arr.svg" alt=""></a></li>
+                    </ul>
                 </div>
             </div>
         </section>

@@ -1,0 +1,74 @@
+#lu-hanh-list-company {
+    background-color: rgba(56, 167, 0, 0.1);
+    .list-company-contain {
+        .item {
+            border-radius: 10px;
+            img {
+                width: 365px;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px 0px 0px 10px;
+            }
+            .content {
+                background-color: white;
+                h3 {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    text-align: justify;
+                    color: #0f4a1a;
+                }
+                .list {
+                    .list-property {
+                        margin-bottom: 10px;
+                        i {
+                            color: #38a700;
+                        }
+                        b {
+                            font-family: "Inter";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 14px;
+                            line-height: 17px;
+                            text-align: justify;
+                            color: #0f4a1a;
+                        }
+                        span {
+                            font-family: "Inter";
+                            font-size: 14px;
+                            line-height: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.sort {
+    .sort-list {
+        border-radius: 0px 0px 10px 10px;
+        background-color: white;
+        overflow: hidden;
+        label {
+            background: #38a700;
+            border-radius: 0px 0px 10px 10px;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 19px;
+            color: #ffffff;
+            padding: 15px 16px;
+        }
+        select {
+            border: none;
+            background-color: transparent;
+            margin: 15px 0px;
+            padding: 0px 15px;
+            border-right: 1px solid gray;
+            outline: none;
+        }
+    }
+}

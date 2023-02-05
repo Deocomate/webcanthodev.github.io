@@ -687,6 +687,63 @@ a {
   .banner-top.style-1 nav .breadcrumb-item + .breadcrumb-item::before {
     color: white; }
 
+.banner-top .search-bar {
+  background-color: white;
+  border-radius: 10px; }
+  .banner-top .search-bar i {
+    margin: 0px 18px;
+    color: #38a700;
+    font-size: 20px;
+    margin-right: 0px; }
+  .banner-top .search-bar input {
+    width: 200px !important; }
+  .banner-top .search-bar input,
+  .banner-top .search-bar select {
+    width: 150px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    box-shadow: none;
+    color: rgba(113, 113, 113, 0.6);
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15px; }
+  .banner-top .search-bar .cost .select2-container {
+    width: 180px !important;
+    border-left: 1px solid #38a700; }
+  .banner-top .search-bar .type .select2-container {
+    width: 200px !important;
+    border-left: 1px solid #38a700; }
+  .banner-top .search-bar .service .select2-container {
+    width: 160px !important;
+    border-left: 1px solid #38a700; }
+  .banner-top .search-bar .select2-container--default .select2-selection--single {
+    border: none !important; }
+  .banner-top .search-bar .select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: rgba(113, 113, 113, 0.6);
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px; }
+  .banner-top .search-bar .col-last {
+    height: 100%; }
+  .banner-top .search-bar button {
+    border: none;
+    background-color: transparent;
+    padding: 15px 23px;
+    background: #38a700;
+    border-radius: 0px 10px 10px 0px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff; }
+
 #header * {
   font-family: Inter !important; }
 
@@ -2021,3 +2078,61 @@ a {
     padding: 10px 15px; }
   .phan-hoi-body-bg {
     padding-bottom: 50px; } }
+
+#lu-hanh-list-company {
+  background-color: rgba(56, 167, 0, 0.1); }
+  #lu-hanh-list-company .list-company-contain .item {
+    border-radius: 10px; }
+    #lu-hanh-list-company .list-company-contain .item img {
+      width: 365px;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px 0px 0px 10px; }
+    #lu-hanh-list-company .list-company-contain .item .content {
+      background-color: white; }
+      #lu-hanh-list-company .list-company-contain .item .content h3 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: justify;
+        color: #0f4a1a; }
+      #lu-hanh-list-company .list-company-contain .item .content .list .list-property {
+        margin-bottom: 10px; }
+        #lu-hanh-list-company .list-company-contain .item .content .list .list-property i {
+          color: #38a700; }
+        #lu-hanh-list-company .list-company-contain .item .content .list .list-property b {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          line-height: 17px;
+          text-align: justify;
+          color: #0f4a1a; }
+        #lu-hanh-list-company .list-company-contain .item .content .list .list-property span {
+          font-family: "Inter";
+          font-size: 14px;
+          line-height: 17px; }
+
+.sort .sort-list {
+  border-radius: 0px 0px 10px 10px;
+  background-color: white;
+  overflow: hidden; }
+  .sort .sort-list label {
+    background: #38a700;
+    border-radius: 0px 0px 10px 10px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    padding: 15px 16px; }
+  .sort .sort-list select {
+    border: none;
+    background-color: transparent;
+    margin: 15px 0px;
+    padding: 0px 15px;
+    border-right: 1px solid gray;
+    outline: none; }
