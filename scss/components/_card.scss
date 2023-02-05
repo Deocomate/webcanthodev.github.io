@@ -106,7 +106,10 @@
         }
         .text--black {
             i {
-                font-size: 15px;
+                font-size: 15px!important;
+            }
+            .bi.bi-clock-fill{
+                font-size: 13px!important;
             }
             span {
                 font-family: "Inter";

@@ -378,7 +378,9 @@ a {
       color: #0f4a1a;
       margin-bottom: 0px; }
     .more-news-card .card-content-right .text--black i {
-      font-size: 15px; }
+      font-size: 15px !important; }
+    .more-news-card .card-content-right .text--black .bi.bi-clock-fill {
+      font-size: 13px !important; }
     .more-news-card .card-content-right .text--black span {
       font-family: "Inter";
       font-style: normal;
@@ -1395,7 +1397,7 @@ a {
       font-family: "Inter";
       font-style: normal;
       font-weight: 700;
-      font-size: 16px;
+      font-size: 17px;
       line-height: 108.02%;
       /* or 17px */
       color: #ffffff; }
@@ -1403,7 +1405,7 @@ a {
       font-family: "Inter";
       font-style: normal;
       font-weight: 500;
-      font-size: 8px;
+      font-size: 12px;
       line-height: 10px;
       text-align: justify;
       color: #ffffff; }
