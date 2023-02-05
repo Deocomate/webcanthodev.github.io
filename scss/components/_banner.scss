@@ -7,6 +7,7 @@
             padding-bottom: 140px;
         }
         h1 {
+            text-transform: uppercase;
             font-family: "Inter";
             font-style: normal;
             font-weight: 900;
@@ -97,6 +98,21 @@
             line-height: 19px;
             text-align: center;
             color: #ffffff;
+        }
+    }
+    &.style-2 {
+        h1 {
+            text-transform: uppercase;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+            color: #38a700;
+            border-bottom: 4px solid #666a86;
+            max-width: 178px;
+            width: 100%;
         }
     }
 }

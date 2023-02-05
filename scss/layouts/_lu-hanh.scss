@@ -62,13 +62,38 @@
             color: #ffffff;
             padding: 15px 16px;
         }
+        .select {
+            // margin-right: 10px;
+            position: relative;
+
+            select {
+                border: none;
+                outline: none;
+                border: none;
+                background-color: transparent;
+                margin: 10px 0px;
+                padding: 0px 15px;
+                outline: none;
+                width: 130px;
+                border-right: 1px solid gray;
+                height: 30px;
+                &.last{
+                    border-right: none;
+                }
+            }
+            img {
+                position: absolute;
+                top: 50%;
+                right: 0%;
+                transform: translate(0%, -50%);
+                margin-right: 13px;
+            }
+        }
         select {
-            border: none;
-            background-color: transparent;
-            margin: 15px 0px;
-            padding: 0px 15px;
-            border-right: 1px solid gray;
-            outline: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            text-indent: 1px;
+            text-overflow: "";
         }
     }
 }
