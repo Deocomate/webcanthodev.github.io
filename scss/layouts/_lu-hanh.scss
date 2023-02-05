@@ -50,7 +50,6 @@
     .sort-list {
         border-radius: 0px 0px 10px 10px;
         background-color: white;
-        overflow: hidden;
         label {
             background: #38a700;
             border-radius: 0px 0px 10px 10px;
@@ -62,38 +61,76 @@
             color: #ffffff;
             padding: 15px 16px;
         }
-        .select {
-            // margin-right: 10px;
-            position: relative;
 
-            select {
-                border: none;
-                outline: none;
-                border: none;
+        .dropdown {
+            button::after {
+                display: none;
+            }
+            button {
                 background-color: transparent;
-                margin: 10px 0px;
-                padding: 0px 15px;
-                outline: none;
-                width: 130px;
+                border: none;
+                // width: 130px;
                 border-right: 1px solid gray;
-                height: 30px;
-                &.last{
-                    border-right: none;
+                padding: 0px 30px;
+                padding-right: 40px;
+            }
+            .btn-select-2 {
+                // width: 167px;
+            }
+            .btn-select-3 {
+                // width: 110px;
+                border-right: none;
+            }
+        }
+        .select {
+            ul {
+                padding: 0;
+                li {
+                    border-bottom: 1px solid gray;
+                    background: #C0F4CA;
+                    padding: 10px;
+                    transition: .5s;
+                    &:hover{
+                        background-color: #38a700;
+                        span{
+                            color: white;
+                        }
+                    }
+                    &:last-child{
+                        border-bottom: none;
+                        
+                    }
+                    span {
+                        font-family: "Inter";
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: rgba(15, 74, 26, 0.7);
+                        &:hover{
+                            background-color: transparent;
+                        }
+                    }
                 }
             }
+            position: relative;
             img {
                 position: absolute;
                 top: 50%;
-                right: 0%;
+                right: 11px;
                 transform: translate(0%, -50%);
-                margin-right: 13px;
             }
         }
-        select {
-            -webkit-appearance: none;
-            -moz-appearance: none;
-            text-indent: 1px;
-            text-overflow: "";
-        }
+        // .select{
+
+        // }
+        // .select2-search--dropdown{
+        //     display: none!important;
+        // }
+        // .SortForm{
+        //     .select2-search--dropdown{
+        //         display: none!important;
+        //     }
+        // }
     }
 }

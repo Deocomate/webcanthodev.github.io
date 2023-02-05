@@ -1,5 +1,18 @@
 #tin-tuc-chi-tiet-page {
     background: rgba(56, 167, 0, 0.1);
+    .thanh-dieu-huong {
+        .active {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            // line-height: 19px;
+            // display: flex;
+            // align-items: flex-end;
+            // text-align: justify;
+            color: #38a700;
+        }
+    }
 }
 .article-container {
     * {
@@ -84,9 +97,8 @@
         text-align: justify;
         color: #38a700;
     }
-    .more-news-card{
-        img{
-            
+    .more-news-card {
+        img {
         }
     }
 }

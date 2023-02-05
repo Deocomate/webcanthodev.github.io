@@ -385,7 +385,7 @@ a {
       font-family: "Inter";
       font-style: normal;
       font-weight: 500;
-      font-size: 8px;
+      font-size: 10px;
       text-align: justify;
       color: #717171; }
     .more-news-card .card-content-right p {
@@ -1439,6 +1439,12 @@ a {
 
 #tin-tuc-chi-tiet-page {
   background: rgba(56, 167, 0, 0.1); }
+  #tin-tuc-chi-tiet-page .thanh-dieu-huong .active {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #38a700; }
 
 .article-container * {
   font-family: "Inter"; }
@@ -2133,8 +2139,7 @@ a {
 
 .sort .sort-list {
   border-radius: 0px 0px 10px 10px;
-  background-color: white;
-  overflow: hidden; }
+  background-color: white; }
   .sort .sort-list label {
     background: #38a700;
     border-radius: 0px 0px 10px 10px;
@@ -2145,29 +2150,42 @@ a {
     line-height: 19px;
     color: #ffffff;
     padding: 15px 16px; }
+  .sort .sort-list .dropdown button::after {
+    display: none; }
+  .sort .sort-list .dropdown button {
+    background-color: transparent;
+    border: none;
+    border-right: 1px solid gray;
+    padding: 0px 30px;
+    padding-right: 40px; }
+  .sort .sort-list .dropdown .btn-select-3 {
+    border-right: none; }
   .sort .sort-list .select {
     position: relative; }
-    .sort .sort-list .select select {
-      border: none;
-      outline: none;
-      border: none;
-      background-color: transparent;
-      margin: 10px 0px;
-      padding: 0px 15px;
-      outline: none;
-      width: 130px;
-      border-right: 1px solid gray;
-      height: 30px; }
-      .sort .sort-list .select select.last {
-        border-right: none; }
+    .sort .sort-list .select ul {
+      padding: 0; }
+      .sort .sort-list .select ul li {
+        border-bottom: 1px solid gray;
+        background: #C0F4CA;
+        padding: 10px;
+        transition: .5s; }
+        .sort .sort-list .select ul li:hover {
+          background-color: #38a700; }
+          .sort .sort-list .select ul li:hover span {
+            color: white; }
+        .sort .sort-list .select ul li:last-child {
+          border-bottom: none; }
+        .sort .sort-list .select ul li span {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+          color: rgba(15, 74, 26, 0.7); }
+          .sort .sort-list .select ul li span:hover {
+            background-color: transparent; }
     .sort .sort-list .select img {
       position: absolute;
       top: 50%;
-      right: 0%;
-      transform: translate(0%, -50%);
-      margin-right: 13px; }
-  .sort .sort-list select {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    text-indent: 1px;
-    text-overflow: ""; }
+      right: 11px;
+      transform: translate(0%, -50%); }
