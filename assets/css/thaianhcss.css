@@ -2,6 +2,11 @@
     font-family: "Inter";
 }
 
+.d-flex {
+    display: flex;
+}
+
+/* #banner-cuisine */
 #banner-cuisine .box-image img {
     width: 100%;
     height: auto;
@@ -21,6 +26,7 @@
     margin-left: 7.5px;
 }
 
+/* #restaurant */
 #restaurant .title-res {
     border-bottom: 1px solid #38A700;
 }
@@ -50,6 +56,90 @@
     width: 100%;
     height: auto;
 }
+
+#restaurant .all-info-res .name-res {
+    margin-left: 25px;
+}
+
+#restaurant .all-info-res .name-res p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: normal;
+    color: #38A700;
+    margin-bottom: 10px;
+}
+
+#restaurant .row-info-2>div {
+    margin-left: 25px;
+}
+
+#restaurant .row-info-2 {
+    border-top: 1px solid #EAE8E8;
+}
+
+#restaurant .row-info-2 .describe-res {
+    padding-top: 26px;
+    margin-bottom: 16px;
+    padding-right: 29px;
+    border-right: 1px solid #EAE8E8;
+    width: 47%;
+}
+
+#restaurant .row-info-2 .info-detail-res {
+    width: 53%;
+    padding-top: 26px;
+    margin-bottom: 16px;
+    padding-right: 32px;
+}
+
+#restaurant .row-info-2 .describe-res .icon img {
+    margin-top: -15px;
+}
+
+#restaurant .row-info-2 .describe-res p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+    color: #0F4A1A;
+}
+
+#restaurant .row-info-2 .info-detail-res p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    color: #0F4A1A;
+}
+
+#restaurant .row-info-2 .text p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: normal;
+    padding-left: 8px;
+    text-align: justify;
+}
+
+#restaurant .row-info-2 .info-detail-res ul {
+    padding-left: 10px;
+}
+
+#restaurant .row-info-2 .info-detail-res .icon img {
+    padding-left: 10px;
+    margin-top: -13px;
+}
+
+#restaurant .row-info-2 .info-detail-res ul li {
+    list-style-type: none;
+    font-size: 12px;
+    font-family: "Inter";
+    color: #0F4A1A;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#restaurant .row-info-2 .info-detail-res ul li:first-child {
+    color: #38A700;
+}
+
 
 /* #restaurant .detail-res .img-res {
     padding-right: 11px;
