@@ -104,3 +104,28 @@
         }
     }
 }
+@include responsive($size-md){
+    #footer .container .mid h3{
+        font-size: 15px;
+        text-align: center;
+    }
+    #footer .container .mid .information-contain .info .info-prop span{
+        display: none;
+    }
+    #footer .container .mid .information-contain .info .info-prop{
+        width: 35px;
+    }
+    #footer .container .mid .information-contain .info .info-value{
+        width: 100%;
+        max-width: 100%;
+    }
+    #footer .container .social-contain{
+        margin: 0 auto;
+    }
+    #footer .mid{
+        padding:0px 20px;
+    }
+    #footer .foot-right{
+        padding: 0px 20px;
+    }
+}

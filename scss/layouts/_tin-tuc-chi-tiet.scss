@@ -102,3 +102,11 @@
         }
     }
 }
+@include responsive($size-md){
+    .comments h4{
+        text-align: center;
+    }
+    .comments h4::after{
+        margin: 0 auto;
+    }
+}

@@ -542,6 +542,10 @@
     #home-promotion {
         padding: 20px 0px 20px;
     }
+
+    .heading-custom-green h2{
+        font-size: 25px;
+    }
 }
 @include responsive($size-lg) {
     #home-promotion .carousel-contain .btn-arr i {

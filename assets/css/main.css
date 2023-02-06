@@ -760,6 +760,50 @@ a {
   max-width: 178px;
   width: 100%; }
 
+@media (max-width: 1199.98px) {
+  .banner-top.style-1 h1 {
+    font-size: 25px;
+    text-align: center; }
+  .banner-top .search-bar {
+    width: 100%; }
+  .banner-top .search-bar input {
+    width: 100% !important; }
+  .banner-top .search-bar .col-input {
+    margin-top: 20px;
+    padding: 0px 20px; }
+  .banner-top .col {
+    width: 100%;
+    padding: 10px 30px; }
+  .banner-top .search-bar .cost .select2-container,
+  .banner-top .search-bar .type .select2-container,
+  .banner-top .search-bar .service .select2-container {
+    width: 100% !important; }
+  .banner-top .search-bar button {
+    width: 100%;
+    border-radius: 10px; }
+  .sort .sort-list label {
+    border-radius: 10px !important;
+    padding: 10px !important; }
+  .sort .sort-list {
+    border-radius: 10px;
+    width: 100%; }
+  .sort .sort-list label, .sort .sort-list .select {
+    width: 100% !important; }
+  .sort .sort-list .dropdown button {
+    width: 100% !important;
+    border-right: none !important;
+    margin: 10px 0px; }
+  .sort .sort-list .select ul {
+    width: 100% !important; }
+  .banner-top.style-1 .bg {
+    padding: 55px 0px !important; }
+  .select2-results__option--selectable {
+    background-color: #C0F4CA;
+    border-bottom: 1px solid gray;
+    transition: .5s; }
+  .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: #38a700; } }
+
 #header * {
   font-family: Inter !important; }
 
@@ -952,6 +996,24 @@ a {
     line-height: 13px;
     text-align: center;
     color: #ffffff; }
+
+@media (max-width: 767.98px) {
+  #footer .container .mid h3 {
+    font-size: 15px;
+    text-align: center; }
+  #footer .container .mid .information-contain .info .info-prop span {
+    display: none; }
+  #footer .container .mid .information-contain .info .info-prop {
+    width: 35px; }
+  #footer .container .mid .information-contain .info .info-value {
+    width: 100%;
+    max-width: 100%; }
+  #footer .container .social-contain {
+    margin: 0 auto; }
+  #footer .mid {
+    padding: 0px 20px; }
+  #footer .foot-right {
+    padding: 0px 20px; } }
 
 #home-banner img {
   width: 100%;
@@ -1377,7 +1439,9 @@ a {
   #home-events .video-contain iframe {
     height: 250px !important; }
   #home-promotion {
-    padding: 20px 0px 20px; } }
+    padding: 20px 0px 20px; }
+  .heading-custom-green h2 {
+    font-size: 25px; } }
 
 @media (max-width: 1199.98px) {
   #home-promotion .carousel-contain .btn-arr i {
@@ -1517,6 +1581,12 @@ a {
   line-height: 29px;
   text-align: justify;
   color: #38a700; }
+
+@media (max-width: 767.98px) {
+  .comments h4 {
+    text-align: center; }
+  .comments h4::after {
+    margin: 0 auto; } }
 
 #diem-den-search .bg {
   background: rgba(15, 74, 26, 0.7);
@@ -2195,3 +2265,8 @@ a {
       top: 50%;
       right: 11px;
       transform: translate(0%, -50%); }
+
+@media (max-width: 1199.98px) {
+  #lu-hanh-list-company .list-company-contain .item img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px; } }
