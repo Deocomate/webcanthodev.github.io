@@ -1,0 +1,58 @@
+.font-inter {
+    font-family: "Inter";
+}
+
+#banner-cuisine .box-image img {
+    width: 100%;
+    height: auto;
+}
+
+#banner-cuisine .slide-cuisine .box-img-slide img {
+    width: 100%;
+    height: auto;
+}
+
+#banner-cuisine .slide-cuisine .box-img-slide {
+    padding: 14px 7.5px;
+}
+
+#banner-cuisine .slide-cuisine {
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+}
+
+#restaurant .title-res {
+    border-bottom: 1px solid #38A700;
+}
+
+#restaurant .title-res p {
+    text-align: center;
+    font-size: 36px;
+    line-height: normal;
+    font-weight: 700;
+    color: #38A700;
+}
+
+#restaurant .detail-res {
+    padding-bottom: 46px;
+    padding-top: 23px;
+    background-color: rgba(56, 167, 0, 0.1);;
+}
+
+#restaurant .in-detail-res {
+    background-color: #ffffff;
+    max-width: 970px !important;
+    padding: 21px 28px 24px 28px;
+    border-radius: 10px;
+}
+
+#restaurant .detail-res .img-res .box-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* #restaurant .detail-res .img-res {
+    padding-right: 11px;
+} */
+
+
