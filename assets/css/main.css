@@ -2204,7 +2204,8 @@ a {
       #lu-hanh-list-company .list-company-contain .item .content .list .list-property {
         margin-bottom: 10px; }
         #lu-hanh-list-company .list-company-contain .item .content .list .list-property i {
-          color: #38a700; }
+          color: #38a700;
+          margin-right: 5px; }
         #lu-hanh-list-company .list-company-contain .item .content .list .list-property b {
           font-family: "Inter";
           font-style: normal;
