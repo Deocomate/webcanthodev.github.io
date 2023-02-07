@@ -117,17 +117,17 @@
     }
 }
 @include responsive($size-lg) {
-    .banner-top.style-1 h1{
+    .banner-top.style-1 h1 {
         font-size: 25px;
         text-align: center;
     }
     .banner-top .search-bar {
         width: 100%;
     }
-    .banner-top .search-bar input{
-        width: 100%!important;
+    .banner-top .search-bar input {
+        width: 100% !important;
     }
-    .banner-top .search-bar .col-input{
+    .banner-top .search-bar .col-input {
         margin-top: 20px;
         padding: 0px 20px;
     }
@@ -140,40 +140,32 @@
     .banner-top .search-bar .service .select2-container {
         width: 100% !important;
     }
-    .banner-top .search-bar button{
+    .banner-top .search-bar button {
         width: 100%;
         border-radius: 10px;
     }
 
-
-    .sort .sort-list label{
-        border-radius: 10px!important;
-        padding: 10px!important;
+    .sort .sort-list label {
+        border-radius: 10px !important;
+        padding: 10px !important;
     }
-    .sort .sort-list{
+    .sort .sort-list {
         border-radius: 10px;
         width: 100%;
     }
-    .sort .sort-list label,.sort .sort-list .select{
-        width: 100%!important;
-    }
-    .sort .sort-list .dropdown button{
-        width: 100%!important;
-        border-right: none!important;
-        margin: 10px 0px;
-    }
-    .sort .sort-list .select ul{
+    .sort .sort-list label,
+    .sort .sort-list .select {
         width: 100% !important;
     }
-    .banner-top.style-1 .bg{
+    .sort .sort-list .dropdown button {
+        width: 100% !important;
+        border-right: none !important;
+        margin: 10px 0px;
+    }
+    .sort .sort-list .select ul {
+        width: 100% !important;
+    }
+    .banner-top.style-1 .bg {
         padding: 55px 0px !important;
-    }
-    .select2-results__option--selectable{
-        background-color: #C0F4CA;
-        border-bottom: 1px solid gray;
-        transition: .5s;
-    }
-    .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable{
-        background-color: #38a700;
     }
 }

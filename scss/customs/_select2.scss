@@ -1,6 +1,14 @@
-.select2-container--open .select2-dropdown--below {
-    // width: 150px!important;
+// .select2-container--open .select2-dropdown--below {
+//     // width: 150px!important;
+// }
+// .select2-container {
+//     width: 100% !important;
+// }
+.select2-results__option--selectable {
+    background-color: #c0f4ca;
+    border-bottom: 1px solid gray;
+    transition: 0.5s;
 }
-.select2-container {
-    width: 100% !important;
+.select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
+    background-color: #38a700;
 }

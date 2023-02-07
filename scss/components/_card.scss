@@ -126,7 +126,6 @@
             font-weight: 500;
             font-size: 11px;
             line-height: 13px;
-            text-align: justify;
             color: #0f4a1a;
             margin-bottom: 0;
         }
@@ -195,6 +194,16 @@
 .card-diem-den {
     .card {
         border: none;
+        
+        .img-contain{
+            position: relative;
+            .heart{
+                position: absolute;
+                top: 17px;
+                right: 17px;
+                cursor: pointer;
+            }
+        }
         .card-img-top {
             border-radius: 10px 10px 0px 0px;
             height: 228.01px;

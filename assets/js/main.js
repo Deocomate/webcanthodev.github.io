@@ -158,18 +158,12 @@ $(document).ready(function () {
             loadDataLocation(newList)
         });
     }
-
+    //Khoi tao animation
     AOS.init();
-
-    $(".click-to-cmt").click(function (e) {
-        $(this).parent().next().toggleClass('d-none');
-    });
-
     $(".select2-search-form").select2()
     $(".select2-sort").select2({
         dropdow: "SortForm"
     })
-
     if ($(".circle-progress").length > 0) {
         let val = $(".circle-progress").attr('value')
         val = val.replace("%", "")
@@ -180,18 +174,9 @@ $(document).ready(function () {
             "background": `conic-gradient(#38a700 ${val * 0.01 * 360}deg, #d9d9d9 0deg)`
         })
     }
-
     $("#choose-file-in").click(function (e) {
         $("#choose-file-out").click()
     });
-
-
-
-
-
-
-
-
     $(".optionVal").click(function (e) {
         let value = $(this).attr("value")
         let valueText = $(this).html()
@@ -200,6 +185,18 @@ $(document).ready(function () {
         let $select = $(this).closest(".select").find("select");
         console.log($select.val());
     });
+
+
+    //Hieu ung like
+    $("img.heart").click(function (e) {
+        let src = $(this).attr("src");
+        if (src === "../assets/icon/heart-no-like.svg") {
+            $(this).attr("src", "../assets/icon/heart-like.svg");
+        } else {
+            $(this).attr("src", "../assets/icon/heart-no-like.svg");
+        }
+    });
+
 });
 
 function loadDataLocation(listData) {
@@ -221,7 +218,6 @@ function loadDataLocation(listData) {
 function convertVietnamese(str) {
     // remove spaces
     str = str.replace(/\s+/g, '');
-
     // convert Vietnamese characters to unsigned
     str = str.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
 
