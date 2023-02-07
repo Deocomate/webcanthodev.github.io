@@ -258,6 +258,10 @@
     outline: none;
 }
 
+#order-table .box-typing-info input::placeholder {
+    color: #38A700 !important;
+}
+
 #order-table .btn-order-table {
     width: 33%;
     margin: auto;
