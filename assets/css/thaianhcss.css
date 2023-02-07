@@ -14,6 +14,10 @@
     max-width: 1140px !important;
 }
 
+.pd-0 {
+    padding: 0;
+}
+
 /* #banner-cuisine */
 #banner-cuisine .box-image img {
     width: 100%;
@@ -185,7 +189,93 @@
 /* #cook-table */
 
 #cook-table .title-res p {
-    
+    text-align: center;
+    font-size: 36px;
+    line-height: normal;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#cook-table .title-res {
+    border-bottom: 1px solid #ffffff;
+}
+
+#cook-table {
+    background-color: #0F4A1A;
+}
+
+#cook-table .slide-cook-table {
+    padding: 0 15px;
+}
+
+#cook-table .slide-cook-table .box-img-slide img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding: 20px 10px;
+}
+
+/* order-table */
+
+#order-table {
+    padding: 20px 0;
+}
+
+#order-table .container {
+    max-width: 1066px !important;
+}
+
+#order-table .background-ct {
+    background-image: url(../imgs/thaianhimg/backgroundbooking.png);
+    width: 100%;
+    height: 483px;
+    position: relative;
+    border-radius: 10px;
+}
+
+#order-table .box-typing-info {
+    background-color: #ffffff;
+    width: 45%;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    border-radius: 10px;
+    padding: 56px 60px 40px 46px;
+}
+
+#order-table .box-typing-info input,
+#order-table .box-typing-info select {
+    border: none !important;
+    font-size: 20px !important;
+    font-weight: 700;
+    font-family: "Inter";
+    line-height: normal;
+    color: #38A700 !important;
+    border-bottom: 1px solid #0F4A1A !important;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    width: 100%;
+    outline: none;
+}
+
+#order-table .btn-order-table {
+    width: 33%;
+    margin: auto;
+}
+
+#order-table .btn-order-table button {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #38A700;
+    color: #ffffff;
+    transition: 0.8s;
+    margin-top: 20px;
+}
+
+#order-table .btn-order-table button:hover {
+    background-color: #0F4A1A;
+    transition: 0.8s;
 }
 
 
