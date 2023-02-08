@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="../assets/css/thaianhcss.css">
+    <link rel="stylesheet" href="../assets/thaianhjs/vendor/jquery-ui/jquery-ui-1.12.1/jquery-ui.min.css">
 
 </head>
 
@@ -313,7 +314,7 @@
                                         <input type="text" placeholder="Điện thoại">
                                     </label>
                                     <label class="col-lg-12">
-                                        <select name="Số người" id="">
+                                        <select name="" id="">
                                             <option value="">Số người</option>
                                             <option value="">1</option>
                                             <option value="">2</option>
@@ -328,10 +329,25 @@
                                         </select>
                                     </label>
                                     <label class="col-lg-12">
-                                        <input type="text" placeholder="Chọn ngày">
+                                        <input type="text" name="txtNgayThangNamSinh" id="txtNgayThangNamSinh" placeholder="Chọn ngày">
                                     </label>
                                     <label class="col-lg-12">
-                                        <input type="text" placeholder="Thời gian">
+                                        <select name="" id="">
+                                            <option value="">Thời gian</option>
+                                            <option value="">12:00 PM</option>
+                                            <option value="">00:30 AM</option>
+                                            <option value="">01:00 AM</option>
+                                            <option value="">01:30 AM</option>
+                                            <option value="">02:00 AM</option>
+                                            <option value="">02:30 AM</option>
+                                            <option value="">03:00 AM</option>
+                                            <option value="">03:30 AM</option>
+                                            <option value="">04:00 AM</option>
+                                            <option value="">04:30 AM</option>
+                                            <option value="">05:00 AM</option>
+                                            <option value="">05:30 AM</option>
+                                            <option value="">06:00 AM</option>
+                                        </select>
                                     </label>
                                     <label for="">
                                         <div class="btn-order-table">
@@ -454,6 +470,7 @@
     </footer>
 
     <!-- JS -->
+    <script src="../assets/thaianhjs/vendor/jquery-ui/jquery-ui-1.12.1/jquery-ui.min.js"></script>
     <script src="../assets/js/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -462,5 +479,14 @@
     <script src="../assets/js/forLib.js"></script>
     <script src="../assets/js/main.js"></script>
     <script src="../assets/thaianhjs/chitietamthuc.js"></script>
+
+    <script>
+        $('#txtNgayThangNamSinh').datepicker(
+          {
+            showButtonPanel: true,    
+            dateFormat: 'dd/mm/yy'
+          }
+        );
+    </script>
 </body>
 </html>
