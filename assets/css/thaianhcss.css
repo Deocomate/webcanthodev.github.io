@@ -202,6 +202,7 @@
 
 #cook-table {
     background-color: #0F4A1A;
+    padding: 30px 0;
 }
 
 #cook-table .slide-cook-table {
@@ -231,6 +232,7 @@
     height: 483px;
     position: relative;
     border-radius: 10px;
+    background-size: cover;
 }
 
 #order-table .box-typing-info {
@@ -241,6 +243,7 @@
     left: 50px;
     border-radius: 10px;
     padding: 56px 60px 40px 46px;
+    z-index: 10;
 }
 
 #order-table .box-typing-info input,
@@ -282,4 +285,128 @@
     transition: 0.8s;
 }
 
+.calendar-input {
+    position: relative;
+}
+
+.calendar-input img {
+    top: 24px;
+    width: 3%;
+    position: absolute;
+    right: 16px;
+}
+
+.bg-filter {
+    position: absolute;
+    background-color: #0F4A1A;
+    opacity: 0.5;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+@media (max-width:1024px) {
+    #order-table {
+        padding: 20px;
+    }
+    #order-table .btn-order-table {
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media (max-width:991px) {
+    #restaurant .detail-res .in-detail-res .img-res .box-image {
+        width: 50%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    #order-table .box-typing-info {
+        padding: 40px;
+    }
+    #order-table .btn-order-table {
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media (max-width:768px) {
+    #restaurant .row-info-3 .add-to-tour {      
+        width: 19%;
+        margin: auto;
+        padding-top: 20px;
+    }
+    #order-table .box-typing-info {
+        left: 20%;
+        width: 60%;
+    }
+}
+
+@media (max-width:600px) {
+    #restaurant .row-info-3 .add-to-tour {
+        width: 24%;
+    }
+    #order-table .box-typing-info {
+        left: 10%;
+        width: 80%;
+    }
+    #order-table .btn-order-table {
+        width: 35%;
+    }
+}
+
+@media (max-width:500px) {
+    #restaurant .row-info-3 .add-to-tour {
+        width: 29%;
+    }
+    #restaurant .row-info-2 {
+        display: block !important;
+    }
+    #restaurant .row-info-2 .describe-res {
+        width: 100%;
+        border: none;
+    }
+    #restaurant .row-info-2 .info-detail-res {
+        width: 100%;
+    }
+    #order-table .btn-order-table {
+        width: 45%;
+    }
+}
+
+@media (max-width:475px) {
+    #restaurant .row-info-3 .add-to-tour {
+        width: 31%;
+    }
+}
+
+@media (max-width:450px) {
+    #restaurant .row-info-3 .add-to-tour {
+        width: 33%;
+    }
+    #order-table .btn-order-table {
+        width: 50%;
+    }
+}
+
+@media (max-width:400px) {
+    #restaurant .row-info-3 .add-to-tour {
+        width: 40%;
+    }
+    #order-table .btn-order-table {
+        width: 60%;
+    }    
+}
+
+@media (max-width:380px) {
+    #order-table .btn-order-table {
+        width: 65%;
+    }
+}
 
