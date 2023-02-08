@@ -1,0 +1,115 @@
+#home-promotion.y-te-custom {
+    padding: 20px 0px 40px;
+    .custom-y-te {
+        height: 179px;
+        .img-contain {
+            height: 179px;
+            img {
+                height: 179px;
+            }
+        }
+    }
+}
+
+#home-events.y-te-custom {
+    .list-events-contain {
+        height: 450px;
+
+        background-color: transparent;
+        .contain {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            height: 100%;
+            // height: 300px;
+            .sort-input-contain {
+                height: 10%;
+            }
+            .list-events {
+                height: 90%;
+            }
+        }
+    }
+    .sort-input-contain .sort-input {
+        input {
+            background-color: transparent;
+        }
+        margin-top: 0;
+        background: rgba(56, 167, 0, 0.1);
+        border: 1.5px solid #38a700;
+        border-radius: 5px;
+    }
+    .item {
+        .img {
+            img {
+                width: 144.5px;
+                height: 108.81px;
+                object-fit: cover;
+                border-radius: 10px;
+                margin-right: 10px;
+            }
+        }
+        .content {
+            h5 {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 29px;
+                text-align: justify;
+                color: #0f4a1a;
+            }
+            i {
+                color: #38a700;
+                margin-top: 2px;
+                font-size: 10px;
+            }
+            p {
+                font-family: "Inter";
+                font-style: normal;
+                text-align: left;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 17px;
+                color: #0f4a1a;
+            }
+            .justify-content-end {
+                span {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-align: right;
+                    color: #38a700;
+                    margin-right: 10px;
+                }
+                img {
+                    width: 10px;
+                }
+            }
+        }
+    }
+}
+
+@include responsive($size-xl) {
+    #home-promotion.y-te-custom {
+        .btn-arr {
+            display: none !important;
+        }
+    }
+}
+@include responsive($size-md) {
+    #home-events.y-te-custom {
+        padding: 20px 0px;
+        .video-contain {
+            margin-top: 20px;
+        }
+    }
+    #home-events.y-te-custom .item .content h5{
+        text-align: left;
+        font-size: 20px;
+    }
+    #home-events.y-te-custom .item .content p{
+        font-size: 10px;
+    }
+}

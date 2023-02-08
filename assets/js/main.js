@@ -43,6 +43,52 @@ $(document).ready(function () {
             // instead of a settings object
         ]
     });
+    $('.carousel-tien-ich').slick({
+        slidesToShow: 4,
+        dots: false,
+        centerMode: false,
+        prevArrow: //html
+            `
+        <button class="btn-arr btn-prev">
+        <img src="../assets/icon/arrow-left.svg" />
+        </button>
+        `,
+        nextArrow: //html
+            `
+        <button class="btn-arr btn-next">
+        <img src="../assets/icon/arrow-right.svg" />
+        </button>
+        `,
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    arrows:false,
+                    infinite: true,
+                    dots: true,
+                    prevArrow: ``,
+                    nextArrow: "",
+                }
+            },
+            {
+                breakpoint: 765.98,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
+
     $('.myslider').slick({
         slidesToScroll: 1,
         arrows: false,

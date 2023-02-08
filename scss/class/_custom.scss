@@ -1,37 +1,39 @@
-.text--green{
+.text--green {
     color: $color-green-0;
 }
-.text--green-1{
+.text--green-1 {
     color: $color-green-1;
 }
-.text--black{
+.text--black {
     color: $color-black;
 }
-.text--gray{
+.text--gray {
     color: $color-gray;
 }
-.text--white{
+.text--white {
     color: $color-white;
 }
 
 //Bg
-.bgc--green{
+.bgc--green {
     background-color: $color-green-0;
 }
-.bgc--green-1{
+.bgc--green-1 {
     background-color: $color-green-1;
 }
-.bgc--black{
+.bgc--black {
     background-color: $color-black;
 }
-.bgc--gray{
+.bgc--gray {
     background-color: $color-gray;
 }
-.bgc--white{
+.bgc--white {
     background-color: $color-white;
 }
-
+.bgc-green-super {
+    background: rgba(56, 167, 0, 0.1);
+}
 //
-.font-inter{
-    font-family: Inter!important;
+.font-inter {
+    font-family: Inter !important;
 }
