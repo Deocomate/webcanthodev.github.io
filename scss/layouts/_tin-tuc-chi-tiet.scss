@@ -108,4 +108,10 @@
     .comments h4::after{
         margin: 0 auto;
     }
+    .img-ad{
+        img{
+            height: 400px;
+            object-fit: cover;
+        }
+    }
 }
