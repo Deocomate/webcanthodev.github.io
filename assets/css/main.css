@@ -628,7 +628,6 @@ a {
     height: 156px;
     border: 2px solid rgba(113, 113, 113, 0.6);
     border-radius: 5px;
-    resize: none;
     padding: 22px 19px; }
   .comment img {
     display: block;
