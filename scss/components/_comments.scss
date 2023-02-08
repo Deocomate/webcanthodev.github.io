@@ -25,6 +25,17 @@
     }
 }
 .comment {
+    .comment-detail {
+        width: 100%;
+    }
+    textarea {
+        width: 100%;
+        height: 156px;
+        border: 2px solid rgba(113, 113, 113, 0.6);
+        border-radius: 5px;
+        resize: none;
+        padding: 22px 19px;
+    }
     border-radius: 5px;
     overflow: hidden;
     img {
@@ -54,7 +65,7 @@
             text-align: justify;
             color: #717171;
         }
-        .align-items-center{
+        .align-items-center {
             span {
                 font-style: normal;
                 font-weight: 700;
@@ -65,22 +76,22 @@
                 cursor: pointer;
             }
         }
-        form{
-            input{
-                padding: 10px ;
+        form {
+            input {
+                padding: 10px;
                 padding-right: 50px;
             }
-            .send-message{
+            .send-message {
                 width: 30px;
                 height: 30px;
                 margin-right: 10px;
-                button{
+                button {
                     background-color: transparent;
                     border: none;
                     width: 30px;
                     height: 30px;
                 }
-                i{
+                i {
                     font-size: 15px;
                 }
             }
@@ -94,7 +105,8 @@
         text-align: justify;
         color: #0f4a1a;
     }
-    a,i {
+    a,
+    i {
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
@@ -102,7 +114,7 @@
         /* identical to box height */
         color: #38a700;
     }
-    i{
+    i {
         font-size: 25px;
     }
 }

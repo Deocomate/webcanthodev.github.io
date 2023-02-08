@@ -621,6 +621,15 @@ a {
 .comment {
   border-radius: 5px;
   overflow: hidden; }
+  .comment .comment-detail {
+    width: 100%; }
+  .comment textarea {
+    width: 100%;
+    height: 156px;
+    border: 2px solid rgba(113, 113, 113, 0.6);
+    border-radius: 5px;
+    resize: none;
+    padding: 22px 19px; }
   .comment img {
     display: block;
     width: 58px;
@@ -673,7 +682,8 @@ a {
     line-height: 19px;
     text-align: justify;
     color: #0f4a1a; }
-  .comment a, .comment i {
+  .comment a,
+  .comment i {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
