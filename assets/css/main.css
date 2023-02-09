@@ -743,6 +743,9 @@ a {
   .banner-top .search-bar .type .select2-container {
     width: 200px !important;
     border-left: 1px solid #38a700; }
+  .banner-top .search-bar .service input {
+    border-left: 1px solid #38a700;
+    height: 28px; }
   .banner-top .search-bar .service .select2-container {
     width: 160px !important;
     border-left: 1px solid #38a700; }
