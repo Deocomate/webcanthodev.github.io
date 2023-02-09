@@ -1600,6 +1600,11 @@ a {
   text-align: justify;
   color: #38a700; }
 
+@media (max-width: 1199.98px) {
+  .img-ad img {
+    height: 600px;
+    object-fit: cover; } }
+
 @media (max-width: 767.98px) {
   .comments h4 {
     text-align: center; }
@@ -2297,6 +2302,14 @@ a {
   padding: 20px 0px 40px; }
   #home-promotion.y-te-custom .custom-y-te {
     height: 179px; }
+    #home-promotion.y-te-custom .custom-y-te .title p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      color: #ffffff; }
     #home-promotion.y-te-custom .custom-y-te .img-contain {
       height: 179px; }
       #home-promotion.y-te-custom .custom-y-te .img-contain img {
@@ -2320,6 +2333,7 @@ a {
   border: 1.5px solid #38a700;
   border-radius: 5px; }
   #home-events.y-te-custom .sort-input-contain .sort-input input {
+    padding: 0px 10px;
     background-color: transparent; }
 
 #home-events.y-te-custom .item .img img {

@@ -1,6 +1,17 @@
 #home-promotion.y-te-custom {
     padding: 20px 0px 40px;
     .custom-y-te {
+        .title {
+            p {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 29px;
+                text-align: center;
+                color: #ffffff;
+            }
+        }
         height: 179px;
         .img-contain {
             height: 179px;
@@ -14,7 +25,6 @@
 #home-events.y-te-custom {
     .list-events-contain {
         height: 450px;
-
         background-color: transparent;
         .contain {
             padding-top: 0px;
@@ -31,6 +41,7 @@
     }
     .sort-input-contain .sort-input {
         input {
+            padding: 0px 10px;
             background-color: transparent;
         }
         margin-top: 0;
@@ -105,11 +116,11 @@
             margin-top: 20px;
         }
     }
-    #home-events.y-te-custom .item .content h5{
+    #home-events.y-te-custom .item .content h5 {
         text-align: left;
         font-size: 20px;
     }
-    #home-events.y-te-custom .item .content p{
+    #home-events.y-te-custom .item .content p {
         font-size: 10px;
     }
 }
