@@ -979,7 +979,8 @@ a {
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    margin-top: 25px; }
+    margin-top: 25px;
+    margin-bottom: 29px; }
   #footer .container .foot-right ul {
     list-style-type: none;
     padding-left: 10px; }
