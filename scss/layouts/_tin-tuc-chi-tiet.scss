@@ -101,6 +101,16 @@
         }
     }
 }
+
+@include responsive($size-lg){
+    .img-ad{
+        img{
+            height: 600px;
+            object-fit: cover;
+        }
+    }
+}
+
 @include responsive($size-md){
     .comments h4{
         text-align: center;
