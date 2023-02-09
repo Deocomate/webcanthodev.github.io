@@ -44,6 +44,9 @@ $(document).ready(function () {
         ]
     });
     $('.carousel-tien-ich').slick({
+
+        autoplay:true,
+        autoplaySpeed:1000,
         slidesToShow: 4,
         dots: false,
         centerMode: false,
@@ -88,7 +91,6 @@ $(document).ready(function () {
             // instead of a settings object
         ]
     });
-
     $('.myslider').slick({
         slidesToScroll: 1,
         arrows: false,
@@ -118,6 +120,7 @@ $(document).ready(function () {
         dots: true,
         centerMode: true,
         arrows: true,
+        autoplay:true,
         prevArrow: //html
             `
         <button class="btn-arr btn-prev">
