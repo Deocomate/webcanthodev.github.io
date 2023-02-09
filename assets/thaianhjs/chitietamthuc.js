@@ -3,6 +3,9 @@ $(document).ready(function () {
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
+        arrows: true,
+        prevArrow:`<button type='button' class='arrow-banner-prev'><img src="../assets/imgs/thaianhimg/icon/prev.png" alt=""></button>`,
+        nextArrow:`<button type='button' class='arrow-banner-next'><img src="../assets/imgs/thaianhimg/icon/next.png" alt=""></button>`,
         responsive: [
           {
               breakpoint: 500,
@@ -24,8 +27,8 @@ $(document).ready(function () {
         slidesToShow: 4,
         slidesToScroll: 1,
         arrows: true,
-        prevArrow:`<button type='button' class=''>a</button>`,
-        nextArrow:`<button type='button' class=''>a</button>`,
+        prevArrow:`<button type='button' class='arrow-ct-prev'><i class="fa-solid fa-angle-left"></i></button>`,
+        nextArrow:`<button type='button' class='arrow-ct-next'><i class="fa-solid fa-angle-right"></i></button>`,
         responsive: [
         {
             breakpoint: 500,
