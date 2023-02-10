@@ -2495,8 +2495,16 @@ a {
   text-align: justify;
   color: #38a700; }
 
-.khao-sat-page.banner-top .search-bar input, .khao-sat-page .search-bar select {
+.khao-sat-page.banner-top .search-bar input,
+.khao-sat-page .search-bar select {
   width: 350px !important; }
+
+.khao-sat-page .search-bar .cost .select2-container {
+  width: 300px !important; }
+
+@media (max-width: 1199.98px) {
+  .khao-sat-page .search-bar .cost .select2-container {
+    width: 100% !important; } }
 
 .khao-sat-list .list-company-contain .img-contain {
   width: 202px;

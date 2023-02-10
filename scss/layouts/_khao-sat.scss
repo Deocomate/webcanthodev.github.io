@@ -1,6 +1,15 @@
-.khao-sat-page{
-    &.banner-top .search-bar input,.search-bar select{
-        width: 350px!important;
+.khao-sat-page {
+    &.banner-top .search-bar input,
+    .search-bar select {
+        width: 350px !important;
+    }
+    .search-bar .cost .select2-container {
+        width: 300px !important;
+    }
+    @include responsive($size-lg){
+        .search-bar .cost .select2-container {
+            width: 100% !important;
+        }
     }
 }
 .khao-sat-list {
