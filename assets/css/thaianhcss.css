@@ -367,42 +367,59 @@
     top: 25px;
     left: 50px;
     border-radius: 10px;
-    padding: 56px 60px 40px 46px;
+    padding: 42px 60px 21px 46px;
     z-index: 10;
 }
 
 #order-table .box-typing-info input,
 #order-table .box-typing-info select {
-    border: none !important;
     font-size: 20px !important;
     font-weight: 500;
     font-family: "Inter";
     line-height: normal;
     color: #38A700;
-    border-bottom: 1px solid #0F4A1A !important;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-top: 10px;
+    border: 1px solid #38A700 !important;
+    padding: 8px 10px;
     width: 100%;
     outline: none;
     transition: .8s;
+    border-radius: 5px;
 }
 
-#order-table .box-typing-info input::placeholder {
+#order-table .box-typing-info input {
+    padding: 8px 15px !important;
+}
+
+.border-bot-ot {
+    padding: 10px 0;
+    border-bottom: 1px solid #0F4A1A !important;
+}
+
+#order-table label {
+    width: 40%;
+    font-size: 20px;
+    font-family: "Inter";
+    line-height: normal;
+    font-weight: 700;
+    color: #38A700;
+    padding: 11px 0 0 0;
+}
+
+/* #order-table .box-typing-info input::placeholder {
     color: #38A700 ;
 }
 
 #order-table .box-typing-info input:hover::placeholder {
     color: #ffffff !important;
     transition: 0.8s;
-}
+} */
 
-#order-table .box-typing-info input:hover {
+/* #order-table .box-typing-info input:hover {
     background-color: #0F4A1A;
     color: #ffffff;
     padding-left: 10px;
     transition: 0.8s;
-}
+} */
 
 #order-table .btn-order-table {
     width: 33%;
@@ -426,13 +443,14 @@
 
 .calendar-input {
     position: relative;
+    width: 100%;
 }
 
 .calendar-input img {
-    top: 24px;
+    top: 16px;
     width: 3%;
     position: absolute;
-    right: 16px;
+    right: 6px;
 }
 
 .bg-filter {
