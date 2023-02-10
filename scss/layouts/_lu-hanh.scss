@@ -20,30 +20,34 @@
                     text-align: justify;
                     color: #0f4a1a;
                 }
-                .list {
-                    .list-property {
-                        margin-bottom: 10px;
-                        i {
-                            color: #38a700;
-                            margin-right: 5px;
-                        }
-                        b {
-                            font-family: "Inter";
-                            font-style: normal;
-                            font-weight: 700;
-                            font-size: 14px;
-                            line-height: 17px;
-                            text-align: justify;
-                            color: #0f4a1a;
-                        }
-                        span {
-                            font-family: "Inter";
-                            font-size: 14px;
-                            line-height: 17px;
-                        }
-                    }
-                }
+                
             }
+        }
+    }
+}
+
+.list-contact {
+    .list-property {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        i {
+            color: #38a700;
+            margin-right: 5px;
+        }
+        b {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: justify;
+            color: #0f4a1a;
+        }
+        span {
+            font-family: "Inter";
+            font-size: 14px;
+            line-height: 17px;
         }
     }
 }

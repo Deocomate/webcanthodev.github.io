@@ -241,7 +241,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif; }
+  font-family: "Inter", sans-serif; }
 
 .container {
   max-width: 1055px !important; }
@@ -824,6 +824,19 @@ a {
     width: 100% !important; }
   .banner-top.style-1 .bg {
     padding: 55px 0px !important; } }
+
+.breadcrumb-custom li {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: flex-end;
+  text-align: justify;
+  color: #717171; }
+  .breadcrumb-custom li.active {
+    color: #38A700; }
 
 #header * {
   font-family: Inter !important; }
@@ -2226,23 +2239,26 @@ a {
         line-height: 29px;
         text-align: justify;
         color: #0f4a1a; }
-      #lu-hanh-list-company .list-company-contain .item .content .list .list-property {
-        margin-bottom: 10px; }
-        #lu-hanh-list-company .list-company-contain .item .content .list .list-property i {
-          color: #38a700;
-          margin-right: 5px; }
-        #lu-hanh-list-company .list-company-contain .item .content .list .list-property b {
-          font-family: "Inter";
-          font-style: normal;
-          font-weight: 700;
-          font-size: 14px;
-          line-height: 17px;
-          text-align: justify;
-          color: #0f4a1a; }
-        #lu-hanh-list-company .list-company-contain .item .content .list .list-property span {
-          font-family: "Inter";
-          font-size: 14px;
-          line-height: 17px; }
+
+.list-contact .list-property {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; }
+  .list-contact .list-property i {
+    color: #38a700;
+    margin-right: 5px; }
+  .list-contact .list-property b {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    color: #0f4a1a; }
+  .list-contact .list-property span {
+    font-family: "Inter";
+    font-size: 14px;
+    line-height: 17px; }
 
 .sort .sort-list {
   border-radius: 0px 0px 10px 10px;
@@ -2397,3 +2413,49 @@ a {
     font-size: 20px; }
   #home-events.y-te-custom .item .content p {
     font-size: 10px; } }
+
+.tien-ich-chi-tiet-article h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 108.02%;
+  /* or 35px */
+  text-align: justify;
+  color: #38a700;
+  margin-bottom: 22px; }
+
+.tien-ich-chi-tiet-article .images-list .img-top {
+  height: 278.35px !important;
+  object-fit: cover; }
+
+.tien-ich-chi-tiet-article .images-list img {
+  height: 137.69px;
+  object-fit: cover; }
+
+.tien-ich-chi-tiet-article .detail h5 {
+  margin-top: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  color: #0f4a1a; }
+
+.tien-ich-chi-tiet-article .detail p {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: justify;
+  color: #0f4a1a; }
+
+.tien-ich-chi-tiet-aside h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+  color: #38a700; }
