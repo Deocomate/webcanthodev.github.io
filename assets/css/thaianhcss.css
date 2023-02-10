@@ -10,6 +10,14 @@
     justify-content: space-between;
 }
 
+.j-center {
+    justify-content: center;
+}
+
+.j-space-around {
+    justify-content: space-around;
+}
+
 .container-mw {
     max-width: 1140px !important;
 }
@@ -508,6 +516,211 @@
 
 #local-map .box-map .box-iframe iframe {
     border-radius: 10px;
+}
+
+/* #schedule-banner */
+
+#schedule-banner .bread-crumb ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+
+#schedule-banner .bread-crumb {
+    z-index: 10;
+}
+
+#schedule-banner .bread-crumb ul li {
+    padding: 0 5px;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 400;
+    color: #ffffff;
+    z-index: 10;
+}
+
+#schedule-banner .bread-crumb ul li a {
+    color: #ffffff;
+}
+
+#schedule-banner .bread-crumb ul li:last-child {
+    font-weight: 600;
+}
+
+#schedule-banner .background-sb {
+    background-image: url(../imgs/thaianhimg/cantho.png);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+
+#schedule-banner .background-sb-filter {
+    position: absolute;
+    background: linear-gradient(180deg, rgba(15, 74, 26, 0.89) 0%, rgba(15, 74, 26, 0.654942) 20.31%, rgba(15, 74, 26, 0.5) 45.31%, rgba(15, 74, 26, 0.651416) 66.15%, rgba(15, 74, 26, 0.89) 100%);;
+    opacity: 0.5;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#schedule-banner .info-schedule {
+    position: absolute;
+    bottom: 49px;
+    left: 100px;
+    z-index: 10;
+}
+
+#schedule-banner .info-schedule .title-schedule p {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Inter";
+    line-height: normal;
+    color: #ffffff;
+    margin-bottom: 45px;
+}
+
+#schedule-banner .info-schedule .view-comment-schedule {
+    margin-bottom: 27px;
+}
+
+#schedule-banner .info-schedule .view-comment-schedule,
+#schedule-banner .info-schedule .view-comment-schedule .view-schedule,
+#schedule-banner .info-schedule .view-comment-schedule .comment-schedule {
+    display: flex;
+}
+
+#schedule-banner .info-schedule .view-comment-schedule p {
+    color: #ffffff;
+    margin-left: 8px;
+}
+
+#schedule-banner .info-schedule .view-comment-schedule .comment-schedule {
+    margin-left: 30px;
+}
+
+#schedule-banner .info-schedule .update-schedule button {
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #38A700;
+}
+
+/* pop-up */
+.pu-ut .modal-header {
+    border-bottom: none;
+}
+
+.pu-ut .create-new-tour,
+.pu-ut .add-to-tour {
+    margin-top: 20px;
+}
+
+.pu-ut .create-new-tour button,
+.pu-ut .add-to-tour button {
+    padding: 12px 50px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #38A700;
+}
+
+.pu-ut .mt-20-percent {
+    margin-top: 18%;
+}
+
+.pu-ut .add-to-tour {
+    margin-left: -185px;
+}
+
+.pop-up-fix {
+    width: 144% !important;
+    margin-left: -105px !important;
+}
+
+.pu-ut .x-mark-icon {
+    outline: none;
+    background: none;
+    border: none;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 10;
+}
+
+.pu-ut .x-mark-icon i {
+    font-size: 30px;
+    color: #0F4A1A;
+}
+
+/* #detail-schedule */
+
+#detail-schedule {
+    background: rgba(56, 167, 0, 0.1);
+}
+
+#detail-schedule .day-schedule {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#detail-schedule ul {
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 60px;
+    background-color: #ffffff;
+    width: 31.5%;
+    border-radius: 5px;
+    color: #38A700;
+}
+
+#detail-schedule .day-schedule ul .first-ds {
+    border-right: 1px solid #0f4a1a62;
+    color: #38A700;
+    margin: 0;
+    padding: 20px 30px;
+}
+
+#detail-schedule ul .number-ds {
+    padding: 20px 35px;
+    transition: .8s;
+}
+
+#detail-schedule ul .number-ds a {
+    color: #0F4A1A;
+}
+
+#detail-schedule ul li:hover {
+    transition: .8s;
+    background-color: #38A700;
+}
+
+#detail-schedul ul li:hover a {
+    color: #ffffff;
+}
+
+#detail-schedule ul .border-li {
+    padding: 10px 0;
+    margin: 15px 0;
+    border-right: 1px solid #0f4a1a62;
 }
 
 @media (max-width:1024px) {
