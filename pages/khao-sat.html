@@ -15,13 +15,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+
+
     <!-- Select2 -->
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
     <!-- CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/css/main.css">
@@ -74,7 +73,7 @@
         <nav class="navbar navbar-expand-xl bgc--white">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="../assets/icon/logo.png" alt="">
+                    <img src="../assets/icon/logoFull.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-content"
                     aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
@@ -132,11 +131,11 @@
             <div class="bg">
                 <div class="container">
                     <div class="d-flex flex-column justify-content-center align-items-center">
-                        <h1>Công Ty Lữ Hành</h1>
+                        <h1>Danh sách khảo sát</h1>
                         <nav class="mb-5" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Công ty lữ hành</li>
+                                <li class="breadcrumb-item active" aria-current="page">Danh sách khảo sát</li>
                             </ol>
                         </nav>
                         <div class="search-bar">
@@ -155,7 +154,7 @@
                                             <option value="E">Thành phố Quảng Nam</option>
                                             <option value="F">Thành phố Quảng Ninh</option>
                                             <option value="H">Thành phố Hạ Long</option>
-                                            
+
                                         </select>
                                     </div>
                                     <div class="col col-select type">
@@ -182,120 +181,57 @@
             </div>
         </section>
 
-        
-        <section id="lu-hanh-list-company">
-            <div class="container">
-                <div class="sort mb-4">
-                    <div class="d-flex-mid justify-content-center justify-content-lg-end pt-3 pt-lg-0">
-                        <div class="d-flex-mid sort-list flex-column flex-lg-row">
-                            <label for="">Sắp xếp theo</label>
-                            <div class="select">
-                                <div class="dropdown">
-                                    <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Đánh giá
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><span class="dropdown-item optionVal" value="1">Thấp đến cao</span></li>
-                                        <li><span class="dropdown-item optionVal" value="2">Cao đến thấp</span></li>
-                                    </ul>
+
+
+        <section class="khao-sat-list">
+            <div class="bgc-green-super">
+                <div class="container py-5 pb-3">
+                    <div class="row g-3 list-company-contain" loop="6">
+                        <div class="col-12 col-md-6">
+                            <div class="item mb-4">
+                                <div class="d-flex flex-column flex-lg-row w-100">
+                                    <div class="img-contain">
+                                        <img src="../assets/imgs/company.png" alt="">
+                                    </div>
+                                    <div class="content w-100 p-4 pb-2">
+                                        <h3>Khảo sát Cần Thơ 1</h3>
+                                        <div class="list-contact">
+                                            <div class="list-property">
+                                                <i class="bi bi-clock-fill"></i>
+                                                <span>120 phút</span>
+                                            </div>
+                                            <div class="list-property">
+                                                <i class="bi bi-pencil-fill"></i>
+                                                <span>20 câu</span>
+                                            </div>
+                                            <div class="list-property">
+                                                <i class="bi bi-hourglass-bottom"></i>
+                                                <span>5 phút</span>
+                                            </div>
+                                        </div>
+                                        <a href="" class="link btn btn-green">Xem chi tiết</a>
+                                    </div>
                                 </div>
-                                <select name="" class="d-none" id="">
-                                    <option value="1">Đánh giá</option>
-                                    <option value="2">Đánh giá</option>
-                                    <option value="3">Đánh giá</option>
-                                </select>
-                                <img src="../assets/icon/arrow-down.svg" alt="">
-                            </div>
-                            <div class="select">
-                                <div class="dropdown">
-                                    <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Khoảng cách
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><span class="dropdown-item optionVal" value="1">Xa đến gần</span></li>
-                                        <li><span class="dropdown-item optionVal" value="2">Gần đến xa</span></li>
-                                    </ul>
-                                </div>
-                                <select name="" class="d-none" id="">
-                                    <option value="1">Đánh giá</option>
-                                    <option value="2">Đánh giá</option>
-                                    <option value="3">Đánh giá</option>
-                                </select>
-                                <img src="../assets/icon/arrow-down.svg" alt="">
-                            </div>
-                            <div class="select">
-                                <div class="dropdown">
-                                    <button class="dropdown-toggle border-end-0" type="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Thích
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><span class="dropdown-item optionVal" value="1">Thấp đến cao</span></li>
-                                        <li><span class="dropdown-item optionVal" value="2">Cao đến thấp</span></li>
-                                    </ul>
-                                </div>
-                                <select name="" class="d-none" id="">
-                                    <option value="1">Đánh giá</option>
-                                    <option value="2">Đánh giá</option>
-                                    <option value="3">Đánh giá</option>
-                                </select>
-                                <img src="../assets/icon/arrow-down.svg" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="list-company-contain">
-                    <ul class="list-unstyled" loop="4">
-                        <li class="item mb-4">
-                            <div class="d-flex flex-column flex-lg-row w-100">
-                                <div class="img-contain">
-                                    <img src="../assets/imgs/company.png" alt="">
-                                </div>
-                                <div class="content w-100 p-4 pb-2">
-                                    <h3>Công ty du lịch MeKong Smile Tour tại Cần Thơ</h3>
-                                    <div class="list">
-                                        <div class="list-property">
-                                            <i class="bi bi-geo-alt-fill"></i>
-                                            <span>Số 81 Châu Văn Liêm, phường Tân An, quận Ninh Kiều, TP. Cần Thơ</span>
-                                        </div>
-                                        <div class="list-property">
-                                            <i class="bi bi-envelope-fill"></i>
-                                            <span>deocomate@gmail.com</span>
-                                        </div>
-                                        <div class="list-property">
-                                            <i class="bi bi-telephone-fill"></i>
-                                            <span>056561189</span>
-                                        </div>
-                                        <div class="list-property">
-                                            <i class="bi bi-globe"></i>
-                                            <span>https://nucuoimekong.com</span>
-                                        </div>
-                                        <div class="list-property">
-                                            <i class="bi bi-youtube"></i>
-                                            <span>https://www.youtube.com/channel/UCZYxpW6</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="paginate mt-4 mb-3 mb-lg-0 pb-5">
-                    <ul class="ps-0 mb-0 list-unstyled d-flex">
-                        <li><a href=""><img src="../assets/imgs/paginate-left-arr.svg" alt=""></a></li>
-                        <li class="active"><a href="">1</a></li>
-                        <li><a href="">2</a></li>
-                        <li><a href="">3</a></li>
-                        <li><a href="" class="dots"><i class="bi bi-three-dots"></i></a></li>
-                        <li><a href="">9</a></li>
-                        <li><a href=""><img src="../assets/imgs/paginate-right-arr.svg" alt=""></a></li>
-                    </ul>
-                </div>
             </div>
         </section>
+
+        <div class="paginate pb-5 mb-lg-0 bgc-green-super">
+            <ul class="ps-0 mb-0 list-unstyled d-flex">
+                <li><a href=""><img src="../assets/imgs/paginate-left-arr.svg" alt=""></a></li>
+                <li class="active"><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="" class="dots"><i class="bi bi-three-dots"></i></a></li>
+                <li><a href="">9</a></li>
+                <li><a href=""><img src="../assets/imgs/paginate-right-arr.svg" alt=""></a></li>
+            </ul>
+        </div>
     </main>
+
 
     <footer id="footer" style="background-image: url('../assets/imgs/bg-foot.png');">
         <div class="bg-black">
@@ -407,12 +343,12 @@
 
     <!-- JS -->
     <script src="../assets/js/jquery.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.js"></script>
     <script src="../assets/js/slick.min.js"></script>
     <script src="../assets/js/forLib.js"></script>
     <script src="../assets/js/main.js"></script>
 </body>
 
-</html>
+</html>`

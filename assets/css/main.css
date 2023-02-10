@@ -2256,23 +2256,24 @@ a {
 
 #lu-hanh-list-company {
   background-color: rgba(56, 167, 0, 0.1); }
-  #lu-hanh-list-company .list-company-contain .item {
-    border-radius: 10px; }
-    #lu-hanh-list-company .list-company-contain .item img {
-      width: 365px;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 10px 0px 0px 10px; }
-    #lu-hanh-list-company .list-company-contain .item .content {
-      background-color: white; }
-      #lu-hanh-list-company .list-company-contain .item .content h3 {
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 29px;
-        text-align: justify;
-        color: #0f4a1a; }
+
+.list-company-contain .item {
+  border-radius: 10px; }
+  .list-company-contain .item img {
+    width: 365px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px; }
+  .list-company-contain .item .content {
+    background-color: white; }
+    .list-company-contain .item .content h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: justify;
+      color: #0f4a1a; }
 
 .list-contact .list-property {
   display: flex;
@@ -2323,9 +2324,9 @@ a {
       padding: 0; }
       .sort .sort-list .select ul li {
         border-bottom: 1px solid gray;
-        background: #C0F4CA;
+        background: #c0f4ca;
         padding: 10px;
-        transition: .5s; }
+        transition: 0.5s; }
         .sort .sort-list .select ul li:hover {
           background-color: #38a700; }
           .sort .sort-list .select ul li:hover span {
@@ -2493,3 +2494,41 @@ a {
   line-height: 29px;
   text-align: justify;
   color: #38a700; }
+
+.khao-sat-page.banner-top .search-bar input, .khao-sat-page .search-bar select {
+  width: 350px !important; }
+
+.khao-sat-list .list-company-contain .img-contain {
+  width: 202px;
+  height: 228px;
+  object-fit: cover; }
+
+.khao-sat-list .list-company-contain .item .content h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+  color: #0f4a1a; }
+
+.khao-sat-list .list-contact .list-property {
+  margin-bottom: 1px; }
+  .khao-sat-list .list-contact .list-property span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #0f4a1a; }
+
+.khao-sat-list .link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10px; }

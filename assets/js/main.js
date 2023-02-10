@@ -213,6 +213,8 @@ $(document).ready(function () {
     $(".select2-sort").select2({
         dropdow: "SortForm"
     })
+
+    
     if ($(".circle-progress").length > 0) {
         let val = $(".circle-progress").attr('value')
         val = val.replace("%", "")
