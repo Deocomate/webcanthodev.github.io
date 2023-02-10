@@ -1,0 +1,45 @@
+.table-section {
+    table {
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        thead {
+            color: white;
+            background-color: #38a700;
+            th {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 29px;
+                color: #ffffff;
+                text-align: center;
+            }
+            // border-radius: 10px 10px 0px 0px!important;
+        }
+        tbody {
+            tr:nth-child(even) {
+                background: rgba(15, 74, 26, 0.15);
+            }
+            td {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                color: #0f4a1a;
+                padding: 14px 15px;
+                text-align: center;
+
+                a {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #38a700;
+                }
+            }
+        }
+    }
+}

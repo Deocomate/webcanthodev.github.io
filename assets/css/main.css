@@ -838,6 +838,40 @@ a {
   .breadcrumb-custom li.active {
     color: #38A700; }
 
+.table-section table {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden; }
+  .table-section table thead {
+    color: white;
+    background-color: #38a700; }
+    .table-section table thead th {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      color: #ffffff;
+      text-align: center; }
+  .table-section table tbody tr:nth-child(even) {
+    background: rgba(15, 74, 26, 0.15); }
+  .table-section table tbody td {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0f4a1a;
+    padding: 14px 15px;
+    text-align: center; }
+    .table-section table tbody td a {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: #38a700; }
+
 #header * {
   font-family: Inter !important; }
 
