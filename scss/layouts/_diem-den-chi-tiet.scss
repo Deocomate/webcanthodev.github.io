@@ -27,9 +27,6 @@
     }
 }
 #diem-den-chi-tiet-detail {
-    * {
-        font-family: "Inter";
-    }
     .header {
         h1 {
             font-style: normal;
@@ -58,35 +55,23 @@
             object-fit: cover;
             border-radius: 10px;
         }
-        .user-selection {
-            a {
-                width: 50%;
-                padding: 15px;
-                font-style: normal;
-                font-weight: 700;
-                font-size: 20px;
-                line-height: 24px;
-                text-align: center;
-                color: #ffffff;
-                &:first-child {
-                    margin-right: 10px;
-                }
-                &:last-child {
-                    margin-left: 10px;
-                }
-            }
-        }
         .thong-tin-nhanh {
             background-color: white;
             margin-top: 10px;
             border-radius: 10px;
-            ul li {
-                padding-left: 0;
-                border-bottom: none;
+            .contact-item {
+                margin-bottom: 15px;
                 i {
-                    color: #38a700;
                     font-size: 20px;
-                    margin-right: 10px;
+                    color: #38a700;
+                }
+                b {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #0f4a1a;
                 }
                 span {
                     font-family: "Inter";
@@ -97,9 +82,17 @@
                     color: #0f4a1a;
                 }
             }
+            .btn {
+                width: 100%;
+                max-width: 466px;
+            }
         }
-        .diem-noi-bat {
-            ul li {
+
+        .chi-tiet {
+            background-color: white;
+            padding: 36px 58px;
+            border-radius: 10px;
+            p {
                 font-family: "Inter";
                 font-style: normal;
                 font-weight: 400;
@@ -108,6 +101,7 @@
                 color: #0f4a1a;
             }
         }
+
         .tour-goi-y {
             .position-relative {
                 span {
@@ -190,6 +184,8 @@
         }
     }
     .list-react-contain {
+        width: 100%;
+        max-width: 544px;
         ul {
             li {
                 margin-bottom: 16px;
@@ -204,7 +200,7 @@
                     white-space: nowrap;
                     // width: 100px;
                     // display: block;
-                    &:first-child{
+                    &:first-child {
                         margin-right: 10px;
                     }
                     &:last-child {
@@ -230,90 +226,14 @@
             }
         }
     }
-    .user-image-rate-contain {
-        span {
-            font-family: "Inter";
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 17px;
-            color: #38a700;
-            opacity: 0.8;
-            margin-right: 30px;
-        }
-        ul {
-            li {
-                margin-right: 10px;
-                img {
-                    width: 52px;
-                    height: 52px;
-                    object-fit: cover;
-                    border-radius: 5px;
-                }
-                .overlay {
-                    background: rgba(113, 113, 113, 0.6);
-                    width: 52px;
-                    border-radius: 5px;
-                    height: 52px;
-                    span {
-                        color: white;
-                        margin-right: 0px;
-                    }
-                }
-            }
-        }
-    }
     .user-rate-comment-contain {
-        .menu-bar {
-            border-bottom: 1px solid #0f4a1a;
-            li {
-                // border-bottom: 1px solid #0F4A1A;
-                background-color: #e0e0e0;
-                border-radius: 5px 5px 0px 0px;
-                margin-right: 10px;
-                border-bottom: none;
-                // padding: 5px 5px;
-                a {
-                    background-color: #e0e0e0;
-                    color: #0f4a1a;
-                    padding: 7px 5px;
-                    font-family: "Inter";
-                    font-style: normal;
-                    font-weight: 600;
-                    font-size: 11px;
-                    line-height: 13px;
-                    text-align: center;
-                    opacity: 0.8;
-                    border-bottom: none;
-                    &.active {
-                        background-color: #38a700;
-                        color: white;
-                    }
-                }
-            }
-            .sort {
-                position: absolute;
-                top: 0;
-                right: 0;
-                select {
-                    border: none;
-                    font-family: "Inter";
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 11px;
-                    line-height: 13px;
-                    color: #38a700;
-                    opacity: 0.8;
-                    outline: none;
-                }
-            }
-        }
         .list-user-rate {
             margin-top: 18px;
             li {
                 .item {
-                    border-bottom: 1px solid rgba(15, 74, 26, 0.4);
+                    border-top: 1px solid rgba(15, 74, 26, 0.4);
                     margin-bottom: 20px;
+                    padding: 12px 30px;
                     .img {
                         img {
                             width: 49px;
@@ -323,102 +243,57 @@
                             border: 2px solid #38a700;
                         }
                     }
-                    .table-contain {
-                        table {
-                            tr {
-                                padding-bottom: 5px;
+                    .content {
+                        h6 {
+                            margin-top: 5px;
+                            font-family: "Inter";
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 20px;
+                            line-height: 24px;
+                            color: #38a700;
+                            margin-bottom: 4px;
+                        }
+                        .time {
+                            // margin-top: 4px;
+                            font-family: "Inter";
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 11px;
+                            line-height: 13px;
+                            color: rgba(113, 113, 113, 0.6);
+                            opacity: 0.8;
+                        }
+                        .rate-star {
+                            img {
+                                margin-right: 3px;
                             }
-                            td {
-                                h5 {
-                                    font-family: "Inter";
-                                    font-style: normal;
-                                    font-weight: 600;
-                                    font-size: 14px;
-                                    line-height: 17px;
-                                    color: #38a700;
-                                    opacity: 0.8;
-                                }
-                                &.title-under {
-                                    i {
-                                        font-size: 11px;
-                                        margin-right: 5px;
-                                    }
-                                    span {
-                                        font-family: "Inter";
-                                        font-style: normal;
-                                        font-weight: 600;
-                                        font-size: 11px;
-                                        line-height: 13px;
-                                        color: #0f4a1a;
-                                        opacity: 0.8;
-                                    }
-                                }
-                                &.value{
-                                    width: 400px;
-                                }
-                                &.value-under {
-                                    .rate {
-                                        background: rgba(56, 167, 0, 0.1);
-                                        border-radius: 3px;
-                                        padding: 3px;
-                                        span {
-                                            font-family: "Inter";
-                                            font-style: normal;
-                                            font-weight: 600;
-                                            font-size: 9px;
-                                            line-height: 11px;
-                                            /* identical to box height */
-                                            text-align: center;
-                                            color: #38a700;
-                                        }
-                                        img {
-                                            font-size: 8px;
-                                        }
-                                    }
-                                    .rate + span {
-                                        font-family: "Inter";
-                                        font-style: normal;
-                                        font-weight: 600;
-                                        font-size: 11px;
-                                        line-height: 13px;
-                                        text-align: justify;
-                                        color: #0f4a1a;
-                                    }
-                                    span {
-                                        font-family: "Inter";
-                                        font-style: normal;
-                                        font-weight: 400;
-                                        font-size: 11px;
-                                        line-height: 13px;
-                                        /* identical to box height */
-
-                                        color: #38a700;
-                                    }
-                                    .couple {
-                                        i {
-                                            font-size: 11px;
-                                            color: #0f4a1a;
-                                        }
-                                        span {
-                                            font-family: "Inter";
-                                            font-style: normal;
-                                            font-weight: 400;
-                                            font-size: 11px;
-                                            line-height: 13px;
-                                            color: #0f4a1a;
-                                        }
-                                    }
-                                }
-                            }
-                            .title {
-                                width: 222px;
-                            }
-                            td {
-                                padding: 0px;
+                            b {
+                                font-family: "Inter";
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 11px;
+                                line-height: 13px;
+                                text-align: justify;
+                                color: #0f4a1a;
                             }
                         }
-                        .table > :not(caption) > * > * {
-                            border: none;
+                        .comment {
+                            font-family: "Inter";
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 11px;
+                            line-height: 13px;
+                            text-align: justify;
+                            color: #0f4a1a;
+                        }
+                        
+                    }
+                }
+                .form-comment{
+                    .list-star-rate{
+                        img{
+                            cursor: pointer;
                         }
                     }
                 }
@@ -427,19 +302,36 @@
     }
 }
 @include responsive($size-md) {
-    #rating-section .user-rate-comment-contain .menu-bar li a{
+    #rating-section .user-rate-comment-contain .menu-bar li a {
         border-radius: 5px;
     }
-    #rating-section .user-rate-comment-contain .menu-bar li{
+    #rating-section .user-rate-comment-contain .menu-bar li {
         margin-bottom: 10px;
         margin-left: 5px;
         margin-right: 5px;
     }
-    #rating-section .user-rate-comment-contain .menu-bar .sort{
+    #rating-section .user-rate-comment-contain .menu-bar .sort {
         position: relative;
         display: block;
     }
-    #rating-section .list-react-contain.end{
+    #rating-section .list-react-contain.end {
         border: none;
+    }
+    #rating-section .user-rate-comment-contain .list-user-rate li .item{
+        padding: 10px 5px;
+    }
+    #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item {
+        b,span,i{
+            font-size: 14px;
+        }
+    }
+    #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item{
+        margin-bottom: 7px;
+    }
+    #diem-den-chi-tiet-detail .bg .chi-tiet{
+        padding: 20px 15px;
+    }
+    #diem-den-chi-tiet-detail .bg .chi-tiet p{
+        font-size: 15px;
     }
 }

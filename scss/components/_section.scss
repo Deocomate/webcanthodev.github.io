@@ -1,0 +1,48 @@
+.dia-diem-lan-can {
+    .link-direct {
+        button {
+            border: none;
+            background-color: #d9d9d9;
+            padding: 5px 13px;
+            margin: 0px 1px;
+            transition: 0.5s;
+            position: relative;
+            &::after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                transform: translate(-50%,0%);
+                width: 0;
+                height: 0;
+                transition: 0.5s;
+                border-left: 0px solid transparent;
+                border-right: 0px solid transparent;
+                border-top: 0px solid $color-green-0;
+            }
+            &:hover {
+                background-color: $color-gray;
+                color: white;
+            }
+            &.active {
+                color: white;
+                background-color: $color-green-0;
+                &::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    top: 100%;
+                    left: 50%;
+                    transform: translate(-50%,0%);
+                    width: 0;
+                    height: 0;
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+
+                    border-top: 10px solid $color-green-0;
+                }
+            }
+        }
+    }
+}

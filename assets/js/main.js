@@ -219,12 +219,13 @@ $(document).ready(function () {
         let val = $(".circle-progress").attr('value')
         val = val.replace("%", "")
         val = Number(val)
-        console.log(val, val * 0.01 * 360);
-        console.log($("#rating-section .circle-progress"));
+        // console.log(val, val * 0.01 * 360);
+        // console.log($("#rating-section .circle-progress"));
         $("#rating-section .circle-progress").css({
             "background": `conic-gradient(#38a700 ${val * 0.01 * 360}deg, #d9d9d9 0deg)`
         })
     }
+
     $("#choose-file-in").click(function (e) {
         $("#choose-file-out").click()
     });
@@ -248,6 +249,22 @@ $(document).ready(function () {
         }
     });
 
+
+
+    //Những địa điểm lân cận nav
+    $(".link-direct button").click(function (e) { 
+        let directValue = $(this).val();
+        $(".link-direct button").removeClass("active")
+        $(this).addClass("active")
+
+        $(".dia-diem-lan-can .direct").addClass("d-none")
+        $(`.dia-diem-lan-can .direct-${directValue}`).removeClass("d-none")
+    });
+
+    $(".form-comment .star").click(function (e) { 
+        let value = $(this).attr("value")
+        console.log(value);
+    });
 });
 
 function loadDataLocation(listData) {
