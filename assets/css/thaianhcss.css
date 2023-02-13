@@ -837,13 +837,13 @@
 }
 
 #detail-schedule .page-day .timeline-schedule .info-destination .box-img {
-    width: 50%;
+    width: 52%;
     height: 194px;
 }
 
 #detail-schedule .page-day .timeline-schedule .info-destination .box-img img {
-    width: 100%;
-    height: auto;
+    width: 211px;
+    height: 194px;
     max-width: 100%;
 }
 
