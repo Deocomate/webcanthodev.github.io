@@ -201,7 +201,6 @@
                 position: absolute;
                 top: 17px;
                 right: 17px;
-                cursor: pointer;
             }
         }
         .card-img-top {
@@ -291,6 +290,9 @@
     }
 }
 
+.heart{
+    cursor: pointer;
+}
 @include responsive($size-md) {
     .more-news-card > .card-contain > div {
         justify-content: center;

@@ -67,7 +67,7 @@
             }
         }
         .service {
-            input{
+            input {
                 border-left: 1px solid #38a700;
                 height: 28px;
             }
@@ -120,6 +120,62 @@
         }
     }
 }
+
+.banner-cuisine.custom-slider {
+    .box-img-slide {
+        position: relative;
+        .content {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 14px 7.5px;
+            .content-overlay {
+                position: relative;
+                height: 100%;
+                background: linear-gradient(180deg, rgba(15, 74, 26, 0) 0%, #0f4a1a 100%);
+                .title-overlay {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    padding: 27px 33px;
+                    a {
+                        color: white;
+                        transition: 0.5s;
+                        &:hover{
+                            color: $color-green-white;
+                        }
+                    }
+                }
+                img {
+                    width: 40px !important;
+                    height: auto !important;
+                    position: absolute;
+                    top: 20px;
+                    right: 33px;
+                }
+                .sale {
+                    text-align: center;
+                    position: absolute;
+                    top: 0px;
+                    left: 32px;
+                    background-color: white;
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #38a700;
+                    padding: 9px 5px;
+                    border-radius: 0px 0px 5px 5px;
+                }
+            }
+        }
+    }
+}
+
 @include responsive($size-lg) {
     .banner-top.style-1 h1 {
         font-size: 25px;

@@ -298,19 +298,6 @@
     }
 }
 
-.header-trang-chi-tiet {
-    h1 {
-        font-style: normal;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 44px;
-        text-align: center;
-        color: #38a700;
-        border-bottom: 1px solid #38a700;
-        margin-bottom: 0;
-    }
-}
-
 @include responsive($size-md) {
     #rating-section .user-rate-comment-contain .menu-bar li a {
         border-radius: 5px;
