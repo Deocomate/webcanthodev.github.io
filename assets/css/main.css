@@ -1692,17 +1692,14 @@ a {
 
 @media (max-width: 1199.98px) {
   .img-ad img {
-    height: 600px;
+    height: 340px;
     object-fit: cover; } }
 
 @media (max-width: 767.98px) {
   .comments h4 {
     text-align: center; }
   .comments h4::after {
-    margin: 0 auto; }
-  .img-ad img {
-    height: 400px;
-    object-fit: cover; } }
+    margin: 0 auto; } }
 
 #diem-den-search .bg {
   background: rgba(15, 74, 26, 0.7);
@@ -1839,16 +1836,6 @@ a {
   object-fit: cover;
   object-position: center; }
 
-#diem-den-chi-tiet-detail .header h1 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 44px;
-  text-align: center;
-  color: #38a700;
-  border-bottom: 1px solid #38a700;
-  margin-bottom: 0; }
-
 #diem-den-chi-tiet-detail .bg {
   background: rgba(56, 167, 0, 0.1); }
   #diem-den-chi-tiet-detail .bg h3 {
@@ -1858,14 +1845,18 @@ a {
     font-size: 32px;
     line-height: 39px;
     color: #38a700; }
-  #diem-den-chi-tiet-detail .bg .image-important {
+  #diem-den-chi-tiet-detail .bg .video-important iframe {
     height: 608px;
-    object-fit: cover;
     border-radius: 10px; }
   #diem-den-chi-tiet-detail .bg .thong-tin-nhanh {
     background-color: white;
     margin-top: 10px;
     border-radius: 10px; }
+    #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .border-left {
+      border-left: 1px solid rgba(15, 74, 26, 0.15); }
+    @media (max-width: 1199.98px) {
+      #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .border-left {
+        border-left: none; } }
     #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item {
       margin-bottom: 15px; }
       #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item i {
@@ -2046,6 +2037,16 @@ a {
   #rating-section .user-rate-comment-contain .list-user-rate li .form-comment .list-star-rate img {
     cursor: pointer; }
 
+.header-trang-chi-tiet h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #38a700;
+  border-bottom: 1px solid #38a700;
+  margin-bottom: 0; }
+
 @media (max-width: 767.98px) {
   #rating-section .user-rate-comment-contain .menu-bar li a {
     border-radius: 5px; }
@@ -2060,14 +2061,20 @@ a {
     border: none; }
   #rating-section .user-rate-comment-contain .list-user-rate li .item {
     padding: 10px 5px; }
-  #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item b, #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item span, #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item i {
+  #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item b,
+  #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item span,
+  #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item i {
     font-size: 14px; }
   #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item {
     margin-bottom: 7px; }
   #diem-den-chi-tiet-detail .bg .chi-tiet {
     padding: 20px 15px; }
   #diem-den-chi-tiet-detail .bg .chi-tiet p {
-    font-size: 15px; } }
+    font-size: 15px; }
+  #rating-section .user-rate-comment-contain .list-user-rate li .form-comment .content h6 {
+    font-size: 15px; }
+  #diem-den-chi-tiet-detail .bg .video-important iframe {
+    height: 300px; } }
 
 .tien-ich-list-item {
   display: block;

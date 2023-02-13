@@ -105,7 +105,7 @@
 @include responsive($size-lg){
     .img-ad{
         img{
-            height: 600px;
+            height: 340px;
             object-fit: cover;
         }
     }
@@ -118,10 +118,10 @@
     .comments h4::after{
         margin: 0 auto;
     }
-    .img-ad{
-        img{
-            height: 400px;
-            object-fit: cover;
-        }
-    }
+    // .img-ad{
+    //     img{
+    //         height: 400px;
+    //         object-fit: cover;
+    //     }
+    // }
 }

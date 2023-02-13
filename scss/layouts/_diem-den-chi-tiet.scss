@@ -27,18 +27,6 @@
     }
 }
 #diem-den-chi-tiet-detail {
-    .header {
-        h1 {
-            font-style: normal;
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 44px;
-            text-align: center;
-            color: #38a700;
-            border-bottom: 1px solid #38a700;
-            margin-bottom: 0;
-        }
-    }
     .bg {
         h3 {
             font-family: "Inter";
@@ -50,12 +38,21 @@
         }
         background: rgba(56, 167, 0, 0.1);
 
-        .image-important {
-            height: 608px;
-            object-fit: cover;
-            border-radius: 10px;
+        .video-important {
+            iframe {
+                height: 608px;
+                border-radius: 10px;
+            }
         }
         .thong-tin-nhanh {
+            .border-left {
+                border-left: 1px solid rgba(15, 74, 26, 0.15);
+            }
+            @include responsive($size-lg) {
+                .border-left {
+                    border-left: none;
+                }
+            }
             background-color: white;
             margin-top: 10px;
             border-radius: 10px;
@@ -287,12 +284,11 @@
                             text-align: justify;
                             color: #0f4a1a;
                         }
-                        
                     }
                 }
-                .form-comment{
-                    .list-star-rate{
-                        img{
+                .form-comment {
+                    .list-star-rate {
+                        img {
                             cursor: pointer;
                         }
                     }
@@ -301,6 +297,20 @@
         }
     }
 }
+
+.header-trang-chi-tiet {
+    h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        color: #38a700;
+        border-bottom: 1px solid #38a700;
+        margin-bottom: 0;
+    }
+}
+
 @include responsive($size-md) {
     #rating-section .user-rate-comment-contain .menu-bar li a {
         border-radius: 5px;
@@ -317,21 +327,30 @@
     #rating-section .list-react-contain.end {
         border: none;
     }
-    #rating-section .user-rate-comment-contain .list-user-rate li .item{
+    #rating-section .user-rate-comment-contain .list-user-rate li .item {
         padding: 10px 5px;
     }
     #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item {
-        b,span,i{
+        b,
+        span,
+        i {
             font-size: 14px;
         }
     }
-    #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item{
+    #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item {
         margin-bottom: 7px;
     }
-    #diem-den-chi-tiet-detail .bg .chi-tiet{
+    #diem-den-chi-tiet-detail .bg .chi-tiet {
         padding: 20px 15px;
     }
-    #diem-den-chi-tiet-detail .bg .chi-tiet p{
+    #diem-den-chi-tiet-detail .bg .chi-tiet p {
         font-size: 15px;
+    }
+    #rating-section .user-rate-comment-contain .list-user-rate li .form-comment .content h6 {
+        font-size: 15px;
+    }
+
+    #diem-den-chi-tiet-detail .bg .video-important iframe {
+        height: 300px;
     }
 }
