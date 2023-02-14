@@ -681,6 +681,10 @@
     background: rgba(56, 167, 0, 0.1);
 }
 
+#detail-schedule .active {
+    background-color: #38A700;
+}
+
 #detail-schedule .day-schedule {
     padding-top: 50px;
     padding-bottom: 20px;
@@ -727,6 +731,10 @@
 
 #detail-schedule .nav-day li {
     background-color: #ffffff;
+}
+
+#detail-schedule .nav-day .number-ds a:active {
+    background-color: #38A700;
 }
 
 #detail-schedule .nav-day li:hover {
@@ -940,6 +948,49 @@
     background-color: #38A700;
 }
 
+/* datphong.html */
+
+#bread-crumb-dp ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 100px;
+}
+
+#bread-crumb-dp ul li {
+    margin: 0 10px;
+}
+
+#bread-crumb-dp ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    font-family: "Inter";
+    color: #717171;
+}
+
+#bread-crumb-dp ul li i {
+    color: #717171;
+}
+
+#bread-crumb-dp ul li:last-child a {
+    color: #38A700;
+}
+
+#name-hotel p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: normal;
+    color: #38A700;
+}
+
+#name-hotel .border-space {
+    width: 10%;
+    margin: auto;
+    border-bottom: 4px solid #666A86;
+}
+
 /* #booking-info */
 
 #booking-info {
@@ -1094,13 +1145,20 @@
 }
 
 @media (max-width:991px) {
+    #detail-schedule .box-iframe {
+        margin-top: 0;
+        padding-bottom: 30px;
+    } 
+    #detail-schedule .box-iframe iframe {
+        width: 100%;
+    } 
     #restaurant .detail-res .in-detail-res .img-res .box-image {
         width: 50%;
         margin: auto;
         padding-bottom: 20px;
     }
     #order-table .box-typing-info {
-        padding: 40px;
+        padding: 25px 40px;
     }
     #order-table .btn-order-table {
         width: 50%;
@@ -1114,6 +1172,10 @@
     }
     #detail-schedule .timeline-schedule {
         margin-left: 0;
+    }
+    #order-table label {
+        font-size: 16px;
+        padding: 11px 0 0 0;
     }
 }
 
@@ -1163,6 +1225,10 @@
         margin-top: 50px;
         padding-bottom: 65px;
     }
+    #detail-schedule .page-day .timeline-schedule .info-destination .box-img img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
 }
 
 @media (max-width:600px) {
@@ -1178,6 +1244,11 @@
     }
     #detail-schedule .page-day .timeline-schedule .timeline {
         width: 30%;
+    }
+    #bread-crumb-dp ul {
+        list-style-type: none;
+        display: flex;
+        margin-left: 0px;
     }
 }
 
@@ -1231,6 +1302,19 @@
     .pu-ut .add-to-tour {
         margin-left: -110px;
     }
+    #detail-schedule .timeline-schedule .line-icon img {
+        height: 390px;
+    }
+    #detail-schedule .timeline-schedule .timeline-detail ul {
+        font-size: 16px;
+    }
+    #name-hotel p {
+        font-size: 30px;
+    }
+    #name-hotel .border-space {
+        width: 40%;
+    }
+    
 }
 
 @media (max-width:475px) {
