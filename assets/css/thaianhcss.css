@@ -948,6 +948,49 @@
     background-color: #38A700;
 }
 
+/* datphong.html */
+
+#bread-crumb-dp ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 100px;
+}
+
+#bread-crumb-dp ul li {
+    margin: 0 10px;
+}
+
+#bread-crumb-dp ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    font-family: "Inter";
+    color: #717171;
+}
+
+#bread-crumb-dp ul li i {
+    color: #717171;
+}
+
+#bread-crumb-dp ul li:last-child a {
+    color: #38A700;
+}
+
+#name-hotel p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: normal;
+    color: #38A700;
+}
+
+#name-hotel .border-space {
+    width: 10%;
+    margin: auto;
+    border-bottom: 4px solid #666A86;
+}
+
 /* #booking-info */
 
 #booking-info {
@@ -1202,6 +1245,11 @@
     #detail-schedule .page-day .timeline-schedule .timeline {
         width: 30%;
     }
+    #bread-crumb-dp ul {
+        list-style-type: none;
+        display: flex;
+        margin-left: 0px;
+    }
 }
 
 @media (max-width:500px) {
@@ -1260,6 +1308,13 @@
     #detail-schedule .timeline-schedule .timeline-detail ul {
         font-size: 16px;
     }
+    #name-hotel p {
+        font-size: 30px;
+    }
+    #name-hotel .border-space {
+        width: 40%;
+    }
+    
 }
 
 @media (max-width:475px) {
