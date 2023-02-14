@@ -940,6 +940,133 @@
     background-color: #38A700;
 }
 
+/* #booking-info */
+
+#booking-info {
+    background-color: rgba(56, 167, 0, 0.1);
+}
+
+#booking-info .info-hotel .name-hotel {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Inter";
+    color: #ffffff;
+    background-color: #38A700;
+    padding: 14px;
+    margin: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#booking-info .info-hotel .name-hotel p {
+    margin: 0;
+    text-align: center;
+}
+
+#booking-info .img-booking .box-img img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#booking-info .box-booking {
+    padding-top: 64px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 64px 60px 58px 60px;
+}
+
+#booking-info .box-booking form p {
+    font-size: 32px;
+    font-family: "Inter";
+    line-height: normal;
+    text-align: center;
+    color: #38A700;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+    font-weight: 700;
+}
+
+/* #booking-info .box-booking input::placeholder {
+    font-family: "Inter";
+    font-size: 20px;
+    color: #0F4A1A;
+    line-height: normal;
+}    */
+
+#booking-info .info-hotel .box-img img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#booking-info .box-booking input,
+#booking-info .box-booking select,
+#booking-info .box-booking textarea  {
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 22px;
+    border: 2px solid #717171a2;
+    font-family: "Inter";
+    font-size: 20px;
+    color: #0F4A1A;
+    line-height: normal;
+    font-weight: 700;
+}
+
+#booking-info .box-booking label {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: normal;
+    color: #0F4A1A;
+    margin-bottom: 13px;
+}
+
+#booking-info .btn-booking {
+    width: 70%;
+    margin: auto;
+}
+
+#booking-info .btn-booking a button {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    background-color: #38A700;
+    border: none;
+    color: #ffffff;
+    padding: 14px;
+    border-radius: 5px;
+    margin: auto;
+    width: 100%;
+}
+
+/* #ddlc */
+
+#ddlc {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    background-color: rgba(56, 167, 0, 0.1);
+}
+
+#ddlc h3 {
+    font-size: 36px;
+    font-family: "Inter";
+    font-weight: 700;
+    line-height: normal;
+    color: #38A700;
+}
+
+/* .form-danh-gia */
+
+.form-danh-gia {
+    background-color: rgba(56, 167, 0, 0.1);
+    padding-bottom: 50px;
+}
+
+
 @media (max-width:1200px) {
     #detail-schedule .page-day .timeline-schedule .info-destination .box-info .title-destination p {
         font-size: 18px;
