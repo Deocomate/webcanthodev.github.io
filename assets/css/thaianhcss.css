@@ -681,6 +681,10 @@
     background: rgba(56, 167, 0, 0.1);
 }
 
+#detail-schedule .active {
+    background-color: #38A700;
+}
+
 #detail-schedule .day-schedule {
     padding-top: 50px;
     padding-bottom: 20px;
@@ -1111,7 +1115,7 @@
         padding-bottom: 20px;
     }
     #order-table .box-typing-info {
-        padding: 40px;
+        padding: 25px 40px;
     }
     #order-table .btn-order-table {
         width: 50%;
@@ -1125,6 +1129,10 @@
     }
     #detail-schedule .timeline-schedule {
         margin-left: 0;
+    }
+    #order-table label {
+        font-size: 16px;
+        padding: 11px 0 0 0;
     }
 }
 
@@ -1173,6 +1181,10 @@
     #sign-up .box-sign-up .btn-sign-up {
         margin-top: 50px;
         padding-bottom: 65px;
+    }
+    #detail-schedule .page-day .timeline-schedule .info-destination .box-img img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
 }
 
@@ -1241,6 +1253,12 @@
     }
     .pu-ut .add-to-tour {
         margin-left: -110px;
+    }
+    #detail-schedule .timeline-schedule .line-icon img {
+        height: 390px;
+    }
+    #detail-schedule .timeline-schedule .timeline-detail ul {
+        font-size: 16px;
     }
 }
 
