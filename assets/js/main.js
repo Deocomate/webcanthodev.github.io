@@ -45,8 +45,8 @@ $(document).ready(function () {
     });
     $('.carousel-tien-ich').slick({
 
-        autoplay:true,
-        autoplaySpeed:1000,
+        autoplay: true,
+        autoplaySpeed: 1000,
         slidesToShow: 4,
         dots: false,
         centerMode: false,
@@ -65,7 +65,7 @@ $(document).ready(function () {
         responsive: [{
                 breakpoint: 1024,
                 settings: {
-                    arrows:false,
+                    arrows: false,
                     infinite: true,
                     dots: true,
                     prevArrow: ``,
@@ -120,7 +120,7 @@ $(document).ready(function () {
         dots: true,
         centerMode: true,
         arrows: true,
-        autoplay:true,
+        autoplay: true,
         prevArrow: //html
             `
         <button class="btn-arr btn-prev">
@@ -214,7 +214,7 @@ $(document).ready(function () {
         dropdow: "SortForm"
     })
 
-    
+
     if ($(".circle-progress").length > 0) {
         let val = $(".circle-progress").attr('value')
         val = val.replace("%", "")
@@ -252,7 +252,7 @@ $(document).ready(function () {
 
 
     //Những địa điểm lân cận nav
-    $(".link-direct button").click(function (e) { 
+    $(".link-direct button").click(function (e) {
         let directValue = $(this).val();
         $(".link-direct button").removeClass("active")
         $(this).addClass("active")
@@ -260,10 +260,24 @@ $(document).ready(function () {
         $(".dia-diem-lan-can .direct").addClass("d-none")
         $(`.dia-diem-lan-can .direct-${directValue}`).removeClass("d-none")
     });
-
-    $(".form-comment .star").click(function (e) { 
+    $(".form-comment .star").click(function (e) {
         let value = $(this).attr("value")
         console.log(value);
+    });
+
+    //Trang khao sat chi tiet
+    $(".form-radio-style-1 .radio-btn").click(function (e) {
+        const radioButtons = $(this).closest('.form-radio-style-1').find('.radio-btn');
+        radioButtons.find('i').removeClass("active")
+        $(this).find("i").addClass("active")
+        const btnValue = $(this).attr("value")
+        const input = $(this).closest(".radio-button").siblings(".radio_btn");
+        const yKienKhacInput = $(this).closest(".list-btn").siblings(".yKienKhac").find('input');
+        yKienKhacInput.attr("disabled",true)
+        yKienKhacInput.val("")
+        if (btnValue == "another") {
+            yKienKhacInput.attr("disabled",false)
+        }
     });
 });
 
