@@ -1,0 +1,108 @@
+.chi-tiet-khao-sat-header {
+    h1 {
+        &::after {
+            content: "(Về chất lượng dịch vụ của nhà hàng, khách sạn)";
+            display: block;
+            text-align: center;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            color: #0f4a1a;
+            margin-bottom: 10px;
+        }
+    }
+}
+.khao-sat-chi-tiet-big-img {
+    img {
+        width: 100%;
+        height: 608px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+}
+.khao-sat-chi-tiet-title-under-img {
+    span {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: justify;
+        color: #0f4a1a;
+    }
+}
+
+//Input Components
+.form-input-style-1 {
+    label {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: justify;
+        color: #0f4a1a;
+        sup {
+            color: #e64848;
+        }
+    }
+    input {
+        border: none;
+        border-bottom: 1px solid rgba(113, 113, 113, 0.6);
+        border-radius: 0px;
+        box-shadow: none;
+        outline: none;
+        transition: 0.5s;
+        padding: 10px 0px;
+        &:disabled{
+            background-color: transparent;
+        }
+        &:focus {
+            box-shadow: none;
+            border-bottom: 1px solid $color-green-0;
+        }
+    }
+}
+.form-radio-style-1 {
+    label {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: justify;
+        color: #0f4a1a;
+        sup {
+            color: #e64848;
+        }
+    }
+    .radio-btn {
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        border: 2px solid #38a700;
+        border-radius: 5px;
+        margin-right: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        i{
+            font-size: 30px;
+            font-weight: bold;
+            color: #38a700;
+            scale: 0;
+            transition: 0.5s;
+            &.active{
+                scale: 1;
+            }
+        }
+    }
+}
+@include responsive($size-md){
+    .khao-sat-chi-tiet-big-img img{
+        height: 200px;
+    }
+}
