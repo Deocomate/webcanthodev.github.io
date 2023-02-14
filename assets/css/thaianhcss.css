@@ -729,6 +729,10 @@
     background-color: #ffffff;
 }
 
+#detail-schedule .nav-day .number-ds a:active {
+    background-color: #38A700;
+}
+
 #detail-schedule .nav-day li:hover {
     transition: .8s;
     background-color: #38A700;
@@ -1094,6 +1098,13 @@
 }
 
 @media (max-width:991px) {
+    #detail-schedule .box-iframe {
+        margin-top: 0;
+        padding-bottom: 30px;
+    } 
+    #detail-schedule .box-iframe iframe {
+        width: 100%;
+    } 
     #restaurant .detail-res .in-detail-res .img-res .box-image {
         width: 50%;
         margin: auto;
