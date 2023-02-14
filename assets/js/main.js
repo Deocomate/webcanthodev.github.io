@@ -260,10 +260,6 @@ $(document).ready(function () {
         $(".dia-diem-lan-can .direct").addClass("d-none")
         $(`.dia-diem-lan-can .direct-${directValue}`).removeClass("d-none")
     });
-    $(".form-comment .star").click(function (e) {
-        let value = $(this).attr("value")
-        console.log(value);
-    });
 
     //Trang khao sat chi tiet
     $(".form-radio-style-1 .radio-btn").click(function (e) {
@@ -273,14 +269,41 @@ $(document).ready(function () {
         const btnValue = $(this).attr("value")
         const input = $(this).closest(".radio-button").siblings(".radio_btn");
         const yKienKhacInput = $(this).closest(".list-btn").siblings(".yKienKhac").find('input');
-        yKienKhacInput.attr("disabled",true)
+        yKienKhacInput.attr("disabled", true)
         yKienKhacInput.val("")
         if (btnValue == "another") {
-            yKienKhacInput.attr("disabled",false)
+            yKienKhacInput.attr("disabled", false)
+        }
+    });
+
+    //Trang điểm đến chi tiết
+    $("#rate-form .star").click(function (e) {
+        let value = $(this).attr("value")
+        // console.log(value);
+        let listImg = $(this).closest('.list-star-rate').find('img')
+        // console.log(listImg);
+        for (const img of listImg) {
+            if (img.getAttribute("value") <= value) {
+                img.src = "../assets/icon/star-rate-full.svg"
+            }
+            else{
+                img.src = "../assets/icon/star-form.svg"
+            }
         }
     });
 });
 
+
+
+
+
+
+
+
+
+
+
+//Helper function
 function loadDataLocation(listData) {
     let sortResult = $(".sort-result .list-unstyled")
     sortResult.html("")
