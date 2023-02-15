@@ -223,7 +223,7 @@
 }
 
 #restaurant .row-info-3 .add-to-tour {
-    width: 17%;
+    width: 20%;
     margin-left: auto;
 }
 
@@ -1115,6 +1115,30 @@
 .form-danh-gia {
     background-color: rgba(56, 167, 0, 0.1);
     padding-bottom: 50px;
+}
+
+/* css 2/15/2023 */
+
+#name-service p {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: normal;
+    color: #38A700;
+}
+
+.banner-service {
+    padding-top: 22px;
+    background-color: rgba(56, 167, 0, 0.1);
+}
+
+.banner-service iframe {
+    border-radius: 10px;
+}
+
+.banner-service .slide-cuisine .box-img-slide img {
+    border-radius: 10px;
+    height: 230px !important;
 }
 
 
