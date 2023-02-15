@@ -1383,10 +1383,10 @@
         border-top-right-radius: 10px;
     }
     #cook-table .arrow-ct-prev {
-        display: none;
+        display: none !important;
     }
     #cook-table .arrow-ct-next {
-        display: none;
+        display: none !important;
     }
 }
 
