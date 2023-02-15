@@ -285,11 +285,17 @@ $(document).ready(function () {
         for (const img of listImg) {
             if (img.getAttribute("value") <= value) {
                 img.src = "../assets/icon/star-rate-full.svg"
-            }
-            else{
+            } else {
                 img.src = "../assets/icon/star-form.svg"
             }
         }
+    });
+
+
+    //Camera 360
+    $(".card-360").click(function (e) {
+        let button = $(this).find('button')
+        button[0].click()
     });
 });
 

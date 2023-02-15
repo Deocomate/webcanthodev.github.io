@@ -1027,6 +1027,12 @@ a {
 #addTour .modal-body .btn-group-custom .dark-green {
   background: #0f4a1a; }
 
+#modal360 .modal-dialog {
+  max-width: 1167px;
+  width: 100%;
+  margin: 100px auto !important;
+  padding: 0px 10px; }
+
 .scroll-custom {
   overflow-y: scroll; }
   .scroll-custom::-webkit-scrollbar-track {
