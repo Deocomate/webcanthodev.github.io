@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header and Footer</title>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Select2 -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <!-- CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/thaianhcss.css">
+
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-top bgc--green text--white p-1 px-3">
+            <div class="d-flex justify-content-end justify-content-sm-between">
+                <div class="left d-none d-sm-block">
+                    <div class="contact-info-contain d-flex">
+                        <a href="#" class="me-2 me-md-5 text--white">
+                            <i class="bi bi-envelope-fill"></i>
+                            <span class="font-inter">user@gmail.com</span>
+                        </a>
+                        <a href="#" class="text-white">
+                            <i class="bi bi-telephone-fill"></i>
+                            <span class="font-inter">0123456789</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="d-flex">
+                        <div class="search-form d-none d-lg-flex align-items-center">
+                            <div class="input-search d-none">
+                                <input type="text" class="input-search-ele">
+                            </div>
+                            <div class="icon-search ms-2">
+                                <i class="bi bi-search"></i>
+                            </div>
+                        </div>
+                        <div class="lang px-md-3">
+                            <div class="d-flex">
+                                <a href="" class="d-flex align-items-center mx-2">
+                                    <span>ENG</span>
+                                    <img src="../assets/icon/eng.png" class="me-1" alt="">
+                                </a>
+                                <a href="" class="d-flex align-items-center mx-2">
+                                    <span>VIE</span>
+                                    <img src="../assets/icon/vie.png" class="me-1" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-xl bgc--white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/icon/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-content"
+                    aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav-content">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">TRANG CHỦ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TIN TỨC</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                DỊCH VỤ
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LƯU TRÚ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ĐIỂM ĐẾN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ẨM THỰC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BẢN ĐỒ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ẢNH 360</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn text--white btn-green" type="submit">Đăng nhập</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="tao-lich-trinh">
+        <div class="container">
+            <nav class="breadcrumb-custom" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+                    <li class="breadcrumb-item" aria-current="page">Dịch vụ giải trí</li>
+                    <li class="breadcrumb-item active" aria-current="page">Tour du lịch Cần Thơ</li>
+                </ol>
+            </nav>
+            <div class="header-trang-chi-tiet">
+                <h1 class="text-center">Tour du lịch Cần Thơ</h1>
+            </div>
+        </div>
+        <div class="bgc-green-super pt-3">
+            <div class="container">
+                <section class="tour-menu">
+                    <div class="bg-white px-md-5 py-4 rounded-3">
+                        <div class="sort-menu-input">
+                            <div class="row g-3">
+                                <div class="col-3">
+                                    <div class="label">
+                                        <label for="">Tìm kiếm địa điểm</label>
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="sort-input-contain">
+                                        <div class="sort-input d-flex align-items-center">
+                                            <input type="text" id="input-sort">
+                                            <button><i class="bi bi-search"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-3 mt-4">
+                            <div class="col-12 col-md-3">
+                                <div class="sort-menu-checkbox">
+                                    <div class="form-radio-style-1 mb-4">
+                                        <label for="">LOẠI HÌNH DU LỊCH</label>
+                                        <div class="list-btn mt-3">
+                                            <input type="hidden" name="" value="" class="radio_btn">
+                                            <div class="d-flex-mid radio-button mb-2">
+                                                <div class="radio-btn" value="checkin">
+                                                    <i class="bi bi-x"></i>
+                                                </div>
+                                                <span>Check in</span>
+                                            </div>
+                                            <div class="d-flex-mid radio-button mb-2">
+                                                <div class="radio-btn" value="vilage">
+                                                    <i class="bi bi-x"></i>
+                                                </div>
+                                                <span>Làng nghề</span>
+                                            </div>
+                                            <div class="d-flex-mid radio-button mb-2">
+                                                <div class="radio-btn" value="popular">
+                                                    <i class="bi bi-x"></i>
+                                                </div>
+                                                <span>Phổ biến</span>
+                                            </div>
+                                            <div class="d-flex-mid radio-button mb-2">
+                                                <div class="radio-btn" value="eco">
+                                                    <i class="bi bi-x"></i>
+                                                </div>
+                                                <span>Sinh thái</span>
+                                            </div>
+                                            <div class="d-flex-mid radio-button mb-2">
+                                                <div class="radio-btn" value="culture">
+                                                    <i class="bi bi-x"></i>
+                                                </div>
+                                                <span>Văn hóa</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-radio-style-1 mb-4">
+                                        <label for="">DỊCH VỤ</label>
+                                        <div class="list-btn mt-3">
+                                            <input type="hidden" name="" value="" class="radio_btn">
+                                            <div class="d-flex-mid radio-button mb-2">
+                                                <div class="radio-btn" value="wedding">
+                                                    <i class="bi bi-x"></i>
+                                                </div>
+                                                <span>Chụp ảnh cưới</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-9">
+                                <div class="list-location-result scroll-custom">
+                                    <div class="row g-0" loop="10">
+                                        <div class="col-12 col-md-4 p-2">
+                                            <section class="card-diem-den">
+                                                <div class="card">
+                                                    <div class="img-contain">
+                                                        <img src="../assets/imgs/card-diem-den-img.png"
+                                                            class="card-img-top w-100" alt="...">
+                                                        <img src="../assets/icon/heart-no-like.svg" class="heart"
+                                                            alt="">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Cầu đi bộ Cần Thơ</h5>
+                                                        <div class="location-detail mb-1">
+                                                            <div class="d-flex align-items-center">
+                                                                <i class="bi bi-geo-alt-fill"></i>
+                                                                <span>Cầu đi bộ Cần Thơ</span>
+                                                            </div>
+                                                        </div>
+                                                        <p class="card-text">
+                                                            Lorem ips sit toula amet, consectetur adipiscing
+                                                            elit.
+                                                        </p>
+                                                        <div class="d-flex justify-content-center">
+                                                            <button id="addTourToList"
+                                                                class="btn btn-sm btn-green">Thêm</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <section id="tao-lich-trinh-list-tour">
+            <div id="detail-schedule">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="day-schedule">
+                                <div class="page-day" day="1">
+                                    <div class="number-day ms-0 mb-4" id="day-1">
+                                        <div class="d-flex-mid justify-content-between">
+                                            <p>Ngày 1</p>
+                                            <div class="delete-contain text-white">
+                                                <div class="d-flex-mid">
+                                                    <i class="bi bi-trash-fill me-1"></i>
+                                                    <span>Xóa</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="list-tour" loop="3">
+                                        <div class="tour-item">
+                                            <div class="d-flex flex-column flex-md-row w-100 mb-4">
+                                                <div class="img-contain">
+                                                    <img src="../assets/imgs/tour-item.png" alt="">
+                                                </div>
+                                                <div class="content w-100 p-3">
+                                                    <div class="d-flex-mid flex-column flex-md-row">
+                                                        <div class="main-content">
+                                                            <span class="time">03/02/2023</span>
+                                                            <h5>Nhà cổ Bình Thủy</h5>
+                                                            <div class="d-flex location">
+                                                                <i class="bi bi-geo-alt-fill me-1"></i>
+                                                                <span>
+                                                                    Địa chỉ: số 142/144 Bùi Hữu Nghĩa, quận Bình Thủy,
+                                                                    thành
+                                                                    phố
+                                                                    Cần Thơ
+                                                                </span>
+                                                            </div>
+                                                            <p class="title mb-1">
+                                                                Những ngôi nhà cổ mang đậm dấu ấn văn hóa miền Tây tại
+                                                                Cần
+                                                                Thơ là điểm đến “không thể không có mặt” với một “đứa
+                                                                ham
+                                                                mê” tìm tòi, khám phá văn hóa, lịch sử như mình.
+                                                            </p>
+                                                            <button class="btn btn-green btn-sm d-flex-mid">
+                                                                <i class="bi bi-clock-fill me-1"></i>
+                                                                <b>08:00</b>
+                                                            </button>
+                                                        </div>
+                                                        <div class="delete-tour">
+                                                            <div class="">
+                                                                <button class="btn btn-green d-flex-mid">
+                                                                    <i class="bi bi-trash-fill me-1"></i>
+                                                                    <b>Xóa</b>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <button class="btn btn-green d-flex-mid">
+                                        <i class="bi bi-pencil-fill me-1"></i>
+                                        <b>Thêm ngày</b>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" style="background-image: url('../assets/imgs/bg-foot.png');">
+        <div class="bg-black">
+            <div class="container py-4">
+                <div class="row g-md-4 g-3">
+                    <div class="col-12 col-sm-4 col-lg-3">
+                        <div class="social-contain">
+                            <div class="mb-2">
+                                <img src="../assets/imgs/logo-foot.png" alt="">
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between">
+                                <a href="">
+                                    <img src="../assets/icon/facebook.svg" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="../assets/icon/ins.svg" alt="">
+                                </a>
+                                <a href="">
+                                    <img src="../assets/icon/youtube.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-8 col-lg-6">
+                        <div class="mid">
+                            <h3 class="text--white">
+                                SỞ VĂN HÓA THỂ THAO VÀ DU LỊCH CẦN THƠ
+                                <br>
+                                Trung tâm phát triển du lịch thành phố Cần Thơ
+                            </h3>
+                            <div class="information-contain">
+                                <div class="d-flex info align-items-start">
+                                    <div class="d-flex align-items-center info-prop">
+                                        <i class="bi bi-geo-alt-fill text--green me-3"></i>
+                                        <span class="text--white">Địa chỉ</span>
+                                    </div>
+                                    <div class="info-value">
+                                        <span class="text--white">10B1 Lê Thánh Tôn, P. Bến Nghé, Quận 1, Tp.HCM</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="information-contain">
+                                <div class="d-flex info align-items-start">
+                                    <div class="d-flex align-items-center info-prop">
+                                        <i class="bi bi-telephone-fill text--green me-3"></i>
+                                        <span class="text--white">Điện thoại</span>
+                                    </div>
+                                    <div class="info-value">
+                                        <span class="text--white">
+                                            +84 28 38 251 250
+                                            <br>
+                                            +84 28 3910 2174
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="information-contain">
+                                <div class="d-flex info align-items-center">
+                                    <div class="d-flex align-items-center info-prop">
+                                        <i class="bi bi-envelope-fill text--green me-3"></i>
+                                        <span class="text--white">Email</span>
+                                    </div>
+                                    <div class="info-value">
+                                        <span class="text--white">rsv@senspa.com.vn</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="information-contain">
+                                <div class="d-flex info align-items-center">
+                                    <div class="d-flex align-items-center info-prop">
+                                        <i class="bi bi-clock-fill text--green me-3"></i>
+                                        <span class="text--white">Giờ mở cửa</span>
+                                    </div>
+                                    <div class="info-value">
+                                        <span class="text--white">
+                                            09:30 AM - 20:00 PM
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-lg-3">
+                        <div class="foot-right">
+                            <h4 class="text--white">LIÊN KẾT NHANH</h4>
+                            <ul>
+                                <li><a href="">Giới thiệu</a></li>
+                                <li><a href="">Dịch vụ</a></li>
+                                <li><a href="">Sản phẩm</a></li>
+                                <li><a href="">Tin tức, sự kiện</a></li>
+                            </ul>
+                            <div class="foot-views">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-person-fill text-white"></i>
+                                    <span class="text--white">1.000.000 người xem</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="p-2 bgc--green text--white text-center foot-bottom">
+                <span>2020 CAN THO. All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- JS -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/forLib.js"></script>
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
