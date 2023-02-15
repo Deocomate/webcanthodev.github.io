@@ -193,12 +193,6 @@
     color: #38A700;
 }
 
-#restaurant .row-info-3 .add-to-tour .btn-att a {
-    font-size: 16px;
-    line-height: normal;
-    font-weight: 500;
-}
-
 #restaurant .row-info-3 .add-to-tour .btn-att button {
     padding: 8px 10px;
     border-radius: 5px;
@@ -225,6 +219,12 @@
 #restaurant .row-info-3 .add-to-tour {
     width: 20%;
     margin-left: auto;
+}
+
+#restaurant .row-info-3 .add-to-tour .btn-att a {
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 500;
 }
 
 /* #cook-table */
@@ -1141,6 +1141,8 @@
 
 .banner-service iframe {
     border-radius: 10px;
+    margin: 0 15px;
+    max-width: 1000px;
 }
 
 .banner-service .slide-cuisine .box-img-slide img {
@@ -1148,6 +1150,126 @@
     height: 230px !important;
 }
 
+#quick-info {
+    background-color: rgba(56, 167, 0, 0.1); 
+}
+
+#quick-info .in-qi {
+    background-color: #ffffff;
+    margin: 0 14px;
+    border-radius: 5px;
+    padding: 44px 50px;
+}
+
+#quick-info .in-qi .title-qi p {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Inter";
+    color: #38A700;
+    margin-bottom: 28px;
+}
+
+#quick-info .in-qi .col-qi {
+    width: 50%;
+}
+
+#quick-info .in-qi .col-qi .icon-price img {
+    width: 28px;
+    height: 21px;
+}
+
+#quick-info .in-qi .col-qi .icon-phone img {
+    width: 23px;
+    height: 23px;
+}
+
+#quick-info .in-qi .col-qi .icon-phone img {
+    width: 23px;
+    height: 26px;
+}
+
+#quick-info .in-qi .col-qi .icon-oclock i {
+    color: #38A700;
+}
+
+#quick-info .in-qi .col-qi .icon-email img {
+    width: 23px;
+    height: 18px;
+}
+
+#quick-info .in-qi .col-qi i {
+    color: #38A700;
+    font-size: 18px;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+
+#quick-info .in-qi .col-qi .text-box p {
+    font-size: 18px;
+    color: #0F4A1A;
+    margin-right: 12px;
+    margin-bottom: 30px;
+}
+
+#quick-info .in-qi .col-qi .text-box p b {
+    margin-right: 3px;
+}
+
+#quick-info .row-info-3 .add-to-tour .btn-att button {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #38A700;
+    color: #ffffff;
+    transition: 0.8s;
+    width: 100%;
+}
+
+#quick-info .row-info-3 .add-to-tour {
+    width: 40%;
+    margin: auto;
+}
+
+#quick-info .row-info-3 .add-to-tour .btn-att a {
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 500;
+}
+
+
+/* #detail-info */
+#detail-info .in-di {
+    background-color: #ffffff;
+    margin: 0 14px;
+    border-radius: 5px;
+    padding: 44px 50px;
+}
+
+#detail-info {
+    padding-top: 20px;
+    background-color: rgba(56, 167, 0, 0.1); 
+}
+
+#detail-info .in-di .title-di p {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: normal;
+    font-family: "Inter";
+    color: #38A700;
+    margin-bottom: 28px;
+}
+
+#detail-info .in-di .content-di p {
+    font-size: 20px;
+    line-height: normal;
+    font-weight: 400;
+    font-family: "Inter";
+}
+
+.order-service .btn-order-table {
+    width: 36% !important;
+}
 
 @media (max-width:1200px) {
     #detail-schedule .page-day .timeline-schedule .info-destination .box-info .title-destination p {
@@ -1260,6 +1382,12 @@
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
+    #cook-table .arrow-ct-prev {
+        display: none;
+    }
+    #cook-table .arrow-ct-next {
+        display: none;
+    }
 }
 
 @media (max-width:600px) {
@@ -1363,6 +1491,19 @@
     }
     .pu-ut .add-to-tour {
         margin-left: -65px;
+    }
+}
+
+@media (max-width: 425px) {
+    #order-table .btn-order-table {
+        width: 54%;
+    }
+    #order-table label {
+        font-size: 12px;
+        padding: 17px 0 0 0;
+    }
+    #restaurant .row-info-3 .add-to-tour {
+        width: 37%;
     }
 }
 
