@@ -452,7 +452,32 @@ a {
     .card-diem-den .card .img-contain .heart {
       position: absolute;
       top: 17px;
-      right: 17px; }
+      right: 17px;
+      z-index: 100; }
+    .card-diem-den .card .img-contain:hover .user-selection {
+      opacity: 1; }
+    .card-diem-den .card .img-contain .user-selection {
+      transition: .5s;
+      opacity: 0;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.473958) 20.16%, #ffffff 100%);
+      border-radius: 10px 10px 0px 0px;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 16px 25px; }
+      .card-diem-den .card .img-contain .user-selection a {
+        width: 100%;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #ffffff; }
+        .card-diem-den .card .img-contain .user-selection a.btn-green-dark {
+          background-color: #0f4a1a; }
   .card-diem-den .card .card-img-top {
     border-radius: 10px 10px 0px 0px;
     height: 228.01px;
@@ -967,6 +992,40 @@ a {
       border-left: 10px solid transparent;
       border-right: 10px solid transparent;
       border-top: 10px solid #38a700; }
+
+#addTour .modal-header {
+  border-bottom: none; }
+
+#addTour .modal-body h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #38a700; }
+  #addTour .modal-body h3::after {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 3px;
+    background-color: #38a700;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 20px; }
+
+#addTour .modal-body .btn-group-custom a {
+  margin: 0 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff; }
+
+#addTour .modal-body .btn-group-custom .dark-green {
+  background: #0f4a1a; }
 
 #header * {
   font-family: Inter !important; }

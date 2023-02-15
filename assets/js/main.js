@@ -277,7 +277,7 @@ $(document).ready(function () {
     });
 
     //Trang điểm đến chi tiết
-    $("#rate-form .star").click(function (e) {
+    $(".list-star-rate .star").click(function (e) {
         let value = $(this).attr("value")
         // console.log(value);
         let listImg = $(this).closest('.list-star-rate').find('img')

@@ -70,7 +70,7 @@
 .more-news-card {
     transition: 0.5s;
     .card-contain > .align-items-center {
-        align-items: flex-start!important;
+        align-items: flex-start !important;
     }
     &:hover {
         h6 {
@@ -106,10 +106,10 @@
         }
         .text--black {
             i {
-                font-size: 15px!important;
+                font-size: 15px !important;
             }
-            .bi.bi-clock-fill{
-                font-size: 13px!important;
+            .bi.bi-clock-fill {
+                font-size: 13px !important;
             }
             span {
                 font-family: "Inter";
@@ -194,13 +194,48 @@
 .card-diem-den {
     .card {
         border: none;
-        
-        .img-contain{
+        .img-contain {
             position: relative;
-            .heart{
+            .heart {
                 position: absolute;
                 top: 17px;
                 right: 17px;
+                z-index: 100;
+            }
+            &:hover{
+                .user-selection{
+                    opacity: 1;
+                }
+            }
+            .user-selection {
+                transition: .5s;
+                opacity: 0;
+                background: linear-gradient(
+                    180deg,
+                    rgba(255, 255, 255, 0) 0%,
+                    rgba(255, 255, 255, 0.473958) 20.16%,
+                    #ffffff 100%
+                );
+                border-radius: 10px 10px 0px 0px;
+                height: 100%;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                padding: 16px 25px;
+                a {
+                    width: 100%;
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-align: center;
+                    color: #ffffff;
+                    &.btn-green-dark {
+                        background-color: $color-green-1;
+                    }
+                }
             }
         }
         .card-img-top {
@@ -290,7 +325,7 @@
     }
 }
 
-.heart{
+.heart {
     cursor: pointer;
 }
 @include responsive($size-md) {

@@ -228,7 +228,7 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex justify-content-center">
-                                        <a href="" class="btn btn-green">Thêm vào tour</a>
+                                        <button class="btn btn-green" data-bs-toggle="modal" data-bs-target="#addTour">Thêm vào tour</button>
                                     </div>
                                 </div>
                             </div>
@@ -554,7 +554,7 @@
                                                                 <div class="content w-100">
                                                                     <div class="d-flex-mid">
                                                                         <h6 class="my-0 me-4">Nguyễn Linh</h6>
-                                                                        <div class="list-star-rate" id="rate-form">
+                                                                        <div class="list-star-rate" id="">
                                                                             <input type="hidden" name=""
                                                                                 id="star-input-value" value="0">
                                                                             <img src="../assets/icon/star-form.svg"
@@ -564,7 +564,7 @@
                                                                             <img src="../assets/icon/star-form.svg"
                                                                                 class="star s-3" value="3" alt="">
                                                                             <img src="../assets/icon/star-form.svg"
-                                                                                   class="star s-4" value="4" alt="">
+                                                                                class="star s-4" value="4" alt="">
                                                                             <img src="../assets/icon/star-form.svg"
                                                                                 class="star s-5" value="5" alt="">
                                                                         </div>
@@ -705,6 +705,26 @@
         </div>
     </footer>
 
+
+
+    <!-- MODAL -->
+    <div class="modal fade" id="addTour">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <h1 class="modal-title fs-5" id="">Modal title</h1> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3 class="text-center">Khởi tạo tour</h3>
+                    <div class="d-flex-mid justify-content-center btn-group-custom">
+                        <a href="" class="btn btn-green btn-lg">Tạo tour mới</a>
+                        <a href="" class="btn btn-green btn-lg dark-green">Thêm vào tour</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- JS -->
     <script src="../assets/js/jquery.js"></script>
