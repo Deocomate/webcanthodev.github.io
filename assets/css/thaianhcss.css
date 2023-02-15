@@ -1295,6 +1295,21 @@
         width: 40%;
         margin: auto;
     }
+    .banner-service iframe {
+        margin: 0;
+    }
+    .order-service {
+        padding: 20px 26px !important;
+    }
+    #local-map {
+        padding: 20px 26px;
+    }
+    .dia-diem-lan-can {
+        padding: 20px 26px;
+    }  
+    #rating-section {
+        padding: 20px 26px;
+    }
 }
 
 @media (max-width:991px) {
@@ -1314,8 +1329,7 @@
         padding: 25px 40px;
     }
     #order-table .btn-order-table {
-        width: 50%;
-        margin: auto;
+        width: 50% !important;
     }
     #detail-schedule .nav-day {
         margin-left: 0;
@@ -1329,6 +1343,12 @@
     #order-table label {
         font-size: 16px;
         padding: 11px 0 0 0;
+    }
+    .box-qi-respon {
+        display: block !important;
+    }
+    #quick-info .in-qi .col-qi {
+        width: 100%;
     }
 }
 
@@ -1388,6 +1408,15 @@
     #cook-table .arrow-ct-next {
         display: none !important;
     }
+    .box-map {
+        padding: 23px 15px;
+    }
+    #quick-info .in-qi {
+        padding: 30px 15px;
+    }
+    #detail-info .in-di {
+        padding: 30px 15px;
+    }
 }
 
 @media (max-width:600px) {
@@ -1399,7 +1428,7 @@
         width: 80%;
     }
     #order-table .btn-order-table {
-        width: 35%;
+        width: 35% !important;
     }
     #detail-schedule .page-day .timeline-schedule .timeline {
         width: 30%;
@@ -1426,7 +1455,7 @@
         width: 100%;
     }
     #order-table .btn-order-table {
-        width: 45%;
+        width: 45% !important;
     }
     #detail-schedule .page-day .timeline-schedule .timeline {
         width: 40%;
@@ -1473,12 +1502,59 @@
     #name-hotel .border-space {
         width: 40%;
     }
-    
+    #bread-crumb-dp ul li {
+        margin: 0 3px;
+    }
+    #bread-crumb-dp ul li a {
+        font-size: 13px;
+    }
+    #bread-crumb-dp ul li i {
+        font-size: 10px;
+    }
+    #name-service p {
+        font-size: 30px;
+    }
+    #quick-info .row-info-3 .add-to-tour {
+        width: 50%;
+    }
+    #quick-info .in-qi .title-qi p {
+        font-size: 24px;
+    }
+    #quick-info .in-qi .icon-heart img {
+        width: 80%;
+    }
+    #detail-info .in-di .title-di p {
+        font-size: 24px;
+    }
+    #local-map .box-map .title-map p {
+        font-size: 24px;
+    }
+    #detail-info .in-di .content-di p {
+        font-size: 16px;
+    }
+    #ddlc h3 {
+        font-size: 24px;
+    }
 }
 
 @media (max-width:475px) {
     #restaurant .row-info-3 .add-to-tour {
         width: 31%;
+    }
+    #quick-info .in-qi .title-qi p {
+        font-size: 20px;
+    }
+    #quick-info .in-qi .icon-heart img {
+        width: 60%;
+    }
+    #detail-info .in-di .title-di p {
+        font-size: 20px;
+    }
+    #local-map .box-map .title-map p {
+        font-size: 20px;
+    }
+    #ddlc h3 {
+        font-size: 20px;
     }
 }
 
@@ -1487,16 +1563,19 @@
         width: 33%;
     }
     #order-table .btn-order-table {
-        width: 50%;
+        width: 50% !important;
     }
     .pu-ut .add-to-tour {
         margin-left: -65px;
+    }
+    #quick-info .row-info-3 .add-to-tour {
+        width: 60%;
     }
 }
 
 @media (max-width: 425px) {
     #order-table .btn-order-table {
-        width: 54%;
+        width: 60% !important;
     }
     #order-table label {
         font-size: 12px;
@@ -1505,23 +1584,35 @@
     #restaurant .row-info-3 .add-to-tour {
         width: 37%;
     }
+    #quick-info .in-qi .col-qi .text-box p {
+        font-size: 13px;
+    }
+    #quick-info .in-qi .col-qi .box-in-out {
+        display: block !important;
+    }
+    #detail-info .in-di .content-di p {
+        font-size: 14px;
+    }
 }
 
 @media (max-width:400px) {
     #restaurant .row-info-3 .add-to-tour {
         width: 40%;
     }
-    #order-table .btn-order-table {
-        width: 60%;
-    }  
     .pu-ut .add-to-tour {
         margin-left: -10px;
     }  
+    #quick-info .row-info-3 .add-to-tour {
+        width: 80%;
+    }
+    #order-table .btn-order-table {
+        width: 70% !important;
+    }
 }
 
 @media (max-width:380px) {
     #order-table .btn-order-table {
-        width: 65%;
+        width: 80% !important;
     }
 }
 
