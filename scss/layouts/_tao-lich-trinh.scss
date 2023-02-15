@@ -1,0 +1,217 @@
+#tao-lich-trinh .tour-menu {
+    .sort-menu-input {
+        label {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            // text-align: justify;
+            color: #38a700;
+            margin-top: 4px;
+        }
+        .sort-input-contain .sort-input {
+            margin-top: 0px;
+            background: rgba(56, 167, 0, 0.1);
+            border: 1.5px solid #38a700;
+            border-radius: 5px;
+            input {
+                background-color: transparent;
+                padding: 0 20px;
+            }
+        }
+    }
+    .list-location-result {
+        height: 320px;
+        overflow-y: scroll;
+        .card-diem-den {
+            .card {
+                background-color: transparent;
+            }
+            border: 1px solid #38a700;
+            border-radius: 10px;
+            .img-contain {
+                .heart {
+                    width: 29px;
+                }
+                img.card-img-top {
+                    height: 161.55px !important;
+                    object-fit: cover;
+                }
+            }
+            .card-body {
+                padding: 7px 15px;
+                background-color: transparent;
+                h5 {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: justify;
+                    color: #0f4a1a;
+                }
+                .location-detail {
+                    span {
+                        font-family: "Inter";
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 10px;
+                        line-height: 12px;
+                        text-align: justify;
+                        color: #0f4a1a;
+                    }
+                }
+                .card-text {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-align: left;
+                    color: #0f4a1a;
+                    margin-bottom: 10px;
+                }
+                button#addTourToList {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 10px;
+                    line-height: 12px;
+                    text-align: center;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+#tao-lich-trinh-list-tour {
+    .tour-item {
+        &:last-child {
+            &::after {
+                display: none;
+            }
+        }
+        margin-left: 90px;
+        .img-contain {
+            img {
+                width: 207.62px;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 10px 0px 0px 10px;
+            }
+        }
+        .content {
+            background-color: #ffffff;
+            .main-content {
+                padding-right: 44px;
+                width: 80%;
+                max-width: 550px;
+                span.time {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 19px;
+                    text-align: justify;
+                    color: #0f4a1a;
+                }
+                h5 {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: justify;
+                    color: #38a700;
+                }
+                .location {
+                    i,
+                    span {
+                        font-family: "Inter";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 15px;
+                        text-align: justify;
+                        color: rgba(113, 113, 113, 0.6);
+                    }
+                }
+                .title {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 17px;
+                    text-align: justify;
+                    color: #0f4a1a;
+                }
+            }
+            .delete-tour {
+                width: 20%;
+                display: flex;
+                justify-content: end;
+                height: 150px;
+                align-items: center;
+                border-left: 1px solid rgba(15, 74, 26, 0.4);
+            }
+        }
+        position: relative;
+        &::before {
+            content: "";
+            display: block;
+            width: 25px;
+            height: 25px;
+            background-color: #38a700;
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            border-radius: 50%;
+            transform: translate(-65px, -50%);
+            // margin-right: 72px;
+        }
+        &::after {
+            content: "";
+            display: block;
+            width: 1px;
+            height: 130px;
+            background-color: rgba(15, 74, 26, 0.651416);
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translate(-54px, 32%);
+        }
+    }
+}
+@include responsive($size-md) {
+    #tao-lich-trinh-list-tour .tour-item{
+        margin-left: 0px;
+    }
+    #tao-lich-trinh-list-tour .tour-item::before {
+        display: none;
+    }
+    #tao-lich-trinh-list-tour .tour-item::after {
+        display: none;
+    }
+    #tao-lich-trinh-list-tour .tour-item .img-contain img{
+        width: 100%;
+        height: 200px;
+        border-radius: 10px 10px 0px 0px;
+    }#tao-lich-trinh-list-tour .tour-item .content .main-content{
+        padding: 10px;
+        width: 100%;
+    }
+    #tao-lich-trinh-list-tour .tour-item .content .delete-tour{
+        width: 100%;
+        justify-content: start;
+        height: auto;
+        &>div{
+            width: 100%;
+            margin-top: 10px;
+            button{
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    }
+}
