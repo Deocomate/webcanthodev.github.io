@@ -644,7 +644,14 @@
     line-height: normal;
     font-weight: 700;
     color: #ffffff;
+}
+
+.pu-ut .create-new-tour button {
     background-color: #38A700;
+}
+
+.pu-ut .add-to-tour button {
+    background-color: #0F4A1A;
 }
 
 .pu-ut .mt-20-percent {
