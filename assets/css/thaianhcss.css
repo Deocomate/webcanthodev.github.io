@@ -2,6 +2,11 @@
     font-family: "Inter";
 }
 
+p {
+    font-family: "Inter";
+    line-height: normal;
+}
+
 .d-flex {
     display: flex;
 }
@@ -489,7 +494,7 @@
 .box-map {
     background-color: #ffffff;
     border-radius: 10px;
-    padding: 23px 27px;
+    padding: 23px 50px;
 }
 
 #local-map .container {
@@ -1237,7 +1242,6 @@
     font-weight: 500;
 }
 
-
 /* #detail-info */
 #detail-info .in-di {
     background-color: #ffffff;
@@ -1271,6 +1275,182 @@
     width: 36% !important;
 }
 
+/* info-user.html */
+
+#info-user {
+    background-color: rgba(56, 167, 0, 0.1); 
+    padding: 50px 100px;
+}
+
+#info-user ul {
+    border-bottom: 2px solid #717171a4;
+}
+
+#info-user ul .nav-li-iu {
+    margin: 15px 0px;
+    width: 25%;
+    text-align: center;
+}
+
+#info-user ul .border-right {
+    border-right: 2px solid #717171a4;
+}
+
+#info-user ul .nav-li-iu button {
+    background: none;
+    border: none;
+    color: #717171;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+}
+
+#info-user nav .active {
+    color: #38A700;
+}
+
+#info-user .avatar .box-avatar {
+    position: relative;
+}
+
+#info-user .avatar .box-avatar img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#info-user .avatar .box-avatar .box-may-anh {
+    border: 2px solid #38A700;
+    width: 35.5px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    right: 15px;
+    bottom: -1px;
+}
+
+#info-user .avatar .box-avatar .box-may-anh img {
+    padding: 9px;
+}
+
+#info-user .avatar .change-password button {
+    background-color: #38A700;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#info-user .box-info-user {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#info-user .avatar .change-password {
+    margin-top: 33px;
+}
+
+#info-user .avatar .change-password button p {
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 700;
+    font-family: "Inter";
+    text-align: center;
+    color: #fff;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+#info-user .avatar .change-password .icon img {
+    margin-top: -4px;
+    margin-left: 10px;
+}
+
+#info-user .info-details {
+    margin-top: 10px;
+}
+
+#info-user .info-details label input {
+    border: none;
+    border-bottom: 1px solid #717171a4;
+    padding-bottom: 7px;
+    margin-top: 30px;
+    width: 75%;
+}
+
+#info-user .info-details label input::placeholder {
+    font-weight: 700;
+    font-family: "Inter";
+    font-size: 14px;
+    line-height: normal;
+    color: #717171a4;
+}
+
+#info-user .details-ddyt .box-img-ddyt img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#info-user .box-ddyt {
+}
+
+#info-user .box-ddyt .details-ddyt {
+    margin-bottom: 22px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt {
+    padding: 19px 45px;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .name-ddyt p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0F4A1A;
+    margin-right: 7px;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .address-destination .icon-address {
+    margin-right: 7px;
+    margin-top: -5px;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .address-destination .icon-address i {
+    font-size: 11px;
+    color: #38A700;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .address-destination .text-address p {
+    font-size: 14px;
+    color: #0F4A1A;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .star-rate-icon .box-rate i {
+    font-size: 11px;
+    color: #38A700;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .star-rate-icon .box-rate {
+    margin-right: 10px;
+    margin-top: -6px;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .star-rate-icon .text-rate {
+    font-size: 12px;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .descrip-destination p {
+    font-size: 14px;
+    color: #0F4A1A;
+    margin-bottom: 0;
+}
+
+
 @media (max-width:1200px) {
     #detail-schedule .page-day .timeline-schedule .info-destination .box-info .title-destination p {
         font-size: 18px;
@@ -1295,6 +1475,21 @@
         width: 40%;
         margin: auto;
     }
+    .banner-service iframe {
+        margin: 0;
+    }
+    .order-service {
+        padding: 20px 26px !important;
+    }
+    #local-map {
+        padding: 20px 26px;
+    }
+    .dia-diem-lan-can {
+        padding: 20px 26px;
+    }  
+    #rating-section {
+        padding: 20px 26px;
+    }
 }
 
 @media (max-width:991px) {
@@ -1314,8 +1509,7 @@
         padding: 25px 40px;
     }
     #order-table .btn-order-table {
-        width: 50%;
-        margin: auto;
+        width: 50% !important;
     }
     #detail-schedule .nav-day {
         margin-left: 0;
@@ -1329,6 +1523,12 @@
     #order-table label {
         font-size: 16px;
         padding: 11px 0 0 0;
+    }
+    .box-qi-respon {
+        display: block !important;
+    }
+    #quick-info .in-qi .col-qi {
+        width: 100%;
     }
 }
 
@@ -1383,10 +1583,19 @@
         border-top-right-radius: 10px;
     }
     #cook-table .arrow-ct-prev {
-        display: none;
+        display: none !important;
     }
     #cook-table .arrow-ct-next {
-        display: none;
+        display: none !important;
+    }
+    .box-map {
+        padding: 23px 15px;
+    }
+    #quick-info .in-qi {
+        padding: 30px 15px;
+    }
+    #detail-info .in-di {
+        padding: 30px 15px;
     }
 }
 
@@ -1399,7 +1608,7 @@
         width: 80%;
     }
     #order-table .btn-order-table {
-        width: 35%;
+        width: 35% !important;
     }
     #detail-schedule .page-day .timeline-schedule .timeline {
         width: 30%;
@@ -1426,7 +1635,7 @@
         width: 100%;
     }
     #order-table .btn-order-table {
-        width: 45%;
+        width: 45% !important;
     }
     #detail-schedule .page-day .timeline-schedule .timeline {
         width: 40%;
@@ -1473,12 +1682,59 @@
     #name-hotel .border-space {
         width: 40%;
     }
-    
+    #bread-crumb-dp ul li {
+        margin: 0 3px;
+    }
+    #bread-crumb-dp ul li a {
+        font-size: 13px;
+    }
+    #bread-crumb-dp ul li i {
+        font-size: 10px;
+    }
+    #name-service p {
+        font-size: 30px;
+    }
+    #quick-info .row-info-3 .add-to-tour {
+        width: 50%;
+    }
+    #quick-info .in-qi .title-qi p {
+        font-size: 24px;
+    }
+    #quick-info .in-qi .icon-heart img {
+        width: 80%;
+    }
+    #detail-info .in-di .title-di p {
+        font-size: 24px;
+    }
+    #local-map .box-map .title-map p {
+        font-size: 24px;
+    }
+    #detail-info .in-di .content-di p {
+        font-size: 16px;
+    }
+    #ddlc h3 {
+        font-size: 24px;
+    }
 }
 
 @media (max-width:475px) {
     #restaurant .row-info-3 .add-to-tour {
         width: 31%;
+    }
+    #quick-info .in-qi .title-qi p {
+        font-size: 20px;
+    }
+    #quick-info .in-qi .icon-heart img {
+        width: 60%;
+    }
+    #detail-info .in-di .title-di p {
+        font-size: 20px;
+    }
+    #local-map .box-map .title-map p {
+        font-size: 20px;
+    }
+    #ddlc h3 {
+        font-size: 20px;
     }
 }
 
@@ -1487,16 +1743,19 @@
         width: 33%;
     }
     #order-table .btn-order-table {
-        width: 50%;
+        width: 50% !important;
     }
     .pu-ut .add-to-tour {
         margin-left: -65px;
+    }
+    #quick-info .row-info-3 .add-to-tour {
+        width: 60%;
     }
 }
 
 @media (max-width: 425px) {
     #order-table .btn-order-table {
-        width: 54%;
+        width: 60% !important;
     }
     #order-table label {
         font-size: 12px;
@@ -1505,23 +1764,35 @@
     #restaurant .row-info-3 .add-to-tour {
         width: 37%;
     }
+    #quick-info .in-qi .col-qi .text-box p {
+        font-size: 13px;
+    }
+    #quick-info .in-qi .col-qi .box-in-out {
+        display: block !important;
+    }
+    #detail-info .in-di .content-di p {
+        font-size: 14px;
+    }
 }
 
 @media (max-width:400px) {
     #restaurant .row-info-3 .add-to-tour {
         width: 40%;
     }
-    #order-table .btn-order-table {
-        width: 60%;
-    }  
     .pu-ut .add-to-tour {
         margin-left: -10px;
     }  
+    #quick-info .row-info-3 .add-to-tour {
+        width: 80%;
+    }
+    #order-table .btn-order-table {
+        width: 70% !important;
+    }
 }
 
 @media (max-width:380px) {
     #order-table .btn-order-table {
-        width: 65%;
+        width: 80% !important;
     }
 }
 
