@@ -139,28 +139,28 @@
         </div>
 
         <div id="info-user">
-            <div class="container" style="">
+            <div class="container pd-0" style="">
                 <div class="row">
                     <div class="col-lg-12">
 
-                        <ul class="nav nav-tabs tab-btn" style="background-color: #Ffffff; border-radius: 10px;">
-                            <li class="nav-item border-right nav-li-iu" role="presentation">
-                                <button class="nav-link" data-bs-toggle="tab" id="tk-tab" type="button" data-bs-target="#tk">Tài khoản</button>
+                        <ul class="nav nav-tabs tab-btn" style="background-color: #Ffffff; border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                            <li class=" border-right nav-li-iu" role="presentation">
+                                <button class="" data-bs-toggle="tab" id="tk-tab" type="button" data-bs-target="#tk">Tài khoản</button>
                             </li>
-                            <li class="nav-item border-right nav-li-iu" role="presentation">
-                                <button class="nav-link" data-bs-toggle="tab" id="ddyt-tab" type="button" data-bs-target="#ddyt">Địa điểm yêu thích</button>
+                            <li class=" border-right nav-li-iu" role="presentation">
+                                <button class="" data-bs-toggle="tab" id="ddyt-tab" type="button" data-bs-target="#ddyt">Địa điểm yêu thích</button>
                             </li>
-                            <li class="nav-item border-right nav-li-iu" role="presentation">
-                                <button class="nav-link" data-bs-toggle="tab" id="lsdc-tab" type="button" data-bs-target="#lsdc">Lịch sử đặt chỗ</button>
+                            <li class=" border-right nav-li-iu" role="presentation">
+                                <button class="" data-bs-toggle="tab" id="lsdc-tab" type="button" data-bs-target="#lsdc">Lịch sử đặt chỗ</button>
                             </li>
-                            <li class="nav-item nav-li-iu" role="presentation">
-                                <button class="nav-link" data-bs-toggle="tab" id="tcb-tab" type="button" data-bs-target="#tcb">Tour của bạn</button>
+                            <li class=" nav-li-iu" role="presentation">
+                                <button class="" data-bs-toggle="tab" id="tcb-tab" type="button" data-bs-target="#tcb">Tour của bạn</button>
                             </li>
                         </ul>
                         <div class="tab-content" id="myTabControl">
                             <div class="tab-pane fade show" style="background-color: #Ffffff;" role="tabpanel" id="tk" aria-labelledby="tk-tab">
                                 <div class="box-info-user container">
-                                    <div class="row">
+                                    <div class="row" style="padding: 0 60px;">
                                         <div class="avatar col-lg-2">
                                             <div class="box-avatar">
                                                 <img src="../assets/imgs/thaianhimg/avatariu.png" alt="">
@@ -172,9 +172,9 @@
                                             </div>
                                             <div class="change-password">
                                                 <a href="">
-                                                    <button class="d-flex">
+                                                    <button class="d-flex j-space-around">
                                                         <div class="icon">
-                                                            <img src="../assets/imgs/thaianhimg/icon/lockpasswhite.png" alt="">
+                                                            <img src="../assets/imgs/thaianhimg/icon/lockwhite.png" alt="">
                                                         </div>
                                                         <p>Đổi mật khẩu</p>
                                                     </button>
@@ -210,7 +210,7 @@
                                         <div class="row">
                                             <div class="col-lg-4 pd-0">
                                                 <div class="box-img-ddyt">
-                                                    <img src="../assets/imgs/thaianhimg/mekong-smile-nu-cuoi-mekong-scaled.png" alt="">
+                                                    <img src="../assets/imgs/thaianhimg/mekongsmiletour.png" alt="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-8 pd-0">
@@ -252,7 +252,7 @@
                                         <div class="row">
                                             <div class="col-lg-4 pd-0">
                                                 <div class="box-img-ddyt">
-                                                    <img src="../assets/imgs/thaianhimg/mekong-smile-nu-cuoi-mekong-scaled.png" alt="">
+                                                    <img src="../assets/imgs/thaianhimg/mekongsmiletour.png" alt="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-8 pd-0">
@@ -294,7 +294,7 @@
                                         <div class="row">
                                             <div class="col-lg-4 pd-0">
                                                 <div class="box-img-ddyt">
-                                                    <img src="../assets/imgs/thaianhimg/mekong-smile-nu-cuoi-mekong-scaled.png" alt="">
+                                                    <img src="../assets/imgs/thaianhimg/mekongsmiletour.png" alt="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-8 pd-0">
@@ -337,7 +337,7 @@
                                         <div class="row">
                                             <div class="col-lg-4 pd-0">
                                                 <div class="box-img-ddyt">
-                                                    <img src="../assets/imgs/thaianhimg/mekong-smile-nu-cuoi-mekong-scaled.png" alt="">
+                                                    <img src="../assets/imgs/thaianhimg/mekongsmiletour.png" alt="">
                                                 </div>
                                             </div>
                                             <div class="col-lg-8 pd-0">
@@ -528,6 +528,13 @@
             dateFormat: 'dd/mm/yy'
           }
         );
+    </script>
+
+    <script>
+        $('.nav').on('click', 'button', function(){
+            $('.nav li button').removeClass('active');
+            $(this).addClass('active');
+        });
     </script>
 
 </body>

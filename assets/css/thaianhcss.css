@@ -2,6 +2,11 @@
     font-family: "Inter";
 }
 
+p {
+    font-family: "Inter";
+    line-height: normal;
+}
+
 .d-flex {
     display: flex;
 }
@@ -1237,7 +1242,6 @@
     font-weight: 500;
 }
 
-
 /* #detail-info */
 #detail-info .in-di {
     background-color: #ffffff;
@@ -1270,6 +1274,182 @@
 .order-service .btn-order-table {
     width: 36% !important;
 }
+
+/* info-user.html */
+
+#info-user {
+    background-color: rgba(56, 167, 0, 0.1); 
+    padding: 50px 100px;
+}
+
+#info-user ul {
+    border-bottom: 2px solid #717171a4;
+}
+
+#info-user ul .nav-li-iu {
+    margin: 15px 0px;
+    width: 25%;
+    text-align: center;
+}
+
+#info-user ul .border-right {
+    border-right: 2px solid #717171a4;
+}
+
+#info-user ul .nav-li-iu button {
+    background: none;
+    border: none;
+    color: #717171;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: normal;
+    text-align: center;
+}
+
+#info-user nav .active {
+    color: #38A700;
+}
+
+#info-user .avatar .box-avatar {
+    position: relative;
+}
+
+#info-user .avatar .box-avatar img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#info-user .avatar .box-avatar .box-may-anh {
+    border: 2px solid #38A700;
+    width: 35.5px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    right: 15px;
+    bottom: -1px;
+}
+
+#info-user .avatar .box-avatar .box-may-anh img {
+    padding: 9px;
+}
+
+#info-user .avatar .change-password button {
+    background-color: #38A700;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#info-user .box-info-user {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#info-user .avatar .change-password {
+    margin-top: 33px;
+}
+
+#info-user .avatar .change-password button p {
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: normal;
+    font-weight: 700;
+    font-family: "Inter";
+    text-align: center;
+    color: #fff;
+    padding-top: 4px;
+    margin-right: 10px;
+}
+
+#info-user .avatar .change-password .icon img {
+    margin-top: -4px;
+    margin-left: 10px;
+}
+
+#info-user .info-details {
+    margin-top: 10px;
+}
+
+#info-user .info-details label input {
+    border: none;
+    border-bottom: 1px solid #717171a4;
+    padding-bottom: 7px;
+    margin-top: 30px;
+    width: 75%;
+}
+
+#info-user .info-details label input::placeholder {
+    font-weight: 700;
+    font-family: "Inter";
+    font-size: 14px;
+    line-height: normal;
+    color: #717171a4;
+}
+
+#info-user .details-ddyt .box-img-ddyt img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#info-user .box-ddyt {
+}
+
+#info-user .box-ddyt .details-ddyt {
+    margin-bottom: 22px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt {
+    padding: 19px 45px;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .name-ddyt p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0F4A1A;
+    margin-right: 7px;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .address-destination .icon-address {
+    margin-right: 7px;
+    margin-top: -5px;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .address-destination .icon-address i {
+    font-size: 11px;
+    color: #38A700;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .address-destination .text-address p {
+    font-size: 14px;
+    color: #0F4A1A;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .star-rate-icon .box-rate i {
+    font-size: 11px;
+    color: #38A700;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .star-rate-icon .box-rate {
+    margin-right: 10px;
+    margin-top: -6px;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .star-rate-icon .text-rate {
+    font-size: 12px;
+}
+
+#info-user .box-ddyt .details-ddyt .box-info-ddyt .descrip-destination p {
+    font-size: 14px;
+    color: #0F4A1A;
+    margin-bottom: 0;
+}
+
 
 @media (max-width:1200px) {
     #detail-schedule .page-day .timeline-schedule .info-destination .box-info .title-destination p {
