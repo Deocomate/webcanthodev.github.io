@@ -1928,6 +1928,14 @@ p {
     bottom: 35%;
 }
 
+#rating-section .list-star-rate img {
+    width: 12%;
+}
+
+#rating-section .user-rate-comment-contain .list-user-rate li .form-comment .content h6 {
+    margin-right: 0.9rem !important;
+}
+
 @media (max-width:1200px) {
     #detail-schedule .page-day .timeline-schedule .info-destination .box-info .title-destination p {
         font-size: 18px;
