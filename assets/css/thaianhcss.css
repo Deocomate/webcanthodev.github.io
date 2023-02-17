@@ -1282,7 +1282,7 @@ p {
     padding: 50px 100px;
 }
 
-#info-user ul {
+#info-user .tab-btn {
     border-bottom: 2px solid #717171a4;
 }
 
@@ -1395,9 +1395,6 @@ p {
     border-bottom-left-radius: 10px;
 }
 
-#info-user .box-ddyt {
-}
-
 #info-user .box-ddyt .details-ddyt {
     margin-bottom: 22px;
     background-color: #ffffff;
@@ -1450,6 +1447,75 @@ p {
     margin-bottom: 0;
 }
 
+#lsdc {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#lsdc .tab-btn {
+    margin-top: 50px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#lsdc .tab-btn li button {
+    background-color: #717171a4;
+    border: none;
+    width: 100%;
+    padding: 0px 100px;
+    color: #ffffff;
+    font-size: 24px;
+    /* margin: 10px 0; */
+    font-weight: 700;
+}
+
+#lsdc .tab-btn li {
+    width: 33.33%;
+}
+
+#lsdc .tab-btn .border-right-w {
+    border-right: 1px solid #ffffff;
+}
+
+#lsdc .row-text {
+    background-color: #38A700;
+}
+
+#lsdc .row-text div p {
+    font-size: 24px;
+    text-align: center;
+    padding:  15px 0 13px 0;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#lsdc .row-info div p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0F4A1A;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#lsdc .row-info .col-gia-tien p {
+    color: #38A700 !important;
+    font-weight: 700;
+}
+
+#lsdc .row-info-bg1 {
+    background-color: #ffffff;
+}
+
+#lsdc .row-info-bg2 {
+    background-color: rgba(15, 74, 26, 0.15);
+}
+
+#lsdc .paginate {
+    margin-top: 20px;
+}
 
 @media (max-width:1200px) {
     #detail-schedule .page-day .timeline-schedule .info-destination .box-info .title-destination p {
