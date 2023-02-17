@@ -1395,6 +1395,10 @@ p {
     color: #717171a4;
 }
 
+#info-user .details-ddyt .box-img-ddyt {
+    position: relative;
+}
+
 #info-user .details-ddyt .box-img-ddyt img {
     width: 100%;
     height: auto;
@@ -1694,6 +1698,13 @@ p {
     border-top-right-radius: 10px;
 }
 
+#info-user .box-heart img {
+    width: 7% !important;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
 /* lichtrinh.html */
 
 .slide-schedule .box-img-slide img {
@@ -1896,6 +1907,25 @@ p {
 
 #service-travelers .row-pd-st .box-st-text p {
     margin-bottom: 40px;
+}
+
+#detail-travelers .arrow-banner-prev,
+#detail-travelers .arrow-banner-next {
+    outline: none;
+    border: none;
+    background: none;
+    position: absolute;
+    z-index: 10;
+}
+
+#detail-travelers .arrow-banner-prev {
+    top: 37%;
+    left: 10px;
+}
+
+#detail-travelers .arrow-banner-next {
+    right: 10px;
+    bottom: 35%;
 }
 
 @media (max-width:1200px) {
@@ -2307,7 +2337,11 @@ p {
     }
     #service-travelers .row-pd-st {
         padding: 0 50px;
-    }    
+    }   
+    #detail-travelers .arrow-banner-prev,
+    #detail-travelers .arrow-banner-next  {
+        display: none;
+    }
 }
 
 
@@ -2417,6 +2451,9 @@ p {
     }
     #service-travelers .row-pd-st {
         padding: 0 25px;
+    }
+    #detail-schedule .page-day .timeline-schedule .timeline-detail {
+        margin-left: 26px;
     }
 }
 

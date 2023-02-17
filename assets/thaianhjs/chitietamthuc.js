@@ -80,7 +80,7 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.slider-nav-pd-gallery'
+        asNavFor: '.slider-nav-pd-gallery',
     });
     $('.slider-nav-pd-gallery').slick({
         slidesToShow: 3,
@@ -88,6 +88,8 @@ $(document).ready(function(){
         asNavFor: '.slider-for-pd-gallery',
         dots: false,
         centerMode: false,
-        focusOnSelect: true
+        focusOnSelect: true,
+        prevArrow:`<button type='button' class='arrow-banner-prev'><img src="../assets/imgs/thaianhimg/icon/angle-green-prev.png" alt=""></button>`,
+        nextArrow:`<button type='button' class='arrow-banner-next'><img src="../assets/imgs/thaianhimg/icon/angle-green-next.png" alt=""></button>`,
     });
 })
