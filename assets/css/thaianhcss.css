@@ -1694,6 +1694,56 @@ p {
     border-top-right-radius: 10px;
 }
 
+/* lichtrinh.html */
+
+.slide-schedule .box-img-slide img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 14px 7.5px;
+}
+
+.slide-schedule .box-img-slide .content h5 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.slide-schedule .box-img-slide .content .d-flex>div {
+    margin-right: 40px;
+}
+
+.slide-schedule .box-img-slide .content .title-overlay a p {
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-left: 8px;
+    margin-top: -2px;
+}
+
+.banner-cuisine.custom-slider .slide-schedule .box-img-slide .content .content-overlay .title-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 36px 46px;
+}
+
+.banner-cuisine.custom-slider .slide-schedule .box-img-slide .content .content-overlay .sale {
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 46px;
+    background-color: white;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: normal;
+    text-align: center;
+    color: #38a700;
+    padding: 13px 21px;
+    border-radius: 0px 0px 5px 5px;
+}
+
 @media (max-width:1200px) {
     #detail-schedule .page-day .timeline-schedule .info-destination .box-info .title-destination p {
         font-size: 18px;
@@ -1920,6 +1970,16 @@ p {
     #info-user .avatar .box-avatar {
         width: 35%;
     }
+    .slide-schedule .box-img-slide .content h5 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+    .slide-schedule .box-img-slide .content .title-overlay a p {
+        font-size: 14px;
+    }
+    .slide-schedule .box-img-slide .content .title-overlay a i {
+        font-size: 14px;
+    }
 }
 
 @media (max-width:500px) {
@@ -2044,6 +2104,9 @@ p {
     #info-user .box-schedule .content-schedule .name-schedule p {
         font-size: 18px;
     }
+    .banner-cuisine.custom-slider .slide-schedule .box-img-slide .content .content-overlay .title-overlay {
+        padding: 20px 46px;
+    }
 }
 
 
@@ -2081,6 +2144,22 @@ p {
     #quick-info .row-info-3 .add-to-tour {
         width: 60%;
     }
+    .slide-schedule .box-img-slide .content h5 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .slide-schedule .box-img-slide .content .title-overlay a i,
+    .slide-schedule .box-img-slide .content .title-overlay a p {
+        font-size: 12px;
+    }
+    .banner-cuisine.custom-slider .slide-schedule .box-img-slide .content .content-overlay .sale {
+        font-size: 14px;
+        padding: 10px 21px;
+    }
+    #banner-cuisine .arrow-banner-prev {
+        top: 41%;
+        left: 20px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -2117,6 +2196,20 @@ p {
     }
     #order-table .btn-order-table {
         width: 70% !important;
+    }
+    #banner-cuisine .arrow-banner-prev,
+    #banner-cuisine .arrow-banner-next {
+        display: none;
+    }
+    .banner-cuisine.custom-slider .slide-schedule .box-img-slide .content .content-overlay .title-overlay {
+        padding: 20px;
+    }
+    .banner-cuisine.custom-slider .slide-schedule .box-img-slide .content .content-overlay .sale {
+        left: 20px;
+    }
+    .banner-cuisine.custom-slider .box-img-slide .content .content-overlay img {
+        top: -5px;
+        right: 5px;
     }
 }
 
