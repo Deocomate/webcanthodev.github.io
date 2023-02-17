@@ -1744,6 +1744,160 @@ p {
     border-radius: 0px 0px 5px 5px;
 }
 
+/* chitietluhanh.html */
+
+#name-travelers p {
+    font-size: 36px;
+    font-weight: 700;
+    color: #38A700;
+    text-align: center;
+}
+
+#name-travelers .border-space {
+    border-bottom: 1px solid #38A700;
+    width: 90%;
+    margin: auto;
+}
+
+#detail-travelers {
+    background-color: rgba(15, 74, 26, 0.15);
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+#detail-travelers .box-slide-travelers .slider-for-pd-gallery img {
+    height: 290px;
+    object-fit: cover;
+}
+
+#detail-travelers .box-slide-travelers .slider-nav-pd-gallery img {
+    padding: 7px 3.5px 0 3.5px;
+    object-fit: cover;
+}
+
+#detail-travelers .box-slide-travelers img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#detail-travelers .box-info-details {
+    background: #ffffff;
+    padding: 38px 22px;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#detail-travelers .box-info-details .name-id p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0F4A1A;
+}
+
+#detail-travelers .box-info-details .add-id i,
+#detail-travelers .box-info-details .email-id i, 
+#detail-travelers .box-info-details .phone-id i, 
+#detail-travelers .box-info-details .web-id i {
+    font-size: 11px;
+    color: #38A700;
+    margin-top: 5px;
+    margin-right: 7px;
+}
+
+#detail-travelers .box-info-details .youtube-id i {
+    font-size: 11px;
+    color: #38A700;
+    margin-right: 7px;
+    margin-top: 7px;
+}
+
+#detail-travelers .box-info-details .add-id p b,
+#detail-travelers .box-info-details .email-id p b, 
+#detail-travelers .box-info-details .phone-id p b, 
+#detail-travelers .box-info-details .web-id a b, 
+#detail-travelers .box-info-details .youtube-id a b {
+    margin-right: 5px;
+}
+
+#detail-travelers .box-info-details .add-id p,
+#detail-travelers .box-info-details .email-id p, 
+#detail-travelers .box-info-details .phone-id p, 
+#detail-travelers .box-info-details .web-id a, 
+#detail-travelers .box-info-details .youtube-id a {
+    font-size: 14px;
+    color: #0F4A1A;
+    text-align: justify;
+}
+
+#info-detail-travelers {
+    background-color: rgba(15, 74, 26, 0.15);
+    padding-bottom: 20px;
+}
+
+#info-detail-travelers .in-idt {
+    background-color: #ffffff;
+    padding: 36px 58px;
+    border-radius: 10px;
+}
+
+#info-detail-travelers .in-idt .title-idt p {
+    font-size: 36px;
+    font-weight: 700;
+    color: #38A700;
+    margin-bottom: 20px;
+}
+
+#info-detail-travelers .in-idt .content-idt p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #0F4A1A;
+    margin-bottom: 0;
+}
+
+#service-travelers {
+    background-color: rgba(15, 74, 26, 0.15);
+    padding-bottom: 50px;
+}
+
+#service-travelers .in-st {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+#service-travelers .in-st .title-st p {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 18px;
+    color: #38A700;
+}
+
+#service-travelers .box-st-text p {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #0F4A1A;
+}
+
+#service-travelers .box-st-img {
+    width: 25%;
+    margin: auto;
+}
+
+#service-travelers .box-st-img img {
+    width: 100%;
+    margin-bottom: 13px;
+}
+
+#service-travelers .row-pd-st {
+    padding: 0 100px;
+}
+
+#service-travelers .row-pd-st .box-st-text p {
+    margin-bottom: 40px;
+}
+
 @media (max-width:1200px) {
     #detail-schedule .page-day .timeline-schedule .info-destination .box-info .title-destination p {
         font-size: 18px;
@@ -1760,9 +1914,13 @@ p {
     #detail-schedule .page-day .timeline-schedule .info-destination .box-info .title-destination p {
         font-size: 16px;
     }
-
     #detail-schedule .page-day .timeline-schedule .info-destination .box-info .date-post {
         font-size: 14px;
+    }
+    #detail-travelers,
+    #info-detail-travelers,
+    #service-travelers {
+        padding: 0px 50px 22px 50px;
     }
 }
 
@@ -1855,6 +2013,11 @@ p {
     #lsdc .tab-btn li button {
         padding: 10px;
     }
+    #detail-travelers .box-info-details {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
 }
 
 @media (max-width:768px) {
@@ -1940,6 +2103,24 @@ p {
     #lsdc .row-text div p {
         font-size: 15px;
     }
+    #info-detail-travelers .in-idt {
+        padding: 30px;
+    }
+    #info-detail-travelers .in-idt .title-idt p {
+        font-size: 30px;
+    }
+    #info-detail-travelers .in-idt .content-idt p {
+        font-size: 16px;
+    }
+    #service-travelers .in-st .title-st p {
+        font-size: 30px;
+    }
+    #name-travelers p {
+        font-size: 30px;
+    }
+    #detail-travelers .box-slide-travelers .slider-for-pd-gallery img {
+        height: 200px;
+    }
 }
 
 @media (max-width:600px) {
@@ -1979,6 +2160,9 @@ p {
     }
     .slide-schedule .box-img-slide .content .title-overlay a i {
         font-size: 14px;
+    }
+    #detail-travelers, #info-detail-travelers, #service-travelers {
+        padding: 0px 20px 22px 20px;
     }
 }
 
@@ -2107,6 +2291,23 @@ p {
     .banner-cuisine.custom-slider .slide-schedule .box-img-slide .content .content-overlay .title-overlay {
         padding: 20px 46px;
     }
+    #name-travelers p {
+        font-size: 25px;
+    }
+    #detail-travelers .box-info-details,
+    #info-detail-travelers .in-idt {
+        padding: 15px 22px;
+    }
+    #detail-travelers .box-info-details .name-id p,
+    #info-detail-travelers .in-idt .title-idt p {
+        font-size: 20px;
+    } 
+    #info-detail-travelers .in-idt .content-idt p {
+        font-size: 13px;
+    }
+    #service-travelers .row-pd-st {
+        padding: 0 50px;
+    }    
 }
 
 
@@ -2210,6 +2411,12 @@ p {
     .banner-cuisine.custom-slider .box-img-slide .content .content-overlay img {
         top: -5px;
         right: 5px;
+    }
+    #service-travelers .box-st-text p {
+        font-size: 14px;
+    }
+    #service-travelers .row-pd-st {
+        padding: 0 25px;
     }
 }
 
