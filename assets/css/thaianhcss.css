@@ -1683,7 +1683,15 @@ p {
 }
 
 .auto-visible .row {
-    width: 1200px;
+    width: 1055px;
+}
+
+#lsdc .tab-btn li:first-child button {
+    border-top-left-radius: 10px;
+}
+
+#lsdc .tab-btn li:last-child button {
+    border-top-right-radius: 10px;
 }
 
 @media (max-width:1200px) {
@@ -1794,6 +1802,9 @@ p {
     #info-user {
         padding: 50px 50px;
     }
+    #lsdc .tab-btn li button {
+        padding: 10px;
+    }
 }
 
 @media (max-width:768px) {
@@ -1874,6 +1885,10 @@ p {
     }
     #info-user .box-ddyt .details-ddyt .box-info-ddyt {
         padding: 19px 20px;
+    }
+    #lsdc .tab-btn li button,
+    #lsdc .row-text div p {
+        font-size: 15px;
     }
 }
 
@@ -1984,16 +1999,12 @@ p {
     #quick-info .row-info-3 .add-to-tour {
         width: 50%;
     }
-    #quick-info .in-qi .title-qi p {
-        font-size: 24px;
-    }
     #quick-info .in-qi .icon-heart img {
         width: 80%;
     }
-    #detail-info .in-di .title-di p {
-        font-size: 24px;
-    }
-    #local-map .box-map .title-map p {
+    #detail-info .in-di .title-di p,
+    #local-map .box-map .title-map p,
+    #quick-info .in-qi .title-qi p {
         font-size: 24px;
     }
     #detail-info .in-di .content-di p {
@@ -2008,9 +2019,6 @@ p {
     #info-user ul .nav-li-iu {
         padding: 0 5px;
     }
-    #info-user ul .nav-li-iu button {
-        font-size: 12px;
-    }
     #info-user .box-ddyt .details-ddyt .box-info-ddyt .name-ddyt p {
         font-size: 20px;
     }
@@ -2018,7 +2026,26 @@ p {
         width: 50%;
         font-size: 15px;
     }
+    #info-user .box-schedule .content-schedule .name-schedule p {
+        font-size: 20px;
+    }
+    #lsdc .row-info div p {
+        font-size: 13px;
+    }
+    #info-user .box-ddyt .details-ddyt .box-info-ddyt .descrip-destination p,
+    #info-user .box-ddyt .details-ddyt .box-info-ddyt .address-destination .text-address p,
+    #info-user .all-schedule .view-detail-schedule a button,
+    #info-user .box-schedule .content-schedule .box-time-local .all-local, 
+    #info-user .box-schedule .content-schedule .box-time-local .all-time,
+    #info-user ul .nav-li-iu button {
+        font-size: 12px;
+    }
+    #info-user .box-ddyt .details-ddyt .box-info-ddyt .name-ddyt p,
+    #info-user .box-schedule .content-schedule .name-schedule p {
+        font-size: 18px;
+    }
 }
+
 
 @media (max-width:475px) {
     #restaurant .row-info-3 .add-to-tour {
