@@ -1046,6 +1046,12 @@ a {
     border-radius: 10px;
     background-color: #38a700; }
 
+.list .list-property i {
+  color: #38A700; }
+
+.list .list-property span {
+  color: #0F4A1A; }
+
 #header * {
   font-family: Inter !important; }
 
@@ -2881,4 +2887,6 @@ a {
       margin-top: 10px; }
       #tao-lich-trinh-list-tour .tour-item .content .delete-tour > div button {
         width: 100%;
-        justify-content: center; } }
+        justify-content: center; }
+  #tao-lich-trinh-list-tour .tour-item .content .delete-tour {
+    border-left: none; } }
