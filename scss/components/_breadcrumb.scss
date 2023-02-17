@@ -15,3 +15,9 @@
     }
 }
 .tien-ich-chi-tiet-article{}
+
+@include responsive($size-md){
+    .breadcrumb-custom li{
+        font-size: 13px;
+    }
+}

@@ -920,6 +920,10 @@ a {
   .breadcrumb-custom li.active {
     color: #38A700; }
 
+@media (max-width: 767.98px) {
+  .breadcrumb-custom li {
+    font-size: 13px; } }
+
 .table-section table {
   background-color: white;
   border-radius: 10px;
@@ -2889,4 +2893,6 @@ a {
         width: 100%;
         justify-content: center; }
   #tao-lich-trinh-list-tour .tour-item .content .delete-tour {
-    border-left: none; } }
+    border-left: none; }
+  #tao-lich-trinh .tour-menu .sort-menu-input label {
+    display: none; } }

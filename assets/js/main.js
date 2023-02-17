@@ -297,6 +297,11 @@ $(document).ready(function () {
         let button = $(this).find('button')
         button[0].click()
     });
+
+
+    //Datetime piker
+    $('#datepicker').datepicker(); 
+
 });
 
 
