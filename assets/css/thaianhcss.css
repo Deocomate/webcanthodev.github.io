@@ -1290,6 +1290,7 @@ p {
     margin: 15px 0px;
     width: 25%;
     text-align: center;
+    padding: 0 20px;
 }
 
 #info-user ul .border-right {
@@ -1374,10 +1375,17 @@ p {
 #info-user .info-details label input {
     border: none;
     border-bottom: 1px solid #717171a4;
-    padding-bottom: 7px;
     margin-top: 30px;
     width: 75%;
+    padding: 10px 10px 7px 10px;
+    outline: none;
+    transition: .8s;
 }
+
+/* #info-user .info-details label input:hover {
+   background-color: #717171;
+   transition: .8s;
+} */
 
 #info-user .info-details label input::placeholder {
     font-weight: 700;
@@ -1517,9 +1525,176 @@ p {
     margin-top: 20px;
 }
 
+#info-user .btn-update-schedule button {
+    border: none;
+    background-color: #38A700;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+#info-user .all-schedule {
+    margin-top: 23px;
+}
+
+#info-user .all-schedule .img-schedule img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#info-user .box-schedule .content-schedule {
+    padding: 20px 25px;
+}
+
+#info-user .all-schedule .box-schedule {
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 22px;
+}
+
+#info-user .all-schedule .box-schedule .img-schedule img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#info-user .all-schedule .view-detail-schedule a button {
+    padding: 5px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    background-color: #38A700;
+    color: #ffffff;
+    text-align: center;
+}
+
+#info-user .box-schedule .content-schedule .name-schedule p {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: justify;
+    color: #0F4A1A;
+}
+
+#info-user .box-schedule .content-schedule .box-time-local .all-local,
+#info-user .box-schedule .content-schedule .box-time-local .all-time {
+    color: #717171a4;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#info-user .box-schedule .content-schedule .box-time-local .all-local i,
+#info-user .box-schedule .content-schedule .box-time-local .all-time i {
+    margin-right: 6px;
+}
+
+#info-user .box-schedule .content-schedule .box-time-local .all-local p,
+#info-user .box-schedule .content-schedule .box-time-local .all-time p {
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+#info-user .title-pop-up {
+    width: 100%;
+}
+
+#info-user .title-pop-up p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    width: 157px;
+    margin: auto;
+    color: #38A700;
+    border-bottom: 2px solid #38A700;
+    padding-bottom: 5px;
+}
+
+#info-user .add-new-tour {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#info-user .add-new-tour input {
+    width: 75%;
+    border: 2px solid #38A700;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 8px 12px;
+}
+
+#info-user .add-new-tour input::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+    color: #717171a4;
+    font-family: "Inter";
+}
+
+#info-user .add-new-tour .btn-ant {
+    width: 25%;
+}
+
+#info-user .add-new-tour .btn-ant button {
+    width: 100%;
+    border: 2px solid #38A700;
+    background: #38A700;
+    color: #ffffff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 8px 12px;
+}
+
+#info-user .pop-up-fix {
+    padding: 40px;
+}
+
+/* hieu code info user */
+.nav-li-iu .active{
+    color: #38A700 !important;
+
+}
+/* hieu code button luu lai iu */
+#info-user .button-save-iu {
+    width: 50%;
+    margin: auto;
+}
+
+#info-user .button-save-iu button{
+    border: none;
+    border-radius: 5px;
+    background-color: #38A700;
+    width: 100%;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 26px auto;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.auto-visible {
+    overflow: auto visible;
+}
+
+.auto-visible .row {
+    width: 1200px;
+}
+
 @media (max-width:1200px) {
     #detail-schedule .page-day .timeline-schedule .info-destination .box-info .title-destination p {
         font-size: 18px;
+    }
+    #info-user ul .nav-li-iu button {
+        font-size: 19px;
+    }
+    #lsdc .tab-btn li button {
+        padding: 0px 20px;
     }
 }
 
@@ -1559,6 +1734,12 @@ p {
 }
 
 @media (max-width:991px) {
+    #lsdc .tab-btn li button {
+        font-size: 20px;
+    }
+    #lsdc .row-text div p {
+        font-size: 20px;
+    }
     #detail-schedule .box-iframe {
         margin-top: 0;
         padding-bottom: 30px;
@@ -1596,9 +1777,29 @@ p {
     #quick-info .in-qi .col-qi {
         width: 100%;
     }
+    #info-user .avatar .box-avatar> img {
+        width: 100%;
+    }
+    #info-user .avatar .box-avatar {
+        width: 25%;
+        margin: auto;
+    }
+    #info-user .avatar .change-password {
+        width: 145px;
+        margin: 35px auto 0 auto;
+    }
+    #info-user .info-details label input {
+        width: 100%;
+    }
+    #info-user {
+        padding: 50px 50px;
+    }
 }
 
 @media (max-width:768px) {
+    #info-user ul .nav-li-iu button {
+        font-size: 16px;
+    }
     #restaurant .row-info-3 .add-to-tour {      
         width: 19%;
         margin: auto;
@@ -1663,6 +1864,17 @@ p {
     #detail-info .in-di {
         padding: 30px 15px;
     }
+    #info-user .details-ddyt .box-img-ddyt img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    #info-user .box-ddyt .details-ddyt .box-info-ddyt {
+        padding: 19px 20px;
+    }
 }
 
 @media (max-width:600px) {
@@ -1683,6 +1895,15 @@ p {
         list-style-type: none;
         display: flex;
         margin-left: 0px;
+    }
+    #info-user .box-info-user .row {
+        padding: 0 !important;
+    }
+    #info-user {
+        padding: 50px 30px;
+    }
+    #info-user .avatar .box-avatar {
+        width: 35%;
     }
 }
 
@@ -1780,6 +2001,22 @@ p {
     }
     #ddlc h3 {
         font-size: 24px;
+    }
+    #info-user .avatar .box-avatar {
+        width: 45%;
+    }
+    #info-user ul .nav-li-iu {
+        padding: 0 5px;
+    }
+    #info-user ul .nav-li-iu button {
+        font-size: 12px;
+    }
+    #info-user .box-ddyt .details-ddyt .box-info-ddyt .name-ddyt p {
+        font-size: 20px;
+    }
+    #info-user .btn-update-schedule button {
+        width: 50%;
+        font-size: 15px;
     }
 }
 
