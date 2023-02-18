@@ -1665,8 +1665,12 @@ p {
 /* hieu code info user */
 .nav-li-iu .active{
     color: #38A700 !important;
-
 }
+
+.nav-ddyt li .active {
+    background-color: #0F4A1A !important;
+}
+
 /* hieu code button luu lai iu */
 #info-user .button-save-iu {
     width: 50%;
