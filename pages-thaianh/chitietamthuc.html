@@ -121,8 +121,37 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <button class="btn text--white btn-green" type="submit">Đăng nhập</button>
+                        <button class="btn text--white btn-green" type="button" data-bs-toggle="modal" data-bs-target="#staticLogin">Đăng nhập</button>
                     </form>
+
+                    <!-- pop-up -->
+                    <div class="modal fade pu-ut" id="staticLogin" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticLoginLabel" aria-hidden="true">
+                        <div class="modal-dialog mt-20-percent">
+                            <div class="modal-content pop-up-fix">
+                                <div class="modal-header">
+                                <button type="button" class="x-mark-icon" data-bs-dismiss="modal" aria-label="Close">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </button>
+                                </div>
+                                <div class="modal-body d-flex j-space-around">
+                                    <div class="create-new-tour">
+                                        <a href="">
+                                            <button>Taaaaa</button>
+                                        </a>
+                                    </div>
+                                    <div class="add-to-tour">
+                                        <a href="">
+                                            <button>Taaar</button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -276,14 +305,40 @@
                         </div>
                         <div class="modal-body d-flex j-space-around">
                             <div class="create-new-tour">
-                                <a href="">
-                                    <button>Tạo tour mới</button>
-                                </a>
+                                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticInpu">Tạo tour mới</button>
+
+                                <!-- pop-up -->
+                                <div class="modal fade pu-ut" id="staticInpu" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                    <div class="modal-dialog mt-20-percent">
+                                        <div class="modal-content pop-up-fix">
+                                            <div class="modal-header">
+                                            <button type="button" class="x-mark-icon" data-bs-dismiss="modal" aria-label="Close">
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </button>
+                                            <div class="title-pop-up">
+                                                <p>Khởi tạo tour</p>
+                                            </div>
+                                            </div>
+                                            <div class="modal-body d-flex j-space-around">
+                                                <form action="" class="add-new-tour d-flex">
+                                                    <input type="text" placeholder="Nhập tên tour">
+                                                    <div class="btn-ant">
+                                                        <a href="">
+                                                            <button>Khởi tạo</button>
+                                                        </a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <!-- <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Understood</button>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="add-to-tour">
-                                <a href="">
-                                    <button>Thêm vào tour</button>
-                                </a>
+                                <button>Thêm vào tour</button>
                             </div>
                         </div>
                         <!-- <div class="modal-footer">
