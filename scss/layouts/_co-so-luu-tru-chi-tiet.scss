@@ -1,0 +1,154 @@
+#co-so-luu-tru-chi-tiet {
+    .hotel-information {
+        .hotel-name {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: justify;
+            color: #0f4a1a;
+        }
+        .tour-rate-value {
+            * {
+                margin-right: 5px;
+            }
+            a {
+                color: #0080f7;
+            }
+        }
+        .tour-location {
+            i {
+                color: #38a700;
+            }
+            a {
+                margin-left: 5px;
+                color: #0080f7;
+            }
+        }
+        .tour-price {
+            h4 {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 29px;
+                text-align: right;
+                color: #38a700;
+            }
+        }
+
+        .list-selection {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            a {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 500;
+                // font-size: 17px;
+                line-height: 24px;
+                text-align: center;
+                color: #ffffff;
+                padding: 12px 11px;
+            }
+        }
+    }
+
+    .hotel-image {
+        margin-top: 20px;
+        .container {
+            border-top: 1px solid #38a700;
+            // padding: 22px 0px;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .img-important {
+            position: relative;
+            .img-here {
+                height: 304px;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+            .heart {
+                width: 39px;
+                position: absolute;
+                top: 20px;
+                left: 20px;
+            }
+        }
+        .list-img {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2px;
+            .list-item {
+                position: relative;
+                flex-basis: calc(50% - 1px);
+                img {
+                    width: 100%;
+                    height: 151px;
+                }
+                .overlay {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    .d-flex {
+                        background: rgba(15, 74, 26, 0.4);
+                        border-radius: 4px;
+                        a {
+                            font-family: "Inter";
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 29px;
+                            text-align: center;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .thong-tin-nhanh {
+        padding: 20px 30px;
+        margin-top: 0px;
+        h3 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 39px;
+            color: #38a700;
+        }
+    }
+    .hotel-dia-diem-lan-can {
+        h3 {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            text-align: center;
+            color: #38a700;
+        }
+    }
+
+    .another-hotel {
+    }
+}
+
+@include responsive($size-md){
+    #co-so-luu-tru-chi-tiet .hotel-dia-diem-lan-can h3{
+        font-size: 27px;
+    }
+    #co-so-luu-tru-chi-tiet > section.hotel-dia-diem-lan-can.bgc-green-super  button{
+        font-size: 12px;
+    }
+}

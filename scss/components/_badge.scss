@@ -1,0 +1,21 @@
+.badge {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    &.badge-rate {
+        background: rgba(56, 167, 0, 0.1);
+        color: $color-green-0;
+    }
+    &.badge-discount {
+        background: #0f4a1a;
+        color: #ffffff;
+    }
+    &.badge-primary{
+        background: rgba(0, 128, 247, 0.1);
+        color: #0080F6;
+    }
+}
