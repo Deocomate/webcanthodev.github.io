@@ -190,7 +190,6 @@
         }
     }
 }
-
 .card-diem-den {
     .card {
         border: none;
@@ -202,13 +201,13 @@
                 right: 17px;
                 z-index: 100;
             }
-            &:hover{
-                .user-selection{
+            &:hover {
+                .user-selection {
                     opacity: 1;
                 }
             }
             .user-selection {
-                transition: .5s;
+                transition: 0.5s;
                 opacity: 0;
                 background: linear-gradient(
                     180deg,
@@ -270,7 +269,6 @@
         }
     }
 }
-
 .card-suggest {
     background-color: white;
     border-radius: 10px;
@@ -324,12 +322,182 @@
         }
     }
 }
-
 .heart {
     cursor: pointer;
 }
+.card-section {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    .card-title {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+        color: #38a700;
+    }
+    .card-body {
+        p {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: justify;
+            color: #0f4a1a;
+            margin-bottom: 0;
+        }
+    }
+}
+.card-hotel {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    .img-and-properties-contain {
+        .img {
+            img {
+                height: 160px;
+                border-radius: 5px;
+                object-fit: cover;
+            }
+        }
+        a {
+            white-space: nowrap;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 15px;
+            color: #0080f7;
+        }
+        .list-badges {
+            span {
+                margin-right: 5px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    .hotel-information-detail-contain {
+        .hotel-info-contain {
+            border-top: 1px solid #eae8e8;
+        }
+        .hotel-name {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            color: #38a700;
+        }
+        .hotel-includes {
+            .list {
+                .list-property {
+                    display: flex;
+                    align-items: start;
+                }
+                span {
+                    margin-left: 5px;
+                    margin-top: 5px;
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    // line-height: 15px;
+                    text-align: justify;
+                    color: #38a700;
+                }
+            }
+        }
+        .hotel-promote {
+            b {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 15px;
+                color: #0f4a1a;
+            }
+            border-left: 2px solid #38a700;
+            p {
+                margin-bottom: 0;
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15px;
+                text-align: justify;
+                color: #0f4a1a;
+            }
+        }
+        .hotel-bed {
+            height: 100%;
+            border-left: 1px solid #eae8e8;
+            border-right: 1px solid #eae8e8;
+            .bed-icon {
+                margin-bottom: 5px;
+                img {
+                    margin: 0px 5px;
+                }
+            }
+            p {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15px;
+                text-align: center;
+                color: #38a700;
+            }
+        }
+        .hotel-price-and-choose {
+            del {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 17px;
+                color: #0f4a1a;
+            }
+            h6 {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: right;
+                color: #38a700;
+            }
+            @include responsive($size-md){
+                a{
+                    width: 100%;
+                }
+            }
+        }
+        .more-select {
+            align-items: end;
+            height: 70px;
+            a {
+                font-family: "Inter";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 15px;
+                text-align: center;
+                color: #0080f7;
+            }
+        }
+    }
+}
+
 @include responsive($size-md) {
     .more-news-card > .card-contain > div {
         justify-content: center;
+    }
+    .card-hotel .hotel-information-detail-contain .more-select{
+        height: auto;
+    }
+    .card-hotel .img-and-properties-contain .img img{
+        height: 200px;
     }
 }

@@ -299,6 +299,8 @@ a {
     color: white;
     border: 1px solid #38a700;
     background-color: #38a700; }
+  .btn-green.dark {
+    background-color: #0f4a1a; }
 
 .card-news-lates {
   transition: 0.5s; }
@@ -457,7 +459,7 @@ a {
     .card-diem-den .card .img-contain:hover .user-selection {
       opacity: 1; }
     .card-diem-den .card .img-contain .user-selection {
-      transition: .5s;
+      transition: 0.5s;
       opacity: 0;
       background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.473958) 20.16%, #ffffff 100%);
       border-radius: 10px 10px 0px 0px;
@@ -549,9 +551,138 @@ a {
 .heart {
   cursor: pointer; }
 
+.card-section {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px; }
+  .card-section .card-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #38a700; }
+  .card-section .card-body p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #0f4a1a;
+    margin-bottom: 0; }
+
+.card-hotel {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px; }
+  .card-hotel .img-and-properties-contain .img img {
+    height: 160px;
+    border-radius: 5px;
+    object-fit: cover; }
+  .card-hotel .img-and-properties-contain a {
+    white-space: nowrap;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #0080f7; }
+  .card-hotel .img-and-properties-contain .list-badges span {
+    margin-right: 5px;
+    margin-bottom: 5px; }
+  .card-hotel .hotel-information-detail-contain .hotel-info-contain {
+    border-top: 1px solid #eae8e8; }
+  .card-hotel .hotel-information-detail-contain .hotel-name {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #38a700; }
+  .card-hotel .hotel-information-detail-contain .hotel-includes .list .list-property {
+    display: flex;
+    align-items: start; }
+  .card-hotel .hotel-information-detail-contain .hotel-includes .list span {
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    text-align: justify;
+    color: #38a700; }
+  .card-hotel .hotel-information-detail-contain .hotel-promote {
+    border-left: 2px solid #38a700; }
+    .card-hotel .hotel-information-detail-contain .hotel-promote b {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      color: #0f4a1a; }
+    .card-hotel .hotel-information-detail-contain .hotel-promote p {
+      margin-bottom: 0;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: justify;
+      color: #0f4a1a; }
+  .card-hotel .hotel-information-detail-contain .hotel-bed {
+    height: 100%;
+    border-left: 1px solid #eae8e8;
+    border-right: 1px solid #eae8e8; }
+    .card-hotel .hotel-information-detail-contain .hotel-bed .bed-icon {
+      margin-bottom: 5px; }
+      .card-hotel .hotel-information-detail-contain .hotel-bed .bed-icon img {
+        margin: 0px 5px; }
+    .card-hotel .hotel-information-detail-contain .hotel-bed p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      color: #38a700; }
+  .card-hotel .hotel-information-detail-contain .hotel-price-and-choose del {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0f4a1a; }
+  .card-hotel .hotel-information-detail-contain .hotel-price-and-choose h6 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #38a700; }
+  @media (max-width: 767.98px) {
+    .card-hotel .hotel-information-detail-contain .hotel-price-and-choose a {
+      width: 100%; } }
+  .card-hotel .hotel-information-detail-contain .more-select {
+    align-items: end;
+    height: 70px; }
+    .card-hotel .hotel-information-detail-contain .more-select a {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+      color: #0080f7; }
+
 @media (max-width: 767.98px) {
   .more-news-card > .card-contain > div {
-    justify-content: center; } }
+    justify-content: center; }
+  .card-hotel .hotel-information-detail-contain .more-select {
+    height: auto; }
+  .card-hotel .img-and-properties-contain .img img {
+    height: 200px; } }
 
 .heading-custom-green h2 {
   font-size: 36px;
@@ -1055,6 +1186,38 @@ a {
 
 .list .list-property span {
   color: #0F4A1A; }
+
+.form-group-style-2 form label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0f4a1a;
+  margin-bottom: 10px; }
+
+.form-group-style-2 form input {
+  background: #ffffff;
+  border: 1px solid #38a700;
+  border-radius: 5px;
+  color: #38a700; }
+
+.badge {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center; }
+  .badge.badge-rate {
+    background: rgba(56, 167, 0, 0.1);
+    color: #38a700; }
+  .badge.badge-discount {
+    background: #0f4a1a;
+    color: #ffffff; }
+  .badge.badge-primary {
+    background: rgba(0, 128, 247, 0.1);
+    color: #0080F6; }
 
 #header * {
   font-family: Inter !important; }
@@ -1993,36 +2156,6 @@ a {
   #diem-den-chi-tiet-detail .bg .video-important iframe {
     height: 608px;
     border-radius: 10px; }
-  #diem-den-chi-tiet-detail .bg .thong-tin-nhanh {
-    background-color: white;
-    margin-top: 10px;
-    border-radius: 10px; }
-    #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .border-left {
-      border-left: 1px solid rgba(15, 74, 26, 0.15); }
-    @media (max-width: 1199.98px) {
-      #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .border-left {
-        border-left: none; } }
-    #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item {
-      margin-bottom: 15px; }
-      #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item i {
-        font-size: 20px;
-        color: #38a700; }
-      #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item b {
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 24px;
-        color: #0f4a1a; }
-      #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .contact-item span {
-        font-family: "Inter";
-        font-style: normal;
-        font-size: 20px;
-        line-height: 24px;
-        color: #0f4a1a; }
-    #diem-den-chi-tiet-detail .bg .thong-tin-nhanh .btn {
-      width: 100%;
-      max-width: 466px; }
   #diem-den-chi-tiet-detail .bg .chi-tiet {
     background-color: white;
     padding: 36px 58px;
@@ -2181,6 +2314,37 @@ a {
       color: #0f4a1a; }
   #rating-section .user-rate-comment-contain .list-user-rate li .form-comment .list-star-rate img {
     cursor: pointer; }
+
+.thong-tin-nhanh {
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px; }
+  .thong-tin-nhanh .border-left {
+    border-left: 1px solid rgba(15, 74, 26, 0.15); }
+  @media (max-width: 1199.98px) {
+    .thong-tin-nhanh .border-left {
+      border-left: none; } }
+  .thong-tin-nhanh .contact-item {
+    margin-bottom: 15px; }
+    .thong-tin-nhanh .contact-item i {
+      font-size: 20px;
+      color: #38a700; }
+    .thong-tin-nhanh .contact-item b {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: #0f4a1a; }
+    .thong-tin-nhanh .contact-item span {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 20px;
+      line-height: 24px;
+      color: #0f4a1a; }
+  .thong-tin-nhanh .btn {
+    width: 100%;
+    max-width: 466px; }
 
 @media (max-width: 767.98px) {
   #rating-section .user-rate-comment-contain .menu-bar li a {
@@ -2896,3 +3060,121 @@ a {
     border-left: none; }
   #tao-lich-trinh .tour-menu .sort-menu-input label {
     display: none; } }
+
+#co-so-luu-tru-chi-tiet .hotel-information .hotel-name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: justify;
+  color: #0f4a1a; }
+
+#co-so-luu-tru-chi-tiet .hotel-information .tour-rate-value * {
+  margin-right: 5px; }
+
+#co-so-luu-tru-chi-tiet .hotel-information .tour-rate-value a {
+  color: #0080f7; }
+
+#co-so-luu-tru-chi-tiet .hotel-information .tour-location i {
+  color: #38a700; }
+
+#co-so-luu-tru-chi-tiet .hotel-information .tour-location a {
+  margin-left: 5px;
+  color: #0080f7; }
+
+#co-so-luu-tru-chi-tiet .hotel-information .tour-price h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  color: #38a700; }
+
+#co-so-luu-tru-chi-tiet .hotel-information .list-selection {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; }
+  #co-so-luu-tru-chi-tiet .hotel-information .list-selection a {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    padding: 12px 11px; }
+
+#co-so-luu-tru-chi-tiet .hotel-image {
+  margin-top: 20px; }
+  #co-so-luu-tru-chi-tiet .hotel-image .container {
+    border-top: 1px solid #38a700; }
+  #co-so-luu-tru-chi-tiet .hotel-image img {
+    width: 100%;
+    border-radius: 5px; }
+  #co-so-luu-tru-chi-tiet .hotel-image .img-important {
+    position: relative; }
+    #co-so-luu-tru-chi-tiet .hotel-image .img-important .img-here {
+      height: 304px;
+      object-fit: cover;
+      border-radius: 5px; }
+    #co-so-luu-tru-chi-tiet .hotel-image .img-important .heart {
+      width: 39px;
+      position: absolute;
+      top: 20px;
+      left: 20px; }
+  #co-so-luu-tru-chi-tiet .hotel-image .list-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px; }
+    #co-so-luu-tru-chi-tiet .hotel-image .list-img .list-item {
+      position: relative;
+      flex-basis: calc(50% - 1px); }
+      #co-so-luu-tru-chi-tiet .hotel-image .list-img .list-item img {
+        width: 100%;
+        height: 151px; }
+      #co-so-luu-tru-chi-tiet .hotel-image .list-img .list-item .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
+        #co-so-luu-tru-chi-tiet .hotel-image .list-img .list-item .overlay .d-flex {
+          background: rgba(15, 74, 26, 0.4);
+          border-radius: 4px; }
+          #co-so-luu-tru-chi-tiet .hotel-image .list-img .list-item .overlay .d-flex a {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            color: #ffffff; }
+
+#co-so-luu-tru-chi-tiet .thong-tin-nhanh {
+  padding: 20px 30px;
+  margin-top: 0px; }
+  #co-so-luu-tru-chi-tiet .thong-tin-nhanh h3 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #38a700; }
+
+#co-so-luu-tru-chi-tiet .hotel-dia-diem-lan-can h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  color: #38a700; }
+
+@media (max-width: 767.98px) {
+  #co-so-luu-tru-chi-tiet .hotel-dia-diem-lan-can h3 {
+    font-size: 27px; }
+  #co-so-luu-tru-chi-tiet > section.hotel-dia-diem-lan-can.bgc-green-super button {
+    font-size: 12px; } }

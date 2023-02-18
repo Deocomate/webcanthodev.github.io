@@ -44,47 +44,6 @@
                 border-radius: 10px;
             }
         }
-        .thong-tin-nhanh {
-            .border-left {
-                border-left: 1px solid rgba(15, 74, 26, 0.15);
-            }
-            @include responsive($size-lg) {
-                .border-left {
-                    border-left: none;
-                }
-            }
-            background-color: white;
-            margin-top: 10px;
-            border-radius: 10px;
-            .contact-item {
-                margin-bottom: 15px;
-                i {
-                    font-size: 20px;
-                    color: #38a700;
-                }
-                b {
-                    font-family: "Inter";
-                    font-style: normal;
-                    font-weight: 700;
-                    font-size: 20px;
-                    line-height: 24px;
-                    color: #0f4a1a;
-                }
-                span {
-                    font-family: "Inter";
-                    font-style: normal;
-                    // font-weight: 700;
-                    font-size: 20px;
-                    line-height: 24px;
-                    color: #0f4a1a;
-                }
-            }
-            .btn {
-                width: 100%;
-                max-width: 466px;
-            }
-        }
-
         .chi-tiet {
             background-color: white;
             padding: 36px 58px;
@@ -295,6 +254,46 @@
                 }
             }
         }
+    }
+}
+.thong-tin-nhanh {
+    .border-left {
+        border-left: 1px solid rgba(15, 74, 26, 0.15);
+    }
+    @include responsive($size-lg) {
+        .border-left {
+            border-left: none;
+        }
+    }
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    .contact-item {
+        margin-bottom: 15px;
+        i {
+            font-size: 20px;
+            color: #38a700;
+        }
+        b {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #0f4a1a;
+        }
+        span {
+            font-family: "Inter";
+            font-style: normal;
+            // font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #0f4a1a;
+        }
+    }
+    .btn {
+        width: 100%;
+        max-width: 466px;
     }
 }
 

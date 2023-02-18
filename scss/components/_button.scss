@@ -6,4 +6,7 @@
         border: 1px solid $color-green-0;
         background-color: $color-green-0;
     }
+    &.dark{
+        background-color: $color-green-1;
+    }
 }
