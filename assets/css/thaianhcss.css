@@ -2077,9 +2077,9 @@ p {
     .dia-diem-lan-can {
         padding: 20px 26px;
     }  
-    #rating-section {
+    /* #rating-section {
         padding: 20px 26px;
-    }
+    } */
 }
 
 @media (max-width:991px) {
