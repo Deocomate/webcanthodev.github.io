@@ -2035,6 +2035,15 @@ p {
     margin: auto;
 }
 
+.pu-login .form-login .sign-up p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #38A700;
+    margin-top: 70px;
+}
+
 @media (max-width:1200px) {
     #detail-schedule .page-day .timeline-schedule .info-destination .box-info .title-destination p {
         font-size: 18px;
