@@ -1608,11 +1608,11 @@ p {
     margin-bottom: 20px;
 }
 
-#info-user .title-pop-up {
+#staticInpu .title-pop-up {
     width: 100%;
 }
 
-#info-user .title-pop-up p {
+#staticInpu .title-pop-up p {
     font-size: 24px;
     font-weight: 700;
     line-height: normal;
@@ -1624,12 +1624,12 @@ p {
     padding-bottom: 5px;
 }
 
-#info-user .add-new-tour {
+#staticInpu .add-new-tour {
     width: 100%;
     border-radius: 5px;
 }
 
-#info-user .add-new-tour input {
+#staticInpu .add-new-tour input {
     width: 75%;
     border: 2px solid #38A700;
     border-top-left-radius: 5px;
@@ -1637,18 +1637,18 @@ p {
     padding: 8px 12px;
 }
 
-#info-user .add-new-tour input::placeholder {
+#staticInpu .add-new-tour input::placeholder {
     font-size: 16px;
     font-weight: 500;
     color: #717171a4;
     font-family: "Inter";
 }
 
-#info-user .add-new-tour .btn-ant {
+#staticInpu .add-new-tour .btn-ant {
     width: 25%;
 }
 
-#info-user .add-new-tour .btn-ant button {
+#staticInpu .add-new-tour .btn-ant button {
     width: 100%;
     border: 2px solid #38A700;
     background: #38A700;
@@ -1658,7 +1658,7 @@ p {
     padding: 8px 12px;
 }
 
-#info-user .pop-up-fix {
+#staticInpu .pop-up-fix {
     padding: 40px;
 }
 
