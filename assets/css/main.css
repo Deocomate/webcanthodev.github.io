@@ -3003,6 +3003,21 @@ a {
         line-height: 17px;
         text-align: justify;
         color: #0f4a1a; }
+      #tao-lich-trinh-list-tour .tour-item .content .main-content input.time {
+        background-color: #38a700;
+        border: none;
+        color: #ffffff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #ffffff;
+        outline: none; }
+        #tao-lich-trinh-list-tour .tour-item .content .main-content input.time::-webkit-calendar-picker-indicator {
+          filter: invert(1); }
     #tao-lich-trinh-list-tour .tour-item .content .delete-tour {
       width: 20%;
       display: flex;
