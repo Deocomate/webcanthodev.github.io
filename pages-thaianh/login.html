@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chi tiết lữ hành</title>
+    <title>Đăng nhập</title>
 
     <!-- FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -121,213 +121,92 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <button class="btn text--white btn-green" type="submit">Đăng nhập</button>
+                        <button class="btn text--white btn-green" type="button" data-bs-toggle="modal" data-bs-target="#staticLogin">Đăng nhập</button>
                     </form>
+
+                    <!-- pop-up -->
+                    <div class="modal fade pu-ut pu-login" id="staticLogin" role="dialog" tabindex="-1" aria-labelledby="staticLoginLabel" aria-hidden="true">
+                        <div class="modal-dialog mt-8-percent">
+                            <div class="modal-content pop-up-fix">
+                                <!-- <div class="modal-header">
+                                <button type="button" class="x-mark-icon" data-bs-dismiss="modal" aria-label="Close">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </button>
+                                </div> -->
+                                <div class="modal-body d-flex j-space-around">
+                                    <div class="form-login">
+                                        <div class="title-login">
+                                            <p>Đăng nhập</p>
+                                            <div class="border-space"></div>
+                                        </div>
+                                        <form action="" class="row">
+                                            <label for="" class="col-lg-12 relative">
+                                                <div class="icon">
+                                                    <img src="../assets/imgs/thaianhimg/icon/user.png" alt="">
+                                                </div>
+                                                <input type="text" placeholder="Tên đăng nhập">
+                                            </label>
+                                            <label for="" class="col-lg-12 relative">
+                                                <div class="icon">
+                                                    <img src="../assets/imgs/thaianhimg/icon/lockpass.png" alt="">
+                                                </div>
+                                                <input type="password" placeholder="Tên đăng nhập">
+                                            </label>
+                                            <label for="" class="col-lg-12">
+                                                <div class="border-space-1"></div>
+                                            </label>
+                                            <label for="" class="col-lg-12">
+                                                <div class="forgot-password">
+                                                    <p>Quên mật khẩu</p>
+                                                </div>
+                                            </label>
+                                            <label for="" class="col-lg-12">
+                                                <div class="btn-submit-login">
+                                                    <button type="submit">Đăng nhập</button>
+                                                </div>
+                                            </label>
+                                            <label for="" class="col-lg-12">
+                                                <div class="other-login">
+                                                    <div class="text-ol">
+                                                        <p>Hoặc đăng nhập bằng</p>
+                                                        <div class="icon-other-login d-flex j-center">
+                                                            <div class="fb-color">
+                                                                <a href="">
+                                                                    <div class="box-icon-color">
+                                                                        <img src="../assets/imgs/thaianhimg/icon/icon-fb-color.png" alt="">
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="gmail-color">
+                                                                <a href="">
+                                                                    <div class="box-icon-color">
+                                                                        <img src="../assets/imgs/thaianhimg/icon/icon-gmail-color.png" alt="">
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                            <label for="" class="col-lg-12">
+                                                <div class="sign-up">
+                                                    <p>Đăng ký</p>
+                                                </div>
+                                            </label>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-
-    <main>
-
-        <div id="bread-crumb-dp">
-            <ul>
-                <li><a href="">Trang chủ</a></li>
-                <li><i class="fa-solid fa-angle-right"></i></li>
-                <li><a href="">Lữ hành</a></li>
-                <li><i class="fa-solid fa-angle-right"></i></li>
-                <li><a href="">Chi tiết lữ hành</a></li>
-            </ul>
-        </div>
-
-        <div id="name-travelers">
-            <p>Công ty Du lịch MeKong Smile Tour</p>
-            <div class="border-space"></div>
-        </div>
-
-        <div id="detail-travelers">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 pd-0">
-                        <div class="box-slide-travelers">
-                            <div class="slider-for-pd-gallery">
-                                <div class="box-image-pd-gallery">
-                                    <img src="../assets/imgs/thaianhimg/slidetravelers2.png" alt="">
-                                </div>
-                                <div class="box-image-pd-gallery">
-                                    <img src="../assets/imgs/thaianhimg/slidetravelers1.png" alt="">
-                                </div>
-                                <div class="box-image-pd-gallery">
-                                    <img src="../assets/imgs/thaianhimg/slidetravelers2.png" alt="">
-                                </div>
-                                <div class="box-image-pd-gallery">
-                                    <img src="../assets/imgs/thaianhimg/slidetravelers1.png" alt="">
-                                </div>
-                            </div>
-                            <div class="slider-nav-pd-gallery">
-                                <div class="box-image-pd-gallery">
-                                    <img src="../assets/imgs/thaianhimg/slidetravelers2.png" alt="">
-                                </div>
-                                <div class="box-image-pd-gallery">
-                                    <img src="../assets/imgs/thaianhimg/slidetravelers1.png" alt="">
-                                </div>
-                                <div class="box-image-pd-gallery">
-                                    <img src="../assets/imgs/thaianhimg/slidetravelers2.png" alt="">
-                                </div>
-                                <div class="box-image-pd-gallery">
-                                    <img src="../assets/imgs/thaianhimg/slidetravelers1.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 pd-0">
-                        <div class="box-info-details">
-                            <div class="name-id">
-                                <p>Công ty du lịch MeKong Smile Tour tại Cần Thơ</p>
-                            </div>
-                            <div class="add-id">
-                                <div class="d-flex">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <p><b>Địa chỉ:</b>Số 81 Châu Văn Liêm, phường Tân An, quận Ninh Kiều, TP. Cần Thơ</p>
-                                </div>
-                            </div>
-                            <div class="email-id">
-                                <div class="d-flex">
-                                    <i class="fa-solid fa-envelope"></i>                                    
-                                    <p><b>Email:</b>lienhe@nucuoimekong.com</p>
-                                </div>
-                            </div>
-                            <div class="phone-id">
-                                <div class="d-flex">
-                                    <i class="fa-solid fa-phone"></i>
-                                    <p><b>Số điện thoại:</b>0939 729 609</p>
-                                </div>
-                            </div>
-                            <div class="web-id">
-                                <div class="d-flex">
-                                    <i class="fa-solid fa-globe"></i>
-                                    <a href="https://nucuoimekong.com"><b>Website:</b>https:// nucuoimekong.com</a>
-                                </div>
-                            </div>
-                            <div class="youtube-id">
-                                <div class="d-flex">
-                                    <i class="fa-brands fa-youtube"></i>
-                                    <a href="https://www.youtube.com/channel/UCZYxpW6"><b>Kênh Youtbe:</b>https:// www.youtube.com/ channel/ UCZYxpW6</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <section id="info-detail-travelers">
-            <div class="container">
-                <div class="row in-idt">
-                    <div class="col-lg-12 pd-0">
-                        <div class="title-idt">
-                            <p>Thông tin chi tiết</p>
-                        </div>
-                        <div class="content-idt">
-                            <p>
-                                Mekong Travel hứa hẹn sẽ mang đến cho du khách những giây phút 
-                                thoải mái nhất cùng trải nghiệm lý thú tại đảo ngọc Phú Quốc. 
-                                Đến đây du khách sẽ được khám phá 4 hòn đảo đẹp nhất phía Nam 
-                                đảo luôn được các phượt thủ săn đón và khám phá tại Phú Quốc: 
-                                Hòn Móng Tay, Hòn Gầm Ghì, Hòn Mây Rút Trong và Hòn Mây Rút Ngoài. 
-                                Đặc biệt thưởng thức bữa ăn trưa với các món hải sản ngay trên đảo.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div id="service-travelers">
-            <div class="container">
-                <div class="row row-pd-st in-st">
-                    <div class="col-lg-12 pd-0">
-                        <div class="title-st">
-                            <p>Dịch vụ</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-ms-6 col-6">
-                        <div class="box-st-img">
-                            <img src="../assets/imgs/thaianhimg/icon/vali.png" alt="">
-                        </div>
-                        <div class="box-st-text">
-                            <p>Combo du lịch</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-ms-6 col-6">
-                        <div class="box-st-img">
-                            <img src="../assets/imgs/thaianhimg/icon/plain.png" alt="">
-                        </div>
-                        <div class="box-st-text">
-                            <p>Vé máy bay giá rẻ</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-ms-6 col-6">
-                        <div class="box-st-img">
-                            <img src="../assets/imgs/thaianhimg/icon/car.png" alt="">
-                        </div>
-                        <div class="box-st-text">
-                            <p>Cho thuê xe</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-ms-6 col-6">
-                        <div class="box-st-img">
-                            <img src="../assets/imgs/thaianhimg/icon/ship.png" alt="">
-                        </div>
-                        <div class="box-st-text">
-                            <p>Cho thuê tàu, ghe</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-ms-6 col-6">
-                        <div class="box-st-img">
-                            <img src="../assets/imgs/thaianhimg/icon/ticket.png" alt="">
-                        </div>
-                        <div class="box-st-text">
-                            <p>Vé tàu, xe</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-ms-6 col-6">
-                        <div class="box-st-img">
-                            <img src="../assets/imgs/thaianhimg/icon/visacard.png" alt="">
-                        </div>
-                        <div class="box-st-text">
-                            <p>Dịch vụ Visa</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-ms-6 col-6">
-                        <div class="box-st-img">
-                            <img src="../assets/imgs/thaianhimg/icon/homestay.png" alt="">
-                        </div>
-                        <div class="box-st-text">
-                            <p>Homestay, Khách sạn</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-ms-6 col-6">
-                        <div class="box-st-img">
-                            <img src="../assets/imgs/thaianhimg/icon/machine.png" alt="">
-                        </div>
-                        <div class="box-st-text">
-                            <p>Mua bán nông sản</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-ms-6 col-6">
-                        <div class="box-st-img">
-                            <img src="../assets/imgs/thaianhimg/icon/marketingonline.png" alt="">
-                        </div>
-                        <div class="box-st-text">
-                            <p>Marketing Online</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </main>
 
     <footer id="footer" style="background-image: url('../assets/imgs/bg-foot.png');">
         <div class="bg-black">
@@ -454,5 +333,13 @@
           }
         );
     </script>
+
+    <script>
+        $('.nav').on('click', 'button', function(){
+            $('.nav li button').removeClass('active');
+            $(this).addClass('active');
+        });
+    </script>
+
 </body>
 </html>

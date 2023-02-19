@@ -144,21 +144,21 @@
                     <div class="col-lg-12">
 
                         <ul class="nav nav-tabs tab-btn" style="background-color: #Ffffff; border-top-left-radius: 10px; border-top-right-radius: 10px;">
-                            <li class=" border-right nav-li-iu" role="presentation">
-                                <button class="" data-bs-toggle="tab" id="tk-tab" type="button" data-bs-target="#tk">Tài khoản</button>
+                            <li class="border-right nav-li-iu" role="presentation">
+                                <button class="active" data-bs-toggle="tab" id="tk-tab" type="button" data-bs-target="#tk">Tài khoản</button>
                             </li>
-                            <li class=" border-right nav-li-iu" role="presentation">
+                            <li class="border-right nav-li-iu" role="presentation">
                                 <button class="" data-bs-toggle="tab" id="ddyt-tab" type="button" data-bs-target="#ddyt">Địa điểm yêu thích</button>
                             </li>
-                            <li class=" border-right nav-li-iu" role="presentation">
+                            <li class="border-right nav-li-iu" role="presentation">
                                 <button class="" data-bs-toggle="tab" id="lsdc-tab" type="button" data-bs-target="#lsdc">Lịch sử đặt chỗ</button>
                             </li>
-                            <li class=" nav-li-iu" role="presentation">
+                            <li class="nav-li-iu" role="presentation">
                                 <button class="" data-bs-toggle="tab" id="tcb-tab" type="button" data-bs-target="#tcb">Tour của bạn</button>
                             </li>
                         </ul>
                         <div class="tab-content" id="myTabControl">
-                            <div class="tab-pane fade show" style="background-color: #Ffffff;" role="tabpanel" id="tk" aria-labelledby="tk-tab">
+                            <div class="tab-pane fade show active" style="background-color: #Ffffff;" role="tabpanel" id="tk" aria-labelledby="tk-tab">
                                 <div class="box-info-user container">
                                     <div class="row" style="padding: 0 60px;">
                                         <div class="avatar col-lg-2">
@@ -213,7 +213,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade show" role="tabpanel" id="ddyt" aria-labelledby="ddyt-tab">
+                            <div class="tab-pane fade" role="tabpanel" id="ddyt" aria-labelledby="ddyt-tab">
                                 <div class="box-ddyt" style="margin-top: 22px">
                                     <div class="details-ddyt container-fluid">
                                         <div class="row">
@@ -274,10 +274,10 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade show" role="tabpanel" id="lsdc" aria-labelledby="lsdc-tab">
-                                <ul class="nav nav-tabs tab-btn" style=" border-top-left-radius: 10px; border-top-right-radius: 10px;">
+                            <div class="tab-pane fade" role="tabpanel" id="lsdc" aria-labelledby="lsdc-tab">
+                                <ul class="nav nav-ddyt nav-tabs tab-btn" style=" border-top-left-radius: 10px; border-top-right-radius: 10px;">
                                     <li class="" role="presentation">
-                                        <button class="border-right-w" data-bs-toggle="tab" id="datphong-tab" type="button" data-bs-target="#dat-phong">Đặt phòng</button>
+                                        <button class="active border-right-w" data-bs-toggle="tab" id="datphong-tab" type="button" data-bs-target="#dat-phong">Đặt phòng</button>
                                     </li>
                                     <li class="" role="presentation">
                                         <button class="border-right-w" data-bs-toggle="tab" id="datban-tab" type="button" data-bs-target="#dat-ban">Đặt bàn</button>
@@ -287,7 +287,7 @@
                                     </li>
                                 </ul>
                                 <div class="tab-content" id="myTabControl">
-                                    <div class="tab-pane fade show" role="tabpanel" id="dat-phong" aria-labelledby="datphong-tab">
+                                    <div class="tab-pane fade show active" role="tabpanel" id="dat-phong" aria-labelledby="datphong-tab">
                                         <div class="container auto-visible">
                                             <div class="row row-text">
                                                 <div class="col-lg-1 col-md-1 col-ms-1 col-1 text-ma">
@@ -411,7 +411,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade show" role="tabpanel" id="dat-ban" aria-labelledby="datban-tab">
+                                    <div class="tab-pane fade" role="tabpanel" id="dat-ban" aria-labelledby="datban-tab">
                                         <div class="container auto-visible">
                                             <div class="row row-text">
                                                 <div class="col-lg-1 col-md-1 col-ms-1 col-1 text-ma">
@@ -535,7 +535,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade show" role="tabpanel" id="dat-ve" aria-labelledby="datve-tab">
+                                    <div class="tab-pane fade" role="tabpanel" id="dat-ve" aria-labelledby="datve-tab">
                                         <div class="container auto-visible">
                                             <div class="row row-text">
                                                 <div class="col-lg-1 col-md-1 col-ms-1 col-1 text-ma">
@@ -672,13 +672,43 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="tab-pane fade show" role="tabpanel" id="tcb" aria-labelledby="tcb-tab">
+                            <div class="tab-pane fade" role="tabpanel" id="tcb" aria-labelledby="tcb-tab">
                                 <!-- btn-show-pop-up -->
                                 <div class="update-schedule">
                                     <div class="btn-update-schedule">
-                                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticInpu">
                                             Tạo tour mới
                                         </button>
+                                    </div>
+                                </div>
+
+                                <!-- pop-up -->
+                                <div class="modal fade pu-ut" id="staticInpu" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticInpuLabel" aria-hidden="true">
+                                    <div class="modal-dialog mt-20-percent">
+                                        <div class="modal-content pop-up-fix">
+                                            <div class="modal-header">
+                                            <button type="button" class="x-mark-icon" data-bs-dismiss="modal" aria-label="Close">
+                                                <i class="fa-solid fa-xmark"></i>
+                                            </button>
+                                            <div class="title-pop-up">
+                                                <p>Khởi tạo tour</p>
+                                            </div>
+                                            </div>
+                                            <div class="modal-body d-flex j-space-around">
+                                                <form action="" class="add-new-tour d-flex">
+                                                    <input type="text" placeholder="Nhập tên tour">
+                                                    <div class="btn-ant">
+                                                        <a href="">
+                                                            <button>Khởi tạo</button>
+                                                        </a>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <!-- <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Understood</button>
+                                            </div> -->
+                                        </div>
                                     </div>
                                 </div>
 
@@ -861,35 +891,6 @@
                                     </div>
                                 </div>
 
-                                <!-- pop-up -->
-                                <div class="modal fade pu-ut" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                    <div class="modal-dialog mt-20-percent">
-                                        <div class="modal-content pop-up-fix">
-                                            <div class="modal-header">
-                                            <button type="button" class="x-mark-icon" data-bs-dismiss="modal" aria-label="Close">
-                                                <i class="fa-solid fa-xmark"></i>
-                                            </button>
-                                            <div class="title-pop-up">
-                                                <p>Khởi tạo tour</p>
-                                            </div>
-                                            </div>
-                                            <div class="modal-body d-flex j-space-around">
-                                                <form action="" class="add-new-tour d-flex">
-                                                    <input type="text" placeholder="Nhập tên tour">
-                                                    <div class="btn-ant">
-                                                        <a href="">
-                                                            <button>Khởi tạo</button>
-                                                        </a>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                            <!-- <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Understood</button>
-                                            </div> -->
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
@@ -1026,16 +1027,23 @@
         );
     </script>
 
-    <script>
+    <!-- <script>
         $('.nav').on('click', 'button', function(){
             $('.nav li button').removeClass('active');
             $(this).addClass('active');
         });
-    </script>
+    </script> -->
 
-    <script>
+    <!-- <script>
+        $('.nav-ddyt').on('click', 'button', function(){
+            $('.nav-ddyt li button').removeClass('add-active');
+            $(this).addClass('add-active');
+        });
+    </script> -->
+
+    <!-- <script>
         document.getElementById("tk-tab").click()
-    </script>
+    </script> -->
 
     <!-- <script>
         document.getElementById("datphong-tab").click()

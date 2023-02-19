@@ -663,6 +663,10 @@ p {
     margin-top: 18%;
 }
 
+.pu-ut .mt-8-percent {
+    margin-top: 8%;
+}
+
 .pu-ut .add-to-tour {
     margin-left: -185px;
 }
@@ -1604,11 +1608,11 @@ p {
     margin-bottom: 20px;
 }
 
-#info-user .title-pop-up {
+#staticInpu .title-pop-up {
     width: 100%;
 }
 
-#info-user .title-pop-up p {
+#staticInpu .title-pop-up p {
     font-size: 24px;
     font-weight: 700;
     line-height: normal;
@@ -1620,12 +1624,12 @@ p {
     padding-bottom: 5px;
 }
 
-#info-user .add-new-tour {
+#staticInpu .add-new-tour {
     width: 100%;
     border-radius: 5px;
 }
 
-#info-user .add-new-tour input {
+#staticInpu .add-new-tour input {
     width: 75%;
     border: 2px solid #38A700;
     border-top-left-radius: 5px;
@@ -1633,18 +1637,18 @@ p {
     padding: 8px 12px;
 }
 
-#info-user .add-new-tour input::placeholder {
+#staticInpu .add-new-tour input::placeholder {
     font-size: 16px;
     font-weight: 500;
     color: #717171a4;
     font-family: "Inter";
 }
 
-#info-user .add-new-tour .btn-ant {
+#staticInpu .add-new-tour .btn-ant {
     width: 25%;
 }
 
-#info-user .add-new-tour .btn-ant button {
+#staticInpu .add-new-tour .btn-ant button {
     width: 100%;
     border: 2px solid #38A700;
     background: #38A700;
@@ -1654,15 +1658,19 @@ p {
     padding: 8px 12px;
 }
 
-#info-user .pop-up-fix {
+#staticInpu .pop-up-fix {
     padding: 40px;
 }
 
 /* hieu code info user */
 .nav-li-iu .active{
     color: #38A700 !important;
-
 }
+
+.nav-ddyt li .active {
+    background-color: #0F4A1A !important;
+}
+
 /* hieu code button luu lai iu */
 #info-user .button-save-iu {
     width: 50%;
@@ -1936,6 +1944,106 @@ p {
     margin-right: 0.9rem !important;
 }
 
+/* login.html */
+
+.pu-login .form-login .title-login p {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #38A700;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.pu-login .form-login .border-space {
+    border-bottom: 3px solid #38A700;
+    width: 50%;
+    margin: auto;
+}
+
+.pu-login .form-login .border-space-1 {
+    border-bottom: 2px solid #717171;
+    width: 100%;
+    margin: auto;
+}
+
+.pu-login .form-login form {
+    margin-top: 80px;
+    margin-right: 0 !important;
+    padding: 0 44px;
+}
+
+.pu-login .form-login form input {
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-bottom: 25px;
+    border: 2px solid #38A700;
+    padding: 13px 73px;
+    border-radius: 5px;
+}
+
+.pu-login .form-login form .icon {
+    position: absolute;
+    left: 80px;
+    margin-top: 10px;
+}
+
+.pu-login .form-login form .forgot-password p {
+    text-align: right;
+    color: #0F4A1A;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.pu-login .form-login form .btn-submit-login {
+    margin-top: 5px;
+}
+
+.pu-login .form-login form .btn-submit-login button {
+    border: none;
+    background: #38A700;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+    border-radius: 34px;
+    padding: 10px 0;
+}
+
+.pu-login .form-login form .other-login p {
+    text-align: center;
+    color: #0F4A1A;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.pu-login .form-login form .other-login .icon-other-login div {
+    margin: 0 20px;
+}
+
+.pu-login .form-login form .other-login .icon-other-login img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.pu-login .form-login .other-login .icon-other-login .box-icon-color {
+    width: 100%;
+    margin: auto;
+}
+
+.pu-login .form-login .sign-up p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #38A700;
+    margin-top: 70px;
+}
+
 @media (max-width:1200px) {
     #detail-schedule .page-day .timeline-schedule .info-destination .box-info .title-destination p {
         font-size: 18px;
@@ -1982,9 +2090,9 @@ p {
     .dia-diem-lan-can {
         padding: 20px 26px;
     }  
-    #rating-section {
+    /* #rating-section {
         padding: 20px 26px;
-    }
+    } */
 }
 
 @media (max-width:991px) {
@@ -2202,6 +2310,12 @@ p {
     #detail-travelers, #info-detail-travelers, #service-travelers {
         padding: 0px 20px 22px 20px;
     }
+    .pu-login .form-login form {
+        padding: 0 10px;
+    }
+    .pu-login .form-login form .icon {
+        left: 50px;
+    }
 }
 
 @media (max-width:500px) {
@@ -2372,6 +2486,23 @@ p {
     #ddlc h3 {
         font-size: 20px;
     }
+    .pu-login .form-login form .btn-submit-login button {
+        font-size: 20px;
+        padding: 5px 0;
+    }
+    .pu-login .form-login .title-login p {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .pu-login .form-login form {
+        margin-top: 50px;
+    }
+    .pu-login .form-login form .forgot-password p {
+        font-size: 16px;
+    }
+    .pu-login .form-login form .other-login p {
+        font-size: 16px;
+    }
 }
 
 @media (max-width:450px) {
@@ -2402,6 +2533,12 @@ p {
     #banner-cuisine .arrow-banner-prev {
         top: 41%;
         left: 20px;
+    }
+    .pu-login .form-login form .other-login .icon-other-login div {
+        margin: 0 5px;
+    }
+    .pu-login .form-login .other-login .icon-other-login .box-icon-color {
+        width: 60%;
     }
 }
 
