@@ -3263,3 +3263,9 @@ a {
 
 #co-so-luu-tru-danh-sach .card-diem-den .card .img-contain .heart {
   width: 30px; }
+
+.am-thuc-banner .search-bar .cost .select2-container {
+  width: 150px !important; }
+  @media (max-width: 1199.98px) {
+    .am-thuc-banner .search-bar .cost .select2-container {
+      width: 100% !important; } }

@@ -1,0 +1,8 @@
+.am-thuc-banner {
+    .search-bar .cost .select2-container {
+        width: 150px!important;
+        @include responsive($size-lg){
+            width: 100%!important;
+        }
+    }
+}
