@@ -1192,6 +1192,43 @@ a {
   margin: 100px auto !important;
   padding: 0px 10px; }
 
+#modal-chi-tiet-co-so-luu-tru {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(94, 94, 94, 0.213); }
+  #modal-chi-tiet-co-so-luu-tru .modal-dialog {
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1074px;
+    border-radius: 10px; }
+  #modal-chi-tiet-co-so-luu-tru .banner-service {
+    background-color: transparent;
+    padding: 0; }
+  #modal-chi-tiet-co-so-luu-tru #banner-cuisine .banner-service {
+    background-color: transparent; }
+  #modal-chi-tiet-co-so-luu-tru #banner-cuisine .box-img-slide img {
+    width: 100% !important;
+    height: 430px !important; }
+  #modal-chi-tiet-co-so-luu-tru .list-img .list-contain {
+    overflow-x: scroll; }
+    #modal-chi-tiet-co-so-luu-tru .list-img .list-contain::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px #ffffff;
+      background-color: #d9d9d9; }
+    #modal-chi-tiet-co-so-luu-tru .list-img .list-contain::-webkit-scrollbar {
+      height: 6px;
+      background-color: #d9d9d9; }
+    #modal-chi-tiet-co-so-luu-tru .list-img .list-contain::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #717171; }
+    #modal-chi-tiet-co-so-luu-tru .list-img .list-contain .img img {
+      width: 107px;
+      height: 107px;
+      object-fit: cover; }
+
 .scroll-custom {
   overflow-y: scroll; }
   .scroll-custom::-webkit-scrollbar-track {
@@ -2368,8 +2405,7 @@ a {
       color: #0f4a1a; }
   .thong-tin-nhanh .btn {
     width: 100%;
-    max-width: 466px;
-    background-color: #38A700; }
+    max-width: 466px; }
 
 @media (max-width: 767.98px) {
   #rating-section .user-rate-comment-contain .menu-bar li a {

@@ -19,6 +19,26 @@ $(document).ready(function () {
           // instead of a settings object
         ]
       });
+      $('.slide-popup').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        prevArrow:`<button type='button' class='arrow-banner-prev'><img src="../assets/imgs/thaianhimg/icon/prev.png" alt=""></button>`,
+        nextArrow:`<button type='button' class='arrow-banner-next'><img src="../assets/imgs/thaianhimg/icon/next.png" alt=""></button>`,
+        responsive: [
+          {
+              breakpoint: 500,
+              settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+              }
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
+      });
 });
 
 $(document).ready(function () {

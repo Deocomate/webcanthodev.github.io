@@ -300,8 +300,17 @@ $(document).ready(function () {
 
 
     //Datetime piker
-    $('#datepicker').datepicker(); 
+    if ($('#datepicker').length > 0) {
+        $('#datepicker').datepicker();
+    }
 
+
+
+    const container = document.querySelector('#modal-chi-tiet-co-so-luu-tru .list-contain');
+    container.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        container.scrollLeft += e.deltaY;
+    });
 });
 
 
