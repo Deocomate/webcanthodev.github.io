@@ -2368,7 +2368,8 @@ a {
       color: #0f4a1a; }
   .thong-tin-nhanh .btn {
     width: 100%;
-    max-width: 466px; }
+    max-width: 466px;
+    background-color: #38A700; }
 
 @media (max-width: 767.98px) {
   #rating-section .user-rate-comment-contain .menu-bar li a {
