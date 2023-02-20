@@ -2099,10 +2099,13 @@ p {
     font-size: 14px !important;
     color: #0F4A1A !important;
     font-weight: 700 !important;
+    padding: 0;
+    height: 40px;
+    padding-top: 10px;
 }
 
 .box-user .dropdown-menu li {
-    padding: 10px 16px;
+    /* padding: 10px 16px; */
 }
 
 .box-user .dropdown-menu li:last-child {

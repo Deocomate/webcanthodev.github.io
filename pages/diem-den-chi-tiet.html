@@ -229,8 +229,7 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="d-flex justify-content-center">
-                                        <button class="btn btn-green" data-bs-toggle="modal"
-                                            data-bs-target="#staticBackdrop">Thêm vào tour</button>
+                                        <button type="button" class="btn btn-green" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Thêm vào tour</button>
                                     </div>
                                 </div>
                             </div>
@@ -711,26 +710,140 @@
 
     <!-- MODAL -->
     <!-- pop-up -->
-    <div class="modal fade pu-ut" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade pu-ut" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog mt-20-percent">
             <div class="modal-content pop-up-fix">
                 <div class="modal-header">
-                    <button type="button" class="x-mark-icon" data-bs-dismiss="modal" aria-label="Close">
-                        <i class="fa-solid fa-xmark"></i>
-                    </button>
+                <button type="button" class="x-mark-icon" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
                 </div>
                 <div class="modal-body d-flex j-space-around">
                     <div class="create-new-tour">
-                        <a href="">
-                            <button>Tạo tour mới</button>
-                        </a>
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticInpu">Tạo tour mới</button>     
                     </div>
                     <div class="add-to-tour">
-                        <a href="">
-                            <button>Thêm vào tour</button>
-                        </a>
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticAddtt">Thêm vào tour</button>
                     </div>
+                </div>
+                <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- pop-up-khoi-tao -->
+    <div class="modal fade pu-ut" id="staticInpu" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticInpuLabel" aria-hidden="true">
+        <div class="modal-dialog mt-20-percent">
+            <div class="modal-content pop-up-fix">
+                <div class="modal-header">
+                <button type="button" class="x-mark-icon" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="title-pop-up">
+                    <p>Khởi tạo tour</p>
+                </div>
+                </div>
+                <div class="modal-body d-flex j-space-around">
+                    <form action="" class="add-new-tour d-flex">
+                        <input type="text" placeholder="Nhập tên tour">
+                        <div class="btn-ant">
+                            <a href="">
+                                <button>Khởi tạo</button>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+                <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- pop-up-them-vao-tour -->
+    <div class="modal fade pu-ut them-vao-tour" id="staticAddtt" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticAddttLabel" aria-hidden="true">
+        <div class="modal-dialog mt-20-percent">
+            <div class="modal-content pop-up-fix">
+                <div class="modal-header">
+                <button type="button" class="x-mark-icon" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="title-pop-up d-flex j-center">
+                    <p>Lịch trình của</p>
+                    <span>Admin123</span>
+                </div>
+                <div class="choose-addtt d-flex">
+                    <p>Bạn đã chọn địa điểm:</p>
+                    <span>Khách sạn Mường Thanh Luxury Cần Thơ</span>
+                </div>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="add-to-tour add_tt">
+                        <div class="container auto-visible">
+                            <div class="row">
+                                <div class="choose-addtt-1">
+                                    <p>Vui lòng chọn lịch trình bạn muốn thêm vào:</p>
+                                </div>
+                            </div>
+                            <div class="row row-addtt-title">
+                                <div class="col-lg-6 col-md-6 col-ms-6 col-6 name-tour">
+                                    <p>Tên lịch trình</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-ms-3 col-3 time-start-tour">
+                                    <p>Ngày khởi hành</p>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-ms-2 col-2 sum-tour">
+                                    <p>Số ngày</p>
+                                </div>
+                            </div>
+                            <div class="row row-addtt-info">
+                                <div class="col-lg-6 col-md-6 col-ms-6 col-6 name-tour">
+                                    <p>Tour 2 ngày: Nghỉ HomeStay</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-ms-3 col-3 time-start-tour">
+                                    <p>06-02-2023</p>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-ms-2 col-2 sum-tour">
+                                    <p>2</p>
+                                </div>
+                                <div class="col-lg-1 col-md-1 col-ms-1 col-1">
+                                    <button type="submit"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="row row-addtt-info">
+                                <div class="col-lg-6 col-md-6 col-ms-6 col-6 name-tour">
+                                    <p>Tour 2 ngày: Nghỉ HomeStay</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-ms-3 col-3 time-start-tour">
+                                    <p>06-02-2023</p>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-ms-2 col-2 sum-tour">
+                                    <p>2</p>
+                                </div>
+                                <div class="col-lg-1 col-md-1 col-ms-1 col-1">
+                                    <button type="submit"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            </div>
+                            <div class="row row-addtt-info">
+                                <div class="col-lg-6 col-md-6 col-ms-6 col-6 name-tour">
+                                    <p>Tour 2 ngày: Nghỉ HomeStay</p>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-ms-3 col-3 time-start-tour">
+                                    <p>06-02-2023</p>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-ms-2 col-2 sum-tour">
+                                    <p>2</p>
+                                </div>
+                                <div class="col-lg-1 col-md-1 col-ms-1 col-1">
+                                    <button type="submit"><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
                 </div>
                 <!-- <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
