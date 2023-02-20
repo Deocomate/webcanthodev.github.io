@@ -236,6 +236,24 @@
                     }
                 }
             }
+            .sale {
+                position: absolute;
+                top: 0;
+                left: 18px;
+                background-color: white;
+                padding: 5px;
+                text-align: center;
+                p {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-align: center;
+                    color: #38a700;
+                }
+                border-radius: 0px 0px 5px 5px;
+            }
         }
         .card-img-top {
             border-radius: 10px 10px 0px 0px;
@@ -265,6 +283,17 @@
                 line-height: 19px;
                 text-align: justify;
                 color: #0f4a1a;
+            }
+            .price {
+                h6 {
+                    font-family: "Inter";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: right;
+                    color: #38a700;
+                }
             }
         }
     }
@@ -468,8 +497,8 @@
                 text-align: right;
                 color: #38a700;
             }
-            @include responsive($size-md){
-                a{
+            @include responsive($size-md) {
+                a {
                     width: 100%;
                 }
             }
@@ -494,10 +523,10 @@
     .more-news-card > .card-contain > div {
         justify-content: center;
     }
-    .card-hotel .hotel-information-detail-contain .more-select{
+    .card-hotel .hotel-information-detail-contain .more-select {
         height: auto;
     }
-    .card-hotel .img-and-properties-contain .img img{
+    .card-hotel .img-and-properties-contain .img img {
         height: 200px;
     }
 }

@@ -480,6 +480,22 @@ a {
         color: #ffffff; }
         .card-diem-den .card .img-contain .user-selection a.btn-green-dark {
           background-color: #0f4a1a; }
+    .card-diem-den .card .img-contain .sale {
+      position: absolute;
+      top: 0;
+      left: 18px;
+      background-color: white;
+      padding: 5px;
+      text-align: center;
+      border-radius: 0px 0px 5px 5px; }
+      .card-diem-den .card .img-contain .sale p {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #38a700; }
   .card-diem-den .card .card-img-top {
     border-radius: 10px 10px 0px 0px;
     height: 228.01px;
@@ -504,6 +520,14 @@ a {
     line-height: 19px;
     text-align: justify;
     color: #0f4a1a; }
+  .card-diem-den .card .card-body .price h6 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #38a700; }
 
 .card-suggest {
   background-color: white;
@@ -3193,3 +3217,12 @@ a {
     font-size: 27px; }
   #co-so-luu-tru-chi-tiet > section.hotel-dia-diem-lan-can.bgc-green-super button {
     font-size: 12px; } }
+
+#co-so-luu-tru-danh-sach .card-diem-den .card .img-contain .user-selection a {
+  font-size: 10px; }
+
+#co-so-luu-tru-danh-sach .card-diem-den .card .card-img-top {
+  height: 170px !important; }
+
+#co-so-luu-tru-danh-sach .card-diem-den .card .img-contain .heart {
+  width: 30px; }
