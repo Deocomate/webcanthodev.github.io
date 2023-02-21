@@ -323,7 +323,7 @@ $(document).ready(function () {
     //     $("#modal-chi-tiet-co-so-luu-tru").toggleClass("d-none")
     // })
 
-    $(".openHotelModal`").click(function (e) {
+    $(".openHotelModal").click(function (e) {
         $("#modal-list-anh").toggleClass("d-none")
         $(".banner-cuisine .arrow-banner-next")[0].click()
         $(".banner-cuisine .arrow-banner-next")[0].click()

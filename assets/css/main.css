@@ -3345,7 +3345,13 @@ a {
   #co-so-luu-tru-chi-tiet .hotel-dia-diem-lan-can h3 {
     font-size: 27px; }
   #co-so-luu-tru-chi-tiet > section.hotel-dia-diem-lan-can.bgc-green-super button {
-    font-size: 12px; } }
+    font-size: 12px; }
+  .modal-chi-tiet-co-so-luu-tru #banner-cuisine .box-img-slide img, .modal-list-anh #banner-cuisine .box-img-slide img {
+    height: 200px !important; }
+  .modal-chi-tiet-co-so-luu-tru .content .price-list, .modal-list-anh .content .price-list {
+    height: auto; }
+  .modal-chi-tiet-co-so-luu-tru .list-img .list-contain, .modal-list-anh .list-img .list-contain {
+    display: none !important; } }
 
 #co-so-luu-tru-danh-sach .card-diem-den .card .img-contain .user-selection a {
   font-size: 10px; }
