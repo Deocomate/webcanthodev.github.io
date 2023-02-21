@@ -1192,42 +1192,114 @@ a {
   margin: 100px auto !important;
   padding: 0px 10px; }
 
-#modal-chi-tiet-co-so-luu-tru {
+.modal-chi-tiet-co-so-luu-tru, .modal-list-anh {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
   width: 100%;
   height: 100vh;
   background-color: rgba(94, 94, 94, 0.213); }
-  #modal-chi-tiet-co-so-luu-tru .modal-dialog {
+  .modal-chi-tiet-co-so-luu-tru > .container, .modal-list-anh > .container {
+    position: relative;
+    z-index: 0; }
+  .modal-chi-tiet-co-so-luu-tru .modal-dialog, .modal-list-anh .modal-dialog {
+    position: relative;
     background-color: white;
     margin: 0 auto;
     width: 100%;
     max-width: 1074px;
     border-radius: 10px; }
-  #modal-chi-tiet-co-so-luu-tru .banner-service {
+  .modal-chi-tiet-co-so-luu-tru .banner-service, .modal-list-anh .banner-service {
     background-color: transparent;
     padding: 0; }
-  #modal-chi-tiet-co-so-luu-tru #banner-cuisine .banner-service {
+  .modal-chi-tiet-co-so-luu-tru #banner-cuisine .banner-service, .modal-list-anh #banner-cuisine .banner-service {
     background-color: transparent; }
-  #modal-chi-tiet-co-so-luu-tru #banner-cuisine .box-img-slide img {
+  .modal-chi-tiet-co-so-luu-tru #banner-cuisine .box-img-slide img, .modal-list-anh #banner-cuisine .box-img-slide img {
     width: 100% !important;
     height: 430px !important; }
-  #modal-chi-tiet-co-so-luu-tru .list-img .list-contain {
+  .modal-chi-tiet-co-so-luu-tru .list-img .list-contain, .modal-list-anh .list-img .list-contain {
     overflow-x: scroll; }
-    #modal-chi-tiet-co-so-luu-tru .list-img .list-contain::-webkit-scrollbar-track {
+    .modal-chi-tiet-co-so-luu-tru .list-img .list-contain::-webkit-scrollbar-track, .modal-list-anh .list-img .list-contain::-webkit-scrollbar-track {
       -webkit-box-shadow: inset 0 0 6px #ffffff;
       background-color: #d9d9d9; }
-    #modal-chi-tiet-co-so-luu-tru .list-img .list-contain::-webkit-scrollbar {
+    .modal-chi-tiet-co-so-luu-tru .list-img .list-contain::-webkit-scrollbar, .modal-list-anh .list-img .list-contain::-webkit-scrollbar {
       height: 6px;
       background-color: #d9d9d9; }
-    #modal-chi-tiet-co-so-luu-tru .list-img .list-contain::-webkit-scrollbar-thumb {
+    .modal-chi-tiet-co-so-luu-tru .list-img .list-contain::-webkit-scrollbar-thumb, .modal-list-anh .list-img .list-contain::-webkit-scrollbar-thumb {
       border-radius: 10px;
       background-color: #717171; }
-    #modal-chi-tiet-co-so-luu-tru .list-img .list-contain .img img {
+    .modal-chi-tiet-co-so-luu-tru .list-img .list-contain .img img, .modal-list-anh .list-img .list-contain .img img {
       width: 107px;
       height: 107px;
       object-fit: cover; }
+  .modal-chi-tiet-co-so-luu-tru .content h1, .modal-list-anh .content h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #38a700; }
+  .modal-chi-tiet-co-so-luu-tru .content .num-people span, .modal-list-anh .content .num-people span {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000; }
+  .modal-chi-tiet-co-so-luu-tru .content .num-people a, .modal-list-anh .content .num-people a {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #0080f6; }
+  .modal-chi-tiet-co-so-luu-tru .content .list-detail, .modal-list-anh .content .list-detail {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+    color: #0f4a1a; }
+  .modal-chi-tiet-co-so-luu-tru .content .info-list .list-item, .modal-list-anh .content .info-list .list-item {
+    margin-bottom: 5px; }
+    .modal-chi-tiet-co-so-luu-tru .content .info-list .list-item span,
+    .modal-chi-tiet-co-so-luu-tru .content .info-list .list-item li,
+    .modal-chi-tiet-co-so-luu-tru .content .info-list .list-item p, .modal-list-anh .content .info-list .list-item span,
+    .modal-list-anh .content .info-list .list-item li,
+    .modal-list-anh .content .info-list .list-item p {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      color: #0f4a1a;
+      margin-left: 5px; }
+  .modal-chi-tiet-co-so-luu-tru .content .price-list, .modal-list-anh .content .price-list {
+    height: 150px; }
+  .modal-chi-tiet-co-so-luu-tru .delete-x, .modal-list-anh .delete-x {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer; }
+  .modal-chi-tiet-co-so-luu-tru .delete-x-2, .modal-list-anh .delete-x-2 {
+    position: relative;
+    z-index: 1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer; }
+
+.modal-properties .modal-dialog {
+  max-width: 1167px;
+  width: 100%;
+  margin: 100px auto !important;
+  padding: 0px 10px; }
+  .modal-properties .modal-dialog .modal-content {
+    border: 5px solid #38a700;
+    border-radius: 10px; }
 
 .scroll-custom {
   overflow-y: scroll; }
@@ -2407,6 +2479,25 @@ a {
     width: 100%;
     max-width: 466px; }
 
+.contact-item {
+  margin-bottom: 15px; }
+  .contact-item i {
+    font-size: 20px;
+    color: #38a700; }
+  .contact-item b {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0f4a1a; }
+  .contact-item span {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #0f4a1a; }
+
 @media (max-width: 767.98px) {
   #rating-section .user-rate-comment-contain .menu-bar li a {
     border-radius: 5px; }
@@ -3220,14 +3311,15 @@ a {
         #co-so-luu-tru-chi-tiet .hotel-image .list-img .list-item .overlay .d-flex {
           background: rgba(15, 74, 26, 0.4);
           border-radius: 4px; }
-          #co-so-luu-tru-chi-tiet .hotel-image .list-img .list-item .overlay .d-flex a {
+          #co-so-luu-tru-chi-tiet .hotel-image .list-img .list-item .overlay .d-flex span {
             font-family: "Inter";
             font-style: normal;
             font-weight: 600;
             font-size: 24px;
             line-height: 29px;
             text-align: center;
-            color: #ffffff; }
+            color: #ffffff;
+            cursor: pointer; }
 
 #co-so-luu-tru-chi-tiet .thong-tin-nhanh {
   padding: 20px 30px;

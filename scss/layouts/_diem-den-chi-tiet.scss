@@ -297,6 +297,33 @@
     }
 }
 
+.contact-item {
+    margin-bottom: 15px;
+    i {
+        font-size: 20px;
+        color: #38a700;
+    }
+    b {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #0f4a1a;
+    }
+    span {
+        font-family: "Inter";
+        font-style: normal;
+        // font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: #0f4a1a;
+    }
+}
+
+
+
+
 @include responsive($size-md) {
     #rating-section .user-rate-comment-contain .menu-bar li a {
         border-radius: 5px;

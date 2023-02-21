@@ -257,7 +257,7 @@
                                 <img src="../assets/imgs/co-so-luu-tru-list-img.png" alt="">
                                 <div class="overlay">
                                     <div class="w-100 h-100 d-flex justify-content-center align-items-center">
-                                        <a href="">+40</a>
+                                        <span id="openListImageHotel">+40</span>
                                     </div>
                                 </div>
                             </div>
@@ -712,10 +712,9 @@
             </div>
         </section>
 
-
         <section class="another-hotel bgc-green-super py-3">
             <div class="container">
-                <div class="list-hotel" loop="3">
+                <div class="list-hotel" loop="">
                     <section class="card-hotel p-3">
                         <div class="row g-3">
                             <div class="col-12 col-md-2">
@@ -723,7 +722,174 @@
                                     <div class="img">
                                         <img class="w-100" src="../assets/imgs/card-hotel-img.png" alt="">
                                     </div>
-                                    <a href="" class="text-primary"><span>Xem chi tiết phòng ></span></a>
+                                    <a href="" class="text-primary openHotelModal" id="" modal-number="1"><span>Xem chi
+                                            tiết phòng ></span></a>
+                                    <div class="list-badges">
+                                        <span class="badge badge-rate">Điều hòa không khí</span>
+                                        <span class="badge badge-rate">Bồn tắm</span>
+                                        <span class="badge badge-rate">TV</span>
+                                        <span class="badge badge-rate">Két sắt điện tử</span>
+                                        <span class="badge badge-rate">Điện thoại</span>
+                                        <span class="badge badge-rate">Dép đi trong phòng</span>
+                                        <div class="more">
+                                            <span class="badge badge-primary w-100" data-bs-toggle="modal" data-bs-target="#modal-properties-1">+11 tiện ích</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-10">
+                                <div class="hotel-information-detail-contain">
+                                    <h5 class="hotel-name">Deluxe Twin</h5>
+                                    <div class="row g-0 hotel-info-contain">
+                                        <div class="col-12 col-lg-7 py-3 pe-3">
+                                            <div class="hotel-includes">
+                                                <b>Phòng bao gồm ăn sáng</b>
+                                                <div class="list">
+                                                    <div class="list-property mb-1">
+                                                        <i class="bi bi-cup-hot-fill"></i>
+                                                        <span>Bữa sáng miễn phí</span>
+                                                    </div>
+                                                    <div class="list-property">
+                                                        <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                        <span>An tâm đặt phòng, Mytour hỗ trợ xuất hoá đơn nhanh chóng,
+                                                            tiết kiệm thời gian cho bạn.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="hotel-promote p-3">
+                                                <b>Ưu đại bao gồm</b>
+                                                <div class="d-flex align-items-start">
+                                                    <img class="mt-1 me-2" src="../assets/icon/small-right-icon.svg"
+                                                        alt="">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        vulputate volutpat velit condimentum mollis. Etiam venenatis
+                                                        lobortis justo, pellentesque auctor ex vestibulum et. Aenean nec
+                                                        ipsum non nulla aliquet semper. Nunc accumsan nisi libero, non
+                                                        facilisis elit cursus eget. Mauris nisl quam.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-2">
+                                            <div class="hotel-bed p-1 p-md-3">
+                                                <div class="bed-icon d-flex justify-content-center">
+                                                    <img src="../assets/icon/bed-icon.svg" alt="">
+                                                    <img src="../assets/icon/bed-icon.svg" alt="">
+                                                </div>
+                                                <p class="mb-0 text-center">2 giường đơn</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-3 py-3">
+                                            <div class="hotel-price-and-choose">
+                                                <div class="d-flex flex-column align-items-end">
+                                                    <span class="badge badge-discount">-25%</span>
+                                                    <del>1.411.574 đ</del>
+                                                    <h6 class="true-price">1.084.100 đ</h6>
+                                                    <a href="" class="btn btn-green">Chọn phòng</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="d-flex justify-content-center more-select">
+                                        <a href="">Xem thêm 1 lựa chọn</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-hotel p-3">
+                        <div class="row g-3">
+                            <div class="col-12 col-md-2">
+                                <div class="img-and-properties-contain">
+                                    <div class="img">
+                                        <img class="w-100" src="../assets/imgs/card-hotel-img.png" alt="">
+                                    </div>
+                                    <a href="" class="text-primary openHotelModal" id="" modal-number="1"><span>Xem chi
+                                            tiết phòng ></span></a>
+                                    <div class="list-badges">
+                                        <span class="badge badge-rate">Điều hòa không khí</span>
+                                        <span class="badge badge-rate">Bồn tắm</span>
+                                        <span class="badge badge-rate">TV</span>
+                                        <span class="badge badge-rate">Két sắt điện tử</span>
+                                        <span class="badge badge-rate">Điện thoại</span>
+                                        <span class="badge badge-rate">Dép đi trong phòng</span>
+                                        <div class="more">
+                                            <span class="badge badge-primary w-100">+11 tiện ích</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-10">
+                                <div class="hotel-information-detail-contain">
+                                    <h5 class="hotel-name">Deluxe Twin</h5>
+                                    <div class="row g-0 hotel-info-contain">
+                                        <div class="col-12 col-lg-7 py-3 pe-3">
+                                            <div class="hotel-includes">
+                                                <b>Phòng bao gồm ăn sáng</b>
+                                                <div class="list">
+                                                    <div class="list-property mb-1">
+                                                        <i class="bi bi-cup-hot-fill"></i>
+                                                        <span>Bữa sáng miễn phí</span>
+                                                    </div>
+                                                    <div class="list-property">
+                                                        <i class="bi bi-hand-thumbs-up-fill"></i>
+                                                        <span>An tâm đặt phòng, Mytour hỗ trợ xuất hoá đơn nhanh chóng,
+                                                            tiết kiệm thời gian cho bạn.</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="hotel-promote p-3">
+                                                <b>Ưu đại bao gồm</b>
+                                                <div class="d-flex align-items-start">
+                                                    <img class="mt-1 me-2" src="../assets/icon/small-right-icon.svg"
+                                                        alt="">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        vulputate volutpat velit condimentum mollis. Etiam venenatis
+                                                        lobortis justo, pellentesque auctor ex vestibulum et. Aenean nec
+                                                        ipsum non nulla aliquet semper. Nunc accumsan nisi libero, non
+                                                        facilisis elit cursus eget. Mauris nisl quam.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-2">
+                                            <div class="hotel-bed p-1 p-md-3">
+                                                <div class="bed-icon d-flex justify-content-center">
+                                                    <img src="../assets/icon/bed-icon.svg" alt="">
+                                                    <img src="../assets/icon/bed-icon.svg" alt="">
+                                                </div>
+                                                <p class="mb-0 text-center">2 giường đơn</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-3 py-3">
+                                            <div class="hotel-price-and-choose">
+                                                <div class="d-flex flex-column align-items-end">
+                                                    <span class="badge badge-discount">-25%</span>
+                                                    <del>1.411.574 đ</del>
+                                                    <h6 class="true-price">1.084.100 đ</h6>
+                                                    <a href="" class="btn btn-green">Chọn phòng</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="d-flex justify-content-center more-select">
+                                        <a href="">Xem thêm 1 lựa chọn</a>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="card-hotel p-3">
+                        <div class="row g-3">
+                            <div class="col-12 col-md-2">
+                                <div class="img-and-properties-contain">
+                                    <div class="img">
+                                        <img class="w-100" src="../assets/imgs/card-hotel-img.png" alt="">
+                                    </div>
+                                    <a href="#" class="text-primary openHotelModal" id="" modal-number="1"><span>Xem chi
+                                            tiết phòng ></span></a>
                                     <div class="list-badges">
                                         <span class="badge badge-rate">Điều hòa không khí</span>
                                         <span class="badge badge-rate">Bồn tắm</span>
@@ -958,7 +1124,7 @@
                                                             <div class="d-flex-mid">
                                                                 <h6 class="my-0 me-4">Nguyễn Linh</h6>
                                                                 <div class="list-star-rate">
-                                                                    <img src="../assets/icon/star-rate-full.svg"
+                                                                    <img src="../assets/icon/star-form.svg"
                                                                         class="star s-1" value="1" alt="">
                                                                     <img src="../assets/icon/star-form.svg"
                                                                         class="star s-2" value="2" alt="">
@@ -1104,17 +1270,236 @@
         </div>
     </footer>
 
+    <div class="modal-chi-tiet-co-so-luu-tru modal-1 d-none">
+        <div class="container mt-5">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body p-3">
+                        <div class="row g-3">
+                            <div class="col-12 col-md-8">
+                                <div class="images-list h-100 d-flex align-items-center">
+                                    <div class="w-100">
+                                        <div class="full-image">
+                                            <section id="banner-cuisine" class="banner-cuisine banner-service">
+                                                <div class="row g-0">
+                                                    <div class="col-12">
+                                                        <div class="slide-popup">
+                                                            <div class="box-img-slide">
+                                                                <img src="../assets//imgs/thaianhimg/slidemain1.png"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="box-img-slide">
+                                                                <img src="../assets/imgs/thaianhimg/slidemain2.png"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="box-img-slide">
+                                                                <img src="../assets/imgs/thaianhimg/slidemain3.png"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="box-img-slide">
+                                                                <img src="../assets//imgs/thaianhimg/slidemain2.png"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div class="list-img">
+                                            <div class="list-contain d-flex" loop="10">
+                                                <div class="img p-1">
+                                                    <img src="../assets/imgs/pop-up.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="content">
+                                    <h1 class="hotel-name">Deluxe Twin</h1>
+                                    <div class="px-3">
+                                        <div class="d-flex num-people">
+                                            <span class="me-1">2 người</span>
+                                            <a href="">(Xem chi tiết)</a>
+                                        </div>
+                                        <ul class="ps-0 list-detail mt-2">
+                                            <li>Sức chứa tối đa của phòng 5</li>
+                                            <li>Số khách tiêu chuẩn 2 </li>
+                                            <li>Cho phép ở thêm 1 người lớn 2 trẻ em thỏa mãn 5 khách tối đa có thể
+                                                mất thêm phí</li>
+                                            <li>Chi tiết phí phụ thu vui lòng xem tại “Giá cuối cùng”</li>
+                                        </ul>
+                                        <div class="info-list">
+                                            <div class="list-item">
+                                                <div class="d-flex-mid">
+                                                    <img src="../assets/icon/m2.svg" class="me-1" alt="">
+                                                    <span>005656583</span>
+                                                </div>
+                                            </div>
+                                            <div class="list-item">
+                                                <div class="d-flex-mid">
+                                                    <img src="../assets/icon/money.svg" class="me-1" alt="">
+                                                    <span>Không hỗ trợ hoàn, hủy</span>
+                                                </div>
+                                            </div>
+                                            <div class="list-item">
+                                                <div class="d-flex-mid">
+                                                    <img src="../assets/icon/coffe.svg" class="me-1" alt="">
+                                                    <span>Bữa sáng miễn phí</span>
+                                                </div>
+                                            </div>
+                                            <div class="list-item">
+                                                <div class="d-flex align-items-start">
+                                                    <img src="../assets/icon/info.svg" class="me-1" alt="">
+                                                    <div>
+                                                        <p class="mb-0">Xem phụ thu người lớn, trẻ em</p>
+                                                        <p class="mb-0">Trẻ em lớn hơn 12 tuổi sẽ được xem như người
+                                                            lớn
+                                                            Quý khách hàng vui lòng nhập đúng số lượng khách và tuổi
+                                                            để có giá chính xác</p>
+                                                        <ul class="ps-3">
+                                                            <li>05/02/2023</li>
+                                                            <li>Phụ thu người lớn sẽ bị tính phí 350,000 VND.</li>
+                                                            <li>Phụ thu trẻ em: Trẻ dưới 5 tuổi được miễn phí.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column align-items-end justify-content-end price-list">
+                                            <span class="badge badge-discount">-25%</span>
+                                            <del>1.411.574 đ</del>
+                                            <h1 class="price">1.084.100 đ</h1>
+                                        </div>
+                                        <a href="" class="btn btn-green w-100">Chọn phòng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="delete-x closeHotelModal">
+                            <i class="bi bi-x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade modal-properties" id="modal-properties-1">
+        <div class="modal-dialog">
+            <div class="modal-content p-5">
+                <div class="modal-body">
+                    <div class="row g-1" loop="3">
+                        <div class="col-12 col-md-4">
+                            <div class="list-item">
+                                <div class="contact-item">
+                                    <div class="d-flex-mid">
+                                        <i class="bi bi-cash me-2"></i>
+                                        <span>Thanh toán bằng thẻ tín dụng</span>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="d-flex-mid">
+                                        <i class="bi bi-printer-fill me-2"></i>
+                                        <span>Máy in</span>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="d-flex-mid">
+                                        <i class="bi bi-car-front-fill me-2"></i>
+                                        <span>Chỗ để ô tô</span>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="d-flex-mid">
+                                        <i class="bi bi-cash me-2"></i>
+                                        <span>Thanh toán bằng thẻ tín dụng</span>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="d-flex-mid">
+                                        <i class="bi bi-printer-fill me-2"></i>
+                                        <span>Máy in</span>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="d-flex-mid">
+                                        <i class="bi bi-car-front-fill me-2"></i>
+                                        <span>Chỗ để ô tô</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+    <div class="modal-chi-tiet-co-so-luu-tru modal-1 d-none">
+        <div class="container mt-5">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body p-3">
+                        <div class="row g-3">
+                            <div class="col-11">
+                                <div class="images-list h-100 d-flex align-items-center">
+                                    <div class="w-100">
+                                        <div class="full-image">
+                                            <section id="banner-cuisine" class="banner-cuisine banner-service">
+                                                <div class="row g-0">
+                                                    <div class="col-12">
+                                                        <div class="slide-popup">
+                                                            <div class="box-img-slide">
+                                                                <img src="../assets//imgs/thaianhimg/slidemain1.png"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="box-img-slide">
+                                                                <img src="../assets/imgs/thaianhimg/slidemain2.png"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="box-img-slide">
+                                                                <img src="../assets/imgs/thaianhimg/slidemain3.png"
+                                                                    alt="">
+                                                            </div>
+                                                            <div class="box-img-slide">
+                                                                <img src="../assets//imgs/thaianhimg/slidemain2.png"
+                                                                    alt="">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <div class="list-img">
+                                            <div class="list-contain d-flex" loop="10">
+                                                <div class="img p-1">
+                                                    <img src="../assets/imgs/pop-up.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="delete-x closeHotelModal">
+                            <i class="bi bi-x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- JS -->
     <script src="../assets/js/jquery.js"></script>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.js"></script>
     <script src="../assets/js/slick.min.js"></script>
     <script src="../assets/js/forLib.js"></script>
     <script src="../assets/js/main.js"></script>
+    <script src="../assets/thaianhjs/chitietamthuc.js"></script>
 </body>
 
 </html>

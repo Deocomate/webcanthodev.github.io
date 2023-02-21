@@ -102,7 +102,7 @@
                     .d-flex {
                         background: rgba(15, 74, 26, 0.4);
                         border-radius: 4px;
-                        a {
+                        span {
                             font-family: "Inter";
                             font-style: normal;
                             font-weight: 600;
@@ -110,6 +110,7 @@
                             line-height: 29px;
                             text-align: center;
                             color: #ffffff;
+                            cursor: pointer;
                         }
                     }
                 }

@@ -305,11 +305,41 @@ $(document).ready(function () {
     }
 
 
+    if ($(".modal-chi-tiet-co-so-luu-tru").length > 0) {
+        const container = document.querySelector('.modal-chi-tiet-co-so-luu-tru .list-contain');
+        container.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            container.scrollLeft += e.deltaY;
+        });
+    }
+    // Hotel
+    $("#openHotelModal").click(function (e) {
+        $("#modal-chi-tiet-co-so-luu-tru").toggleClass("d-none")
+    });
+    $(".closeHotelModal").click(function (e) {
+        $("#modal-chi-tiet-co-so-luu-tru").toggleClass("d-none")
+    });
+    // $("#modal-chi-tiet-co-so-luu-tru").click(function (e) {
+    //     $("#modal-chi-tiet-co-so-luu-tru").toggleClass("d-none")
+    // })
 
-    const container = document.querySelector('#modal-chi-tiet-co-so-luu-tru .list-contain');
-    container.addEventListener('wheel', (e) => {
-        e.preventDefault();
-        container.scrollLeft += e.deltaY;
+    $(".openHotelModal`").click(function (e) {
+        $("#modal-list-anh").toggleClass("d-none")
+        $(".banner-cuisine .arrow-banner-next")[0].click()
+        $(".banner-cuisine .arrow-banner-next")[0].click()
+    });
+
+    $(".openHotelModal").click(function (e) {
+        e.preventDefault()
+        let id = $(this).attr("modal-number")
+        console.log(id);
+        $(`.modal-chi-tiet-co-so-luu-tru.modal-${id}`).toggleClass("d-none")
+        $("#modal-list-anh").toggleClass("d-none")
+    });
+
+    $(".closeHotelModal").click(function (e) { 
+        
+        $(`.modal-chi-tiet-co-so-luu-tru`).toggleClass("d-none")
     });
 });
 

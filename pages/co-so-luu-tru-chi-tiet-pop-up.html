@@ -133,49 +133,50 @@
     <main class="container py-5">
         <h1>Modal 1</h1>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-            data-bs-target="#modal-chi-tiet-co-so-luu-tru">
+        <button type="button" id="openHotelModal" modal-number="1" class="btn btn-primary">
             Bật modal
         </button>
         <!-- Modal -->
-        <div id="modal-chi-tiet-co-so-luu-tru">
-            <div class="container">
+        <div class="modal-chi-tiet-co-so-luu-tru modal-1" class="d-none">
+            <div class="container mt-5">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-body p-3">
                             <div class="row g-3">
                                 <div class="col-12 col-md-8">
-                                    <div class="images-list">
-                                        <div class="full-image">
-                                            <section id="banner-cuisine" class="banner-cuisine banner-service">
-                                                <div class="row g-0">
-                                                    <div class="col-12">
-                                                        <div class="slide-popup">
-                                                            <div class="box-img-slide">
-                                                                <img src="../assets//imgs/thaianhimg/slidemain1.png"
-                                                                    alt="">
-                                                            </div>
-                                                            <div class="box-img-slide">
-                                                                <img src="../assets/imgs/thaianhimg/slidemain2.png"
-                                                                    alt="">
-                                                            </div>
-                                                            <div class="box-img-slide">
-                                                                <img src="../assets/imgs/thaianhimg/slidemain3.png"
-                                                                    alt="">
-                                                            </div>
-                                                            <div class="box-img-slide">
-                                                                <img src="../assets//imgs/thaianhimg/slidemain2.png"
-                                                                    alt="">
+                                    <div class="images-list h-100 d-flex align-items-center">
+                                        <div class="w-100">
+                                            <div class="full-image">
+                                                <section id="banner-cuisine" class="banner-cuisine banner-service">
+                                                    <div class="row g-0">
+                                                        <div class="col-12">
+                                                            <div class="slide-popup">
+                                                                <div class="box-img-slide">
+                                                                    <img src="../assets//imgs/thaianhimg/slidemain1.png"
+                                                                        alt="">
+                                                                </div>
+                                                                <div class="box-img-slide">
+                                                                    <img src="../assets/imgs/thaianhimg/slidemain2.png"
+                                                                        alt="">
+                                                                </div>
+                                                                <div class="box-img-slide">
+                                                                    <img src="../assets/imgs/thaianhimg/slidemain3.png"
+                                                                        alt="">
+                                                                </div>
+                                                                <div class="box-img-slide">
+                                                                    <img src="../assets//imgs/thaianhimg/slidemain2.png"
+                                                                        alt="">
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </section>
-                                        </div>
-                                        <div class="list-img">
-                                            <div class="list-contain d-flex" loop="10">
-                                                <div class="img p-1">
-                                                    <img src="../assets/imgs/pop-up.png" alt="">
+                                                </section>
+                                            </div>
+                                            <div class="list-img">
+                                                <div class="list-contain d-flex" loop="10">
+                                                    <div class="img p-1">
+                                                        <img src="../assets/imgs/pop-up.png" alt="">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -186,10 +187,10 @@
                                         <h1 class="hotel-name">Deluxe Twin</h1>
                                         <div class="px-3">
                                             <div class="d-flex num-people">
-                                                <span>2 người</span>
+                                                <span class="me-1">2 người</span>
                                                 <a href="">(Xem chi tiết)</a>
                                             </div>
-                                            <ul class="ps-0">
+                                            <ul class="ps-0 list-detail mt-2">
                                                 <li>Sức chứa tối đa của phòng 5</li>
                                                 <li>Số khách tiêu chuẩn 2 </li>
                                                 <li>Cho phép ở thêm 1 người lớn 2 trẻ em thỏa mãn 5 khách tối đa có thể
@@ -219,11 +220,12 @@
                                                     <div class="d-flex align-items-start">
                                                         <img src="../assets/icon/info.svg" class="me-1" alt="">
                                                         <div>
-                                                            <p>Xem phụ thu người lớn, trẻ em</p>
-                                                            <p>Trẻ em lớn hơn 12 tuổi sẽ được xem như người lớn
+                                                            <p class="mb-0">Xem phụ thu người lớn, trẻ em</p>
+                                                            <p class="mb-0">Trẻ em lớn hơn 12 tuổi sẽ được xem như người
+                                                                lớn
                                                                 Quý khách hàng vui lòng nhập đúng số lượng khách và tuổi
                                                                 để có giá chính xác</p>
-                                                            <ul>
+                                                            <ul class="ps-3">
                                                                 <li>05/02/2023</li>
                                                                 <li>Phụ thu người lớn sẽ bị tính phí 350,000 VND.</li>
                                                                 <li>Phụ thu trẻ em: Trẻ dưới 5 tuổi được miễn phí.</li>
@@ -232,19 +234,19 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="d-flex flex-column align-items-end">
+                                            <div
+                                                class="d-flex flex-column align-items-end justify-content-end price-list">
                                                 <span class="badge badge-discount">-25%</span>
                                                 <del>1.411.574 đ</del>
                                                 <h1 class="price">1.084.100 đ</h1>
-                                                <div class="d-flex-mid">
-                                                    <span>Giá cuối cùng: 1.184.100 đ</span>
-                                                    <img class="ms-1" src="../assets/icon/info.svg" alt="">
-                                                </div>
                                             </div>
                                             <a href="" class="btn btn-green w-100">Chọn phòng</a>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="delete-x closeHotelModal">
+                                <i class="bi bi-x"></i>
                             </div>
                         </div>
                     </div>
@@ -252,6 +254,20 @@
             </div>
         </div>
         <hr>
+
+
+        <h1>Modal 2</h1>
+        <!-- Button trigger modal -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" >
+            Modal list properties
+        </button>
+
+        <!-- Modal -->
+        
+        <hr>
+
+
 
     </main>
 
