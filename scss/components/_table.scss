@@ -3,6 +3,9 @@
         background-color: white;
         border-radius: 10px;
         overflow: hidden;
+        @include responsive($size-md){
+            width: 800px;
+        }
         thead {
             color: white;
             background-color: #38a700;
@@ -14,6 +17,7 @@
                 line-height: 29px;
                 color: #ffffff;
                 text-align: center;
+                vertical-align: middle;
             }
             // border-radius: 10px 10px 0px 0px!important;
         }
@@ -30,7 +34,9 @@
                 color: #0f4a1a;
                 padding: 14px 15px;
                 text-align: center;
-
+                vertical-align: middle;
+                // display: flex;
+                // align-items: center;
                 a {
                     font-family: "Inter";
                     font-style: normal;
