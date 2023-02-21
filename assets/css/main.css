@@ -469,7 +469,7 @@ a {
       left: 0;
       width: 100%;
       padding: 16px 25px; }
-      .card-diem-den .card .img-contain .user-selection a {
+      .card-diem-den .card .img-contain .user-selection button {
         width: 100%;
         font-family: "Inter";
         font-style: normal;
@@ -478,7 +478,7 @@ a {
         line-height: 15px;
         text-align: center;
         color: #ffffff; }
-        .card-diem-den .card .img-contain .user-selection a.btn-green-dark {
+        .card-diem-den .card .img-contain .user-selection button.btn-green-dark {
           background-color: #0f4a1a; }
     .card-diem-den .card .img-contain .sale {
       position: absolute;
@@ -1083,6 +1083,9 @@ a {
   background-color: white;
   border-radius: 10px;
   overflow: hidden; }
+  @media (max-width: 767.98px) {
+    .table-section table {
+      width: 800px; } }
   .table-section table thead {
     color: white;
     background-color: #38a700; }
@@ -1093,7 +1096,8 @@ a {
       font-size: 24px;
       line-height: 29px;
       color: #ffffff;
-      text-align: center; }
+      text-align: center;
+      vertical-align: middle; }
   .table-section table tbody tr:nth-child(even) {
     background: rgba(15, 74, 26, 0.15); }
   .table-section table tbody td {
@@ -1104,7 +1108,8 @@ a {
     line-height: 24px;
     color: #0f4a1a;
     padding: 14px 15px;
-    text-align: center; }
+    text-align: center;
+    vertical-align: middle; }
     .table-section table tbody td a {
       font-family: "Inter";
       font-style: normal;
@@ -1196,7 +1201,7 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 100;
   width: 100%;
   height: 100vh;
   background-color: rgba(94, 94, 94, 0.213); }
