@@ -474,7 +474,7 @@ a {
         font-family: "Inter";
         font-style: normal;
         font-weight: 700;
-        font-size: 12px;
+        font-size: 10px;
         line-height: 15px;
         text-align: center;
         color: #ffffff; }
@@ -3270,7 +3270,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between; }
-  #co-so-luu-tru-chi-tiet .hotel-information .list-selection a {
+  #co-so-luu-tru-chi-tiet .hotel-information .list-selection button {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
