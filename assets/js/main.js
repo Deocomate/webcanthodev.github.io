@@ -337,9 +337,29 @@ $(document).ready(function () {
         $("#modal-list-anh").toggleClass("d-none")
     });
 
-    $(".closeHotelModal").click(function (e) { 
-        
+    $(".closeHotelModal").click(function (e) {
+
         $(`.modal-chi-tiet-co-so-luu-tru`).toggleClass("d-none")
+    });
+
+
+    //Trang map 360
+    $(".map-contain li").click(function (e) {
+        let value = $(this).find('span')[0].innerHTML
+        // console.log(value);
+        $(".map-contain .btn.dropdown-toggle").text(value)
+        let input = $("#inputSearchLocation");
+        input.val(value)
+        console.log(input.val());
+    });
+    $(".map-contain .input-control input").change(function (e) {
+        let val = $(this).val()
+        console.log(val);
+        $("#rangeShow").text(`(${val}km)`)
+    });
+    $(".close-form").click(function (e) {
+        $(".input-list").slideToggle()
+        $(this).find('img').toggleClass("rotate")
     });
 });
 

@@ -3372,3 +3372,207 @@ a {
   @media (max-width: 1199.98px) {
     .am-thuc-banner .search-bar .cost .select2-container {
       width: 100% !important; } }
+
+.search-card .card-header {
+  background: #38a700;
+  border-radius: 5px 5px 0px 0px;
+  height: 45px; }
+
+.search-card .card-body input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #e0e0e0; }
+
+.search-card .card-body .select-2 span.select2.select2-container.select2-container--default {
+  width: 100% !important; }
+
+.search-card .card-body .select-2 .select2-container--default .select2-selection--single .select2-selection__rendered {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px; }
+
+.search-card .card-body .select-2 .select2-container .select2-selection--single {
+  height: auto; }
+
+.search-card .card-body .select-2 .select2-container--default .select2-selection--single {
+  padding: 5px; }
+
+.search-card .card-body .select-2 .select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 50%;
+  transform: translate(-10px, -50%); }
+
+.search-card .card-body .close-form {
+  border-top: 2px solid #38a700; }
+  .search-card .card-body .close-form .arr {
+    max-width: 41px;
+    margin: 0 auto;
+    background: #38a700;
+    border-radius: 0px 0px 5px 5px;
+    display: flex;
+    justify-content: center;
+    height: 18px;
+    cursor: pointer; }
+    .search-card .card-body .close-form .arr img {
+      width: 15px;
+      transition: .5s;
+      transform: rotate(0); }
+      .search-card .card-body .close-form .arr img.rotate {
+        transform: rotate(180deg); }
+
+.result-search h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: justify;
+  color: #38a700; }
+
+.result-search .list-events .item {
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 15px; }
+  .result-search .list-events .item .img img {
+    width: 85px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px; }
+  .result-search .list-events .item .content h5 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    color: #0f4a1a; }
+  .result-search .list-events .item .content i {
+    color: #38a700;
+    font-size: 10px; }
+  .result-search .list-events .item .content p {
+    font-family: "Inter";
+    font-style: normal;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: justify;
+    color: #0f4a1a; }
+
+.map-contain {
+  position: relative; }
+  .map-contain .map-control-overlay {
+    position: absolute;
+    top: 25px;
+    left: 54px; }
+    .map-contain .map-control-overlay .control {
+      padding: 8px 10px;
+      background-color: white; }
+      .map-contain .map-control-overlay .control .dropdow-contain {
+        border-right: 1px solid rgba(15, 74, 26, 0.4); }
+        .map-contain .map-control-overlay .control .dropdow-contain .btn {
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 19px;
+          text-align: justify;
+          color: #0f4a1a;
+          border: none; }
+        .map-contain .map-control-overlay .control .dropdow-contain .dropdown-menu li:last-child .dropdown-item .item {
+          border: none; }
+        .map-contain .map-control-overlay .control .dropdow-contain .dropdown-item {
+          padding: 0px 15px; }
+          .map-contain .map-control-overlay .control .dropdow-contain .dropdown-item:active {
+            background-color: white; }
+          .map-contain .map-control-overlay .control .dropdow-contain .dropdown-item .item {
+            padding: 11px 0px;
+            border-bottom: 0.5px solid rgba(113, 113, 113, 0.6); }
+          .map-contain .map-control-overlay .control .dropdow-contain .dropdown-item span {
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: justify;
+            color: #0f4a1a; }
+      .map-contain .map-control-overlay .control .input-control input[type="range"] {
+        height: 21px;
+        -webkit-appearance: none;
+        margin: 10px 0;
+        width: 100%; }
+      .map-contain .map-control-overlay .control .input-control input[type="range"]:focus {
+        outline: none; }
+      .map-contain .map-control-overlay .control .input-control input[type="range"]::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 7px;
+        cursor: pointer;
+        animate: 0.2s;
+        box-shadow: 0px 0px 0px #38a700;
+        background: #38a700;
+        border-radius: 16px;
+        border: 0px solid #38a700; }
+      .map-contain .map-control-overlay .control .input-control input[type="range"]::-webkit-slider-thumb {
+        box-shadow: 0px 0px 0px #38a700;
+        border: 0px solid #38a700;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background: #38a700;
+        cursor: pointer;
+        -webkit-appearance: none;
+        margin-top: -4px; }
+      .map-contain .map-control-overlay .control .input-control input[type="range"]:focus::-webkit-slider-runnable-track {
+        background: #38a700; }
+      .map-contain .map-control-overlay .control .input-control input[type="range"]::-moz-range-track {
+        width: 100%;
+        height: 7px;
+        cursor: pointer;
+        animate: 0.2s;
+        box-shadow: 0px 0px 0px #38a700;
+        background: #38a700;
+        border-radius: 16px;
+        border: 0px solid #38a700; }
+      .map-contain .map-control-overlay .control .input-control input[type="range"]::-moz-range-thumb {
+        box-shadow: 0px 0px 0px #38a700;
+        border: 0px solid #38a700;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background: #38a700;
+        cursor: pointer; }
+      .map-contain .map-control-overlay .control .input-control input[type="range"]::-ms-track {
+        width: 100%;
+        height: 7px;
+        cursor: pointer;
+        animate: 0.2s;
+        background: transparent;
+        border-color: transparent;
+        color: transparent; }
+      .map-contain .map-control-overlay .control .input-control input[type="range"]::-ms-fill-lower {
+        background: #38a700;
+        border: 0px solid #38a700;
+        border-radius: 32px;
+        box-shadow: 0px 0px 0px #38a700; }
+      .map-contain .map-control-overlay .control .input-control input[type="range"]::-ms-fill-upper {
+        background: #38a700;
+        border: 0px solid #38a700;
+        border-radius: 32px;
+        box-shadow: 0px 0px 0px #38a700; }
+      .map-contain .map-control-overlay .control .input-control input[type="range"]::-ms-thumb {
+        margin-top: 1px;
+        box-shadow: 0px 0px 0px #38a700;
+        border: 0px solid #38a700;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background: #38a700;
+        cursor: pointer; }
+      .map-contain .map-control-overlay .control .input-control input[type="range"]:focus::-ms-fill-lower {
+        background: #38a700; }
+      .map-contain .map-control-overlay .control .input-control input[type="range"]:focus::-ms-fill-upper {
+        background: #38a700; }
+      .map-contain .map-control-overlay .control .input-control b {
+        white-space: nowrap; }
