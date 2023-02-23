@@ -3423,6 +3423,10 @@ a {
       .search-card .card-body .close-form .arr img.rotate {
         transform: rotate(180deg); }
 
+.result-search .list-location-resutl {
+  overflow: auto visible;
+  height: 660px;
+}
 .result-search h5 {
   font-family: "Inter";
   font-style: normal;
