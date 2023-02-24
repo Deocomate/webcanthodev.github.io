@@ -3433,33 +3433,36 @@ a {
   text-align: justify;
   color: #38a700; }
 
-.result-search .list-events .item {
-  background-color: white;
-  border-radius: 10px;
-  margin-bottom: 15px; }
-  .result-search .list-events .item .img img {
-    width: 85px;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px 0px 0px 10px; }
-  .result-search .list-events .item .content h5 {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: justify;
-    color: #0f4a1a; }
-  .result-search .list-events .item .content i {
-    color: #38a700;
-    font-size: 10px; }
-  .result-search .list-events .item .content p {
-    font-family: "Inter";
-    font-style: normal;
-    font-size: 10px;
-    line-height: 12px;
-    text-align: justify;
-    color: #0f4a1a; }
+.result-search .list-events {
+  height: 500px;
+  overflow-y: scroll; }
+  .result-search .list-events .item {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 15px; }
+    .result-search .list-events .item .img img {
+      width: 85px;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px 0px 0px 10px; }
+    .result-search .list-events .item .content h5 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: justify;
+      color: #0f4a1a; }
+    .result-search .list-events .item .content i {
+      color: #38a700;
+      font-size: 10px; }
+    .result-search .list-events .item .content p {
+      font-family: "Inter";
+      font-style: normal;
+      font-size: 10px;
+      line-height: 12px;
+      text-align: justify;
+      color: #0f4a1a; }
 
 .map-contain {
   position: relative; }

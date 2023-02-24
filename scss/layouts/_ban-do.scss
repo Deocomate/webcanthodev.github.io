@@ -72,6 +72,9 @@
         color: #38a700;
     }
     .list-events {
+        height: 500px;
+        overflow-y: scroll;
+
         .item {
             background-color: white;
             border-radius: 10px;
