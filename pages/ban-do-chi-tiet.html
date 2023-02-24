@@ -453,8 +453,8 @@
                     "khach_san"
                 ],
             ];
-            var lat = 21.0262885;
-            var log = 105.8532289;
+            var lat = 10.0308022;
+            var log = 105.7220013;
             var map = new google.maps.Map(document.getElementById('map_HS'), {
                 zoom: 16,
                 center: new google.maps.LatLng(lat, log),
@@ -525,7 +525,7 @@
                     infowindow.open(map, marker);
                 }
             })(marker, i));
-            
+
             let rangeInput = document.getElementById("rangeBanKinh");
             rangeInput.addEventListener("input", function () {
                 // update the zoom level of the map based on the range input value
