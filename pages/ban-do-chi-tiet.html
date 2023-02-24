@@ -441,18 +441,30 @@
     <script type="text/javascript">
         function initMap() {
             var locations = [
-                ["<img src=https://extranet.manmo.vn/app/webroot/upload/5f2ba4062ac5dbb1358b4568/files/emotel-65-ham-long-0.jpg style=width:200px;height:156px;  ><br/><a href=chi_tiet_khach_san/delapong-65-ham-long.html>De'Lapong - 65 Hàm Long</a><br/>Điện thoại: <br/>Địa chỉ: 65 phố Hàm Long, Hàng Bài, Hoàn Kiếm, Hà Nội",
-                    21.0203829, 105.849758718,
+                [
+                    //html
+                    `<img src='https://extranet.manmo.vn/app/webroot/upload/5fd72a672ac5db840b8b4568/files/a25-hotel-45-phan-chu-trinh-10.jpg' style='width:200px;height:156px;'><br/>
+        <a href=chi_tiet_khach_san/a25-hotel-45-phan-chu-trinh.html>Địa điểm 1 Cần Thơ</a>
+        <br/>Điện thoại: 0565651189 
+        <br/>Địa chỉ: 45 Phan Chu Trinh, TP. Cần Thơ
+        `,
+                    10.034824, 105.7544472,
                     "https://hoankiem360.vn/app/Theme/hoankiem360/assets/images/icon/khachsan.png",
                     "khach_san"
                 ],
-
-                ["<img src=https://extranet.manmo.vn/app/webroot/upload/5fd72a672ac5db840b8b4568/files/a25-hotel-45-phan-chu-trinh-10.jpg style=width:200px;height:156px;  ><br/><a href=chi_tiet_khach_san/a25-hotel-45-phan-chu-trinh.html>A25 Hotel - 45 Phan Chu Trinh</a><br/>Điện thoại: <br/>Địa chỉ: 45 Phan Chu Trinh, Hoàn Kiếm, TP. Hà Nội",
-                    21.02086196349, 105.85562616931,
+                [
+                    //html
+                    `<img src='https://extranet.manmo.vn/app/webroot/upload/5fd72a672ac5db840b8b4568/files/a25-hotel-45-phan-chu-trinh-10.jpg' style='width:200px;height:156px;'><br/>
+                <a href=chi_tiet_khach_san/a25-hotel-45-phan-chu-trinh.html>Địa điểm 1 Cần Thơ</a>
+                <br/>Điện thoại: 0565651189 
+                <br/>Địa chỉ: 45 Phan Chu Trinh, TP. Cần Thơ
+                `,
+                    10.034824, 105.7544472,
                     "https://hoankiem360.vn/app/Theme/hoankiem360/assets/images/icon/khachsan.png",
                     "khach_san"
                 ],
             ];
+
             var lat = 10.0308022;
             var log = 105.7220013;
             var map = new google.maps.Map(document.getElementById('map_HS'), {
