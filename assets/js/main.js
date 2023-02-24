@@ -352,11 +352,13 @@ $(document).ready(function () {
         input.val(value)
         console.log(input.val());
     });
-    $(".map-contain .input-control input").change(function (e) {
-        let val = $(this).val()
-        console.log(val);
-        $("#rangeShow").text(`(${val}km)`)
-    });
+    if ($(".map-contain .input-control input").length > 0) {
+        $(".map-contain .input-control input")[0].addEventListener('input', function (e) {
+            let val = $(this).val()
+            console.log(val);
+            $("#rangeShow").text(`(${val}km)`)
+        });
+    }
     $(".close-form").click(function (e) {
         $(".input-list").slideToggle()
         $(this).find('img').toggleClass("rotate")

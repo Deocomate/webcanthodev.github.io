@@ -25,9 +25,14 @@
     <link rel="stylesheet" href="../assets/css/main.css">
 
     <style type="text/css">
-
+        .iframe-map{
+            height: 100%;
+        }
+        #map_HS {
+            width: 100%;
+            height: 100%;
+        }
     </style>
-
 </head>
 
 <body>
@@ -212,7 +217,7 @@
                     </div>
                     <div class="map-control-overlay">
                         <div class="control">
-                            <div class="d-flex-mid flex-column flex-md-row">
+                            <div class="d-flex-mid">
                                 <div class="dropdow-contain">
                                     <div class="dropdown me-2">
                                         <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
@@ -426,6 +431,11 @@
         </div>
     </footer>
 
+
+
+
+
+
     <!-- JS -->
     <script src="../assets/js/jquery.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
@@ -435,9 +445,6 @@
     <script src="../assets/js/forLib.js"></script>
     <script src="../assets/js/main.js"></script>
     <script src="../assets/thaianhjs/chitietamthuc.js"></script>
-
-
-
     <script type="text/javascript">
         function initMap() {
             var locations = [
@@ -525,13 +532,6 @@
                     infowindow.open(map, marker);
                 }
             })(marker, i));
-            
-            let rangeInput = document.getElementById("rangeBanKinh");
-            rangeInput.addEventListener("input", function () {
-                // update the zoom level of the map based on the range input value
-                var zoomLevel = parseInt(rangeInput.value);
-                map.setZoom(zoomLevel);
-            });
         }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9T4eoDwTWY4C6bQsg6V4f7hMsqLN1adc&callback=initMap">
