@@ -331,7 +331,7 @@ a {
         letter-spacing: 0em;
         text-align: center; }
   .card-news-lates h6 {
-    margin-top: 75px;
+    margin-top: 10px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
@@ -360,7 +360,8 @@ a {
 .more-news-card {
   transition: 0.5s; }
   .more-news-card .card-contain > .align-items-center {
-    align-items: flex-start !important; }
+    align-items: flex-start !important; 
+    margin-bottom: 10px;}
   .more-news-card:hover h6 {
     color: #38a700 !important; }
   .more-news-card img {
@@ -1688,7 +1689,6 @@ a {
     line-height: 24px;
     text-align: justify;
     color: #0f4a1a;
-    margin-top: 50px;
     margin-bottom: 20px; }
 
 #home-come-to .heading-custom-green {
