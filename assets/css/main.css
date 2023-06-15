@@ -308,7 +308,7 @@ a {
     /* box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;  */
   }
   .card-news-lates .card-contain {
-    height: 245px;
+    height: 375px;
     border-radius: 5px;
     background-size: cover;
     position: relative; }
@@ -1854,7 +1854,8 @@ a {
     height: 445px !important; }
 
 #home-promotion {
-  padding: 45px 0px 70px; }
+  padding: 45px 0px 70px; 
+  margin-top: 55px}
   #home-promotion .carousel-contain .carousel .item img {
     height: 245px;
     object-fit: cover;
@@ -3570,3 +3571,52 @@ a {
 
 .text-nowrap {
   white-space: nowrap; }
+
+
+  /* code bo sung */
+  .container-event{
+    max-width: 1340px;
+    margin: auto;
+  }
+
+  .event-banner img{
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+  }
+
+  .event-banner p{
+    text-transform: uppercase;
+    color: #38a700;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+
+  .line-sidebar hr{
+    width: 100%;
+    margin: 0;
+    border: 2px solid #19191d;
+    margin-bottom: 10px;
+    max-width: 50px;
+  }
+
+  .title-news-new{
+    padding-left:0;
+  }
+
+  .title-box-news{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: justify;
+    color: #0f4a1a;
+    margin-top: 50px;
+  }
+
+
+  @media (max-width: 767.98px){
+    .event-main{
+      display: block;
+    }
+  }

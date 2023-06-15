@@ -121,7 +121,9 @@ $(document).ready(function () {
         centerMode: true,
         arrows: true,
         autoplay: true,
+        autoplaySpeed: 1000,
         prevArrow: //html
+        
             `
         <button class="btn-arr btn-prev">
         <i class="bi bi-arrow-left-circle-fill"></i>
