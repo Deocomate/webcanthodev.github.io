@@ -305,7 +305,8 @@ a {
 .card-news-lates {
   transition: 0.5s; }
   .card-news-lates:hover {
-    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; }
+    /* box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;  */
+  }
   .card-news-lates .card-contain {
     height: 245px;
     border-radius: 5px;
@@ -339,37 +340,64 @@ a {
     line-height: 108.02%;
     /* or 22px */
     text-align: justify;
-    color: #ffffff; }
+    color: #0f4a1a;
+    transition: all .5s ease; }
+
+    .card-news-lates h6:hover{
+      color: #38a700; 
+      transition: all .5s ease; 
+    }
+
+
+  .home-featured-date{
+    color: #717171 !important;
+    font-size: 15px !important;
+    margin-top: 0px !important;
+  }
+
+  .content .bi-clock-fill{
+    color: #717171;
+  }
+
   .card-news-lates span {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
-    font-size: 8px;
+    font-size: 17px;
     line-height: 10px;
     text-align: justify;
-    color: #ffffff; }
+    color: #ffffff; 
+    margin-top: 5px}
   .card-news-lates p {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
-    font-size: 11px;
-    line-height: 13px;
+    font-size: 18px;
+    line-height: 21px;
     text-align: justify;
-    color: #ffffff; }
+    color: #0f4a1a;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    line-height: normal;
+    ; }
 
 .more-news-card {
   transition: 0.5s; }
   .more-news-card .card-contain > .align-items-center {
     align-items: flex-start !important; 
     margin-bottom: 10px;}
-  .more-news-card:hover h6 {
+  .more-news-card h6:hover{
     color: #38a700 !important; }
   .more-news-card img {
     width: 118px;
     height: 118px;
     object-fit: cover; }
   .more-news-card .card-content-right {
-    max-width: 189px; }
+    }
     .more-news-card .card-content-right .badge {
       font-family: "Inter";
       font-style: normal;
@@ -406,7 +434,16 @@ a {
       font-size: 11px;
       line-height: 13px;
       color: #0f4a1a;
-      margin-bottom: 0; }
+      margin-bottom: 0; 
+      overflow: hidden;
+      /* white-space: nowrap; */
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+      line-height: normal;
+
+    }
 
 .post-item-card .bg {
   background-size: cover;
