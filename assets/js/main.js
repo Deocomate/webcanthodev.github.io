@@ -1,4 +1,12 @@
 $(document).ready(function () {
+    
+    console.log('aaa')
+    $('#nav-tab button').on('shown.bs.tab', function (e) {
+      $('.list-location').slick('setPosition');
+    });
+
+
+
     $('.carousel').slick({
         slidesToShow: 3,
         dots: true,
@@ -365,6 +373,10 @@ $(document).ready(function () {
         $(".input-list").slideToggle()
         $(this).find('img').toggleClass("rotate")
     });
+
+    // loi khi tab sang slick
+   
+   
 });
 
 
